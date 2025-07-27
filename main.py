@@ -16,8 +16,9 @@ if USE_GPT and OPENAI_API_KEY:
     openai.api_base = "https://openrouter.ai/api/v1"
 
 def is_address(text: str):
-    pattern = r"(?i)(?:số\s*)?\d+(?:/\d+)?\s+(?:đường\s*)?.+"
-    return re.match(pattern, text.strip()) is not None
+    text = text.strip().lower()
+    pattern = r"^(số\s*)?\d+(?:/\d+)*(?:\s+đường)?\s+[a-zàáảãạâầấậẫẩăằắặẵẳêềếệễểôồốộỗổơờớợỡởưừứựữửêèéẹẽẻùúụũủìíịĩỉỳýỵỹỷđ\s]+$"
+    return re.match(pattern, text) is not None
 
 def send(chat_id, text):
     requests.post(f"{API_URL}/sendMessage", json={"chat_id": chat_id, "text": text})
