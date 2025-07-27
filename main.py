@@ -13,6 +13,7 @@ API_URL = f"https://api.telegram.org/bot{TOKEN}"
 
 if USE_GPT and OPENAI_API_KEY:
     openai.api_key = OPENAI_API_KEY
+    openai.api_base = "https://openrouter.ai/api/v1"
 
 def is_address(text: str):
     pattern = r"(?i)(?:số\s*)?\d+(?:/\d+)?\s+(?:đường\s*)?.+"
@@ -39,7 +40,7 @@ async def telegram_webhook(req: Request):
 def gpt_reply(prompt):
     try:
         completion = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
+            model="openrouter/openai/gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": "Bạn là trợ lý hành chính khu phố 5, Phường Phú Thạnh, có nhiệm vụ trả lời thân thiện, chính xác, đúng vai trò KP5."},
                 {"role": "user", "content": prompt}
