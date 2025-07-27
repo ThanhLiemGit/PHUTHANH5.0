@@ -1,6 +1,6 @@
 
 from fastapi import FastAPI, Request
-from logic_kp5 import check_address, is_address
+from logic_kp5 import check_address
 import os
 import requests
 import openai
