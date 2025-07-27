@@ -14,11 +14,20 @@ def check_address(input_text):
         return "⛔ Không xác định được địa chỉ. Vui lòng kiểm tra lại."
 
     so_nha_raw = match.group(1)
-    duong = match.group(2).strip()
+    duong = match.group(2).strip().lower()
 
     so_nha_parts = so_nha_raw.split("/")
-    so_nha_chinh = int(so_nha_parts[0]) if so_nha_parts[0].isdigit() else None
-    hem_cap_1 = int(so_nha_parts[0]) if len(so_nha_parts) > 1 else None  # luôn lấy phần đầu làm hẻm cấp 1
+    try:
+        so_nha_chinh = int(so_nha_parts[0])
+    except ValueError:
+        return "⛔ Không xác định được số nhà chính."
+
+    hem_cap_1 = None
+    if len(so_nha_parts) > 1:
+        try:
+            hem_cap_1 = int(so_nha_parts[0])  # chính phần số đầu tiên là hẻm cấp 1
+        except ValueError:
+            hem_cap_1 = None
 
     if duong not in kp5_data:
         return "⛔ Địa chỉ không thuộc Khu phố 5."
@@ -26,7 +35,7 @@ def check_address(input_text):
     info = kp5_data[duong]
     tu, den = info["range"]
 
-    if so_nha_chinh is None or not (tu <= so_nha_chinh <= den):
+    if not (tu <= so_nha_chinh <= den):
         return "⛔ Địa chỉ không thuộc Khu phố 5."
 
     if info["side"] == "even" and so_nha_chinh % 2 != 0:
