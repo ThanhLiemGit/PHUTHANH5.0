@@ -17,8 +17,10 @@ if USE_GPT and OPENAI_API_KEY:
 
 def is_address(text: str):
     text = text.strip().lower()
-    pattern = r"^(số\s*)?\d+(?:/\d+)*(?:\s+đường)?\s+[a-zàáảãạâầấậẫẩăằắặẵẳêềếệễểôồốộỗổơờớợỡởưừứựữửêèéẹẽẻùúụũủìíịĩỉỳýỵỹỷđ\s]+$"
+    # Cho phép: 244 thoại ngọc hầu | 244/11 thoại ngọc hầu | số 244/11 đường thoại ngọc hầu
+    pattern = r"^(số\s*)?\d+(?:/\d+)*(?:\s+(đường\s*)?)?[a-zàáảãạâầấậẫẩăằắặẵẳêềếệễểôồốộỗổơờớợỡởưừứựữửêèéẹẽẻùúụũủìíịĩỉỳýỵỹỷđ\s]+$"
     return re.match(pattern, text) is not None
+
 
 def send(chat_id, text):
     requests.post(f"{API_URL}/sendMessage", json={"chat_id": chat_id, "text": text})
