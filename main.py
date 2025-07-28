@@ -43,7 +43,7 @@ async def telegram_webhook(req: Request):
 def gpt_reply(prompt):
     try:
         completion = openai.ChatCompletion.create(
-            model="mistralai/Mixtral-8x7B-Instruct-v0.1",  # hoặc model khác mà bạn chọn
+            model="meta-llama/Llama-3-8b-chat",  # hoặc model khác mà bạn chọn
             messages=[
                 {"role": "system", "content": "Bạn là trợ lý hành chính khu phố 5, Phường Phú Thạnh."},
                 {"role": "user", "content": prompt}
