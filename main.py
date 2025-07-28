@@ -13,7 +13,7 @@ API_URL = f"https://api.telegram.org/bot{TOKEN}"
 
 if USE_GPT and OPENAI_API_KEY:
     openai.api_key = OPENAI_API_KEY
-    openai.api_base = "https://openrouter.ai/api/v1"
+    openai.api_base = "https://api.together.xyz/v1"  # Đúng endpoint của Together
 
 def is_address(text: str):
     text = text.strip().lower()
