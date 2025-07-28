@@ -3,9 +3,9 @@ import re
 def check_address(input_text):
     input_text = input_text.lower().strip()
     kp5_data = {
-        "nguyễn sơn": {"range": (3, 71), "hems": [13, 59, 61, 61], "side": "both"},
+        "nguyễn sơn": {"range": (3, 71), "hems": [13, 59, 61, 61], "side": "even"},
         "thoại ngọc hầu": {"range": (126, 244), "hems": [182, 198, 212, 240, 242, 244], "side": "even"},
-        "phan văn năm": {"range": (1, 73), "hems": [19, 47], "side": "both"},
+        "phan văn năm": {"range": (1, 73), "hems": [19, 47], "side": "even"},
         "hiền vương": {"range": (1, 26), "hems": [3, 11, 12], "side": "both"},
     }
 
