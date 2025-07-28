@@ -3,7 +3,7 @@ import re
 def check_address(input_text):
     input_text = input_text.lower().strip()
     kp5_data = {
-        "nguyễn sơn": {"range": (3, 71), "hems": [13, 59, 61], "side": "both"},
+        "nguyễn sơn": {"range": (3, 71), "hems": [13, 59, 61, 61], "side": "both"},
         "thoại ngọc hầu": {"range": (126, 244), "hems": [182, 198, 212, 240, 242, 244], "side": "even"},
         "phan văn năm": {"range": (1, 73), "hems": [19, 47], "side": "both"},
         "hiền vương": {"range": (1, 26), "hems": [3, 11, 12], "side": "both"},
@@ -14,28 +14,23 @@ def check_address(input_text):
         return "⛔ Không xác định được địa chỉ. Vui lòng kiểm tra lại."
 
     so_nha_raw = match.group(1)
-    duong = match.group(2).strip().lower()
+    duong = match.group(2).strip()
 
     so_nha_parts = so_nha_raw.split("/")
-    try:
-        so_nha_chinh = int(so_nha_parts[0])
-    except ValueError:
-        return "⛔ Không xác định được số nhà chính."
+    so_nha_chinh = int(so_nha_parts[0]) if so_nha_parts[0].isdigit() else None
+    hem_cap_1 = int(so_nha_parts[1]) if len(so_nha_parts) > 1 and so_nha_parts[1].isdigit() else None
 
-    hem_cap_1 = None
-    if len(so_nha_parts) > 1:
-        try:
-            hem_cap_1 = int(so_nha_parts[0])  # chính phần số đầu tiên là hẻm cấp 1
-        except ValueError:
-            hem_cap_1 = None
-
-    if duong not in kp5_data:
+    for ten_duong in kp5_data:
+        if duong == ten_duong or duong in ten_duong:
+            duong = ten_duong
+            break
+    else:
         return "⛔ Địa chỉ không thuộc Khu phố 5."
 
     info = kp5_data[duong]
     tu, den = info["range"]
 
-    if not (tu <= so_nha_chinh <= den):
+    if so_nha_chinh is None or not (tu <= so_nha_chinh <= den):
         return "⛔ Địa chỉ không thuộc Khu phố 5."
 
     if info["side"] == "even" and so_nha_chinh % 2 != 0:

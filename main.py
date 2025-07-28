@@ -2,8 +2,8 @@ from fastapi import FastAPI, Request
 from logic_kp5 import check_address
 import os
 import requests
-import openai
 import re
+import openai
 
 app = FastAPI()
 TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
@@ -12,15 +12,17 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 API_URL = f"https://api.telegram.org/bot{TOKEN}"
 
 if USE_GPT and OPENAI_API_KEY:
-    openai.api_key = OPENAI_API_KEY
-    openai.api_base = "https://api.together.xyz/v1"  # Đúng endpoint của Together
+    client = openai.OpenAI(
+        api_key=OPENAI_API_KEY,
+        base_url="https://api.together.xyz/v1"
+    )
+else:
+    client = None
 
 def is_address(text: str):
     text = text.strip().lower()
-    # Cho phép: 244 thoại ngọc hầu | 244/11 thoại ngọc hầu | số 244/11 đường thoại ngọc hầu
-    pattern = r"^(số\s*)?\d+(?:/\d+)*(?:\s+(đường\s*)?)?[a-zàáảãạâầấậẫẩăằắặẵẳêềếệễểôồốộỗổơờớợỡởưừứựữửêèéẹẽẻùúụũủìíịĩỉỳýỵỹỷđ\s]+$"
+    pattern = r"^(số\s*)?\d+(?:/\d+)*(?:\s+đường)?\s+[a-zàáảãạâầấậẫẩăằắặẵẳêềếệễểôồốộỗổơờớợỡởưừứựữửêèéẹẽẻùúụũủìíịĩỉỳýỵỹỷđ\s]+$"
     return re.match(pattern, text) is not None
-
 
 def send(chat_id, text):
     requests.post(f"{API_URL}/sendMessage", json={"chat_id": chat_id, "text": text})
@@ -33,7 +35,7 @@ async def telegram_webhook(req: Request):
         text = data["message"]["text"]
         if is_address(text):
             reply = check_address(text)
-        elif USE_GPT:
+        elif USE_GPT and client:
             reply = gpt_reply(text)
         else:
             reply = "❗ Xin lỗi, tôi chỉ có thể kiểm tra địa chỉ trong Khu phố 5. Bạn vui lòng nhập theo dạng như: 3/11 Hiền Vương"
@@ -42,14 +44,13 @@ async def telegram_webhook(req: Request):
 
 def gpt_reply(prompt):
     try:
-        completion = openai.ChatCompletion.create(
-            model="meta-llama/Llama-3-8b-chat",  # hoặc model khác mà bạn chọn
+        response = client.chat.completions.create(
+            model="meta-llama/Llama-3-8b-chat-hf",
             messages=[
-                {"role": "system", "content": "Bạn là trợ lý hành chính khu phố 5, Phường Phú Thạnh."},
+                {"role": "system", "content": "Bạn là trợ lý hành chính khu phố 5, Phường Phú Thạnh, có nhiệm vụ trả lời thân thiện, chính xác, đúng vai trò KP5."},
                 {"role": "user", "content": prompt}
             ]
         )
-        return completion.choices[0].message.content.strip()
+        return response.choices[0].message.content.strip()
     except Exception as e:
-        print("GPT Error:", e)
         return "⚠️ Xin lỗi, tôi đang gặp sự cố khi truy cập GPT. Vui lòng thử lại sau."
