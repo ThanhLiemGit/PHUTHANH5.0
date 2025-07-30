@@ -12,8 +12,12 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 API_URL = f"https://api.telegram.org/bot{TOKEN}"
 
 if USE_GPT and OPENAI_API_KEY:
-    openai.api_key = OPENAI_API_KEY
-    openai.api_base = "https://api.together.xyz/v1"
+    client = openai.OpenAI(
+        api_key=OPENAI_API_KEY,
+        base_url="https://api.together.xyz/v1"
+    )
+else:
+    client = None
 
 def is_address(text: str):
     text = text.strip().lower()
@@ -31,7 +35,7 @@ async def telegram_webhook(req: Request):
         text = data["message"]["text"]
         if is_address(text):
             reply = check_address(text)
-        elif USE_GPT:
+        elif USE_GPT and client:
             reply = gpt_reply(text)
         else:
             reply = "❗ Xin lỗi, tôi chỉ có thể kiểm tra địa chỉ trong Khu phố 5. Bạn vui lòng nhập theo dạng như: 3/11 Hiền Vương"
@@ -40,13 +44,13 @@ async def telegram_webhook(req: Request):
 
 def gpt_reply(prompt):
     try:
-        response = openai.chat.completions.create(
-            model="mistralai/Mixtral-8x7B-Instruct-v0.1",
+        response = client.chat.completions.create(
+            model="meta-llama/Llama-3-8b-chat-hf",
             messages=[
-                {"role": "system", "content": "Bạn là trợ lý hành chính khu phố 5, Phường Phú Thạnh. Trả lời chính xác và thân thiện."},
+                {"role": "system", "content": "Bạn là trợ lý hành chính khu phố 5, Phường Phú Thạnh, có nhiệm vụ trả lời thân thiện, chính xác, đúng vai trò KP5."},
                 {"role": "user", "content": prompt}
             ]
         )
         return response.choices[0].message.content.strip()
     except Exception as e:
-        return f"⚠️ Xin lỗi, tôi đang gặp sự cố khi truy cập GPT: {str(e)}"
+        return "⚠️ Xin lỗi, tôi đang gặp sự cố khi truy cập GPT. Vui lòng thử lại sau."
