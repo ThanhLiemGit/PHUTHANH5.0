@@ -2,8 +2,8 @@ from fastapi import FastAPI, Request
 from logic_kp5 import check_address
 import os
 import requests
-import re
 import openai
+import re
 
 app = FastAPI()
 TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
@@ -11,17 +11,14 @@ USE_GPT = os.getenv("USE_GPT", "false").lower() == "true"
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 API_URL = f"https://api.telegram.org/bot{TOKEN}"
 
+# Cấu hình API Together AI
 if USE_GPT and OPENAI_API_KEY:
-    client = openai.OpenAI(
-        api_key=OPENAI_API_KEY,
-        base_url="https://api.together.xyz/v1"
-    )
-else:
-    client = None
+    openai.api_key = OPENAI_API_KEY
+    openai.api_base = "https://api.together.xyz/v1"
 
 def is_address(text: str):
     text = text.strip().lower()
-    pattern = r"^(số\s*)?\d+(?:/\d+)*(?:\s+đường)?\s+[a-zàáảãạâầấậẫẩăằắặẵẳêềếệễểôồốộỗổơờớợỡởưừứựữửêèéẹẽẻùúụũủìíịĩỉỳýỵỹỷđ\s]+$"
+    pattern = r"^(số\s*)?\d+(?:/\d+)*(?:\s+đường)?\s+[a-zàáảãạâầấậẫẩăằắặẵẳêềếệễểôồốộỗổơờớợỡởưừứựữửèéẹẽẻùúụũủìíịĩỉỳýỵỹỷđ\s]+$"
     return re.match(pattern, text) is not None
 
 def send(chat_id, text):
@@ -35,19 +32,19 @@ async def telegram_webhook(req: Request):
         text = data["message"]["text"]
         if is_address(text):
             reply = check_address(text)
-        elif USE_GPT and client:
+        elif USE_GPT:
             reply = gpt_reply(text)
         else:
-            reply = "❗ Xin lỗi, tôi chỉ có thể kiểm tra địa chỉ trong Khu phố 5. Bạn vui lòng nhập theo dạng như: 3/11 Hiền Vương"
+            reply = "❗ Tôi chỉ có thể kiểm tra địa chỉ trong Khu phố 5. Vui lòng nhập theo dạng: 3/11 Hiền Vương"
         send(chat_id, reply)
     return {"ok": True}
 
 def gpt_reply(prompt):
     try:
-        response = client.chat.completions.create(
-            model="meta-llama/Llama-3-8b-chat-hf",
+        response = openai.chat.completions.create(
+            model="mistralai/Mixtral-8x7B-Instruct-v0.1",
             messages=[
-                {"role": "system", "content": "Bạn là trợ lý hành chính khu phố 5, Phường Phú Thạnh, có nhiệm vụ trả lời thân thiện, chính xác, đúng vai trò KP5."},
+                {"role": "system", "content": "Bạn là trợ lý hành chính khu phố 5, Phường Phú Thạnh, trả lời thân thiện và đúng phạm vi."},
                 {"role": "user", "content": prompt}
             ]
         )
