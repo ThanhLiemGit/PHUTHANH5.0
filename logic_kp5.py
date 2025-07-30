@@ -3,10 +3,26 @@ import re
 def check_address(input_text):
     input_text = input_text.lower().strip()
     kp5_data = {
-        "nguyễn sơn": {"range": (3, 71), "hems": [13, 59, 61, 61], "side": "both"},
-        "thoại ngọc hầu": {"range": (126, 244), "hems": [182, 198, 212, 240, 242, 244], "side": "even"},
-        "phan văn năm": {"range": (1, 73), "hems": [19, 47], "side": "both"},
-        "hiền vương": {"range": (1, 26), "hems": [3, 11, 12], "side": "both"},
+        "nguyễn sơn": {
+            "range": (3, 71),
+            "side": "odd",  # chỉ số lẻ
+            "hems": [13, 59, 61]
+        },
+        "thoại ngọc hầu": {
+            "range": (126, 244),
+            "side": "even",
+            "hems": [182, 198, 212, 240, 242, 244]
+        },
+        "phan văn năm": {
+            "range": (1, 73),
+            "side": "odd",
+            "hems": [19, 47]
+        },
+        "hiền vương": {
+            "range": (1, 26),
+            "side": "both",
+            "hems": [3, 11, 12]
+        }
     }
 
     match = re.match(r"(?:số\s*)?([\d/]+)\s+(?:đường\s*)?(.+)", input_text)
@@ -17,26 +33,34 @@ def check_address(input_text):
     duong = match.group(2).strip()
 
     so_nha_parts = so_nha_raw.split("/")
-    so_nha_chinh = int(so_nha_parts[0]) if so_nha_parts[0].isdigit() else None
-    hem_cap_1 = int(so_nha_parts[1]) if len(so_nha_parts) > 1 and so_nha_parts[1].isdigit() else None
+    try:
+        so_nha_chinh = int(so_nha_parts[0])
+    except ValueError:
+        return "⛔ Số nhà không hợp lệ."
 
-    for ten_duong in kp5_data:
-        if duong == ten_duong or duong in ten_duong:
-            duong = ten_duong
-            break
-    else:
+    if duong not in kp5_data:
         return "⛔ Địa chỉ không thuộc Khu phố 5."
 
-    info = kp5_data[duong]
-    tu, den = info["range"]
+    config = kp5_data[duong]
+    tu, den = config["range"]
 
-    if so_nha_chinh is None or not (tu <= so_nha_chinh <= den):
-        return "⛔ Địa chỉ không thuộc Khu phố 5."
+    if not (tu <= so_nha_chinh <= den):
+        return f"⛔ Số nhà {so_nha_chinh} không nằm trong phạm vi quản lý của đường {duong.title()} (từ {tu} đến {den})."
 
-    if info["side"] == "even" and so_nha_chinh % 2 != 0:
-        return "⛔ Địa chỉ không thuộc phía chẵn (KP5 quản lý)."
+    if config["side"] == "even" and so_nha_chinh % 2 != 0:
+        return f"⛔ Địa chỉ không thuộc phía chẵn trên đường {duong.title()} (KP5 quản lý phía chẵn)."
 
-    if hem_cap_1 and hem_cap_1 not in info["hems"]:
-        return f"⚠️ Địa chỉ không chính xác vì đường {duong.title()} không có hẻm số {hem_cap_1}."
+    if config["side"] == "odd" and so_nha_chinh % 2 == 0:
+        return f"⛔ Địa chỉ không thuộc phía lẻ trên đường {duong.title()} (KP5 quản lý phía lẻ)."
+
+    # Kiểm tra hẻm cấp 1 (nếu có)
+    if len(so_nha_parts) > 1:
+        try:
+            hem_cap_1 = int(so_nha_parts[1])
+        except ValueError:
+            return "⛔ Hẻm không hợp lệ."
+
+        if "hems" in config and hem_cap_1 not in config["hems"]:
+            return f"⚠️ Địa chỉ không chính xác vì đường {duong.title()} không có hẻm số {hem_cap_1}."
 
     return "✅ Địa chỉ thuộc Khu phố 5."
