@@ -47,6 +47,6 @@ def check_address(input_text):
     if len(so_nha_parts) > 1:
         hem_cap_1 = int(so_nha_parts[0])
         if info["hems"] and hem_cap_1 not in info["hems"]:
-            return f"⚠️ Địa chỉ không chính xác vì đường {duong_raw.title()} không có hẻm số {hem_cap_1}."
+            return f"⚠️ Địa chỉ không chính xác vì đường {duong_raw.title()} không có hẻm số {so_nha_parts[0]}."
 
     return "✅ Địa chỉ thuộc Khu phố 5."
