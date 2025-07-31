@@ -19,12 +19,13 @@ def check_address(input_text):
     }
 
     match = re.match(r"(?:số\s*)?([\d/]+)\s+(?:đường\s*)?(.+)", input_text)
-    if not match:
-        return "⛔ Không xác định được địa chỉ. Vui lòng kiểm tra lại."
+if not match:
+    return "⛔ Không xác định được địa chỉ. Vui lòng kiểm tra lại."
 
-    so_nha_raw = match.group(1)
-    duong_raw = match.group(2)
-    duong = normalize(duong_raw)
+so_nha_raw = match.group(1)
+duong_raw = match.group(2).strip()
+duong = normalize(duong_raw)
+
 
     if duong not in kp5_data:
         return f"⛔ Địa chỉ không thuộc Khu phố 5."
