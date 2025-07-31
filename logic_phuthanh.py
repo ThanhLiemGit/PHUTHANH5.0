@@ -61,10 +61,10 @@ def check_address(text):
         return f"""✅ Địa chỉ thuộc **Khu phố {segment['khu_pho']}**
 
 📌 Thông tin quản lý:
-– Bí thư chi bộ: Nguyễn Thị Hiền
-– Khu phố trưởng: Lê Thị Thúy Vân
-– Trưởng Ban CTMT: Lê Thanh Liêm – 📞 0909 292 289
-– Cảnh sát khu vực: Nguyễn Phước Thiện
+– Bí thư chi bộ
+– Khu phố trưởng
+– Trưởng Ban CTMT
+– Cảnh sát khu vực
 
 🔎 Bạn cần liên hệ với ai không?"""
 
