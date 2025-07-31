@@ -1,0 +1,2506 @@
+{
+  "van cao": [
+    {
+      "tu": "1",
+      "den": "55",
+      "khu_pho": "1"
+    },
+    {
+      "tu": "16",
+      "den": "28",
+      "khu_pho": "2"
+    },
+    {
+      "tu": "8A",
+      "den": "12",
+      "khu_pho": "9"
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "10"
+    }
+  ],
+  "nguyen son": [
+    {
+      "tu": "343",
+      "den": "387",
+      "khu_pho": "1"
+    },
+    {
+      "tu": "275",
+      "den": "341",
+      "khu_pho": "2"
+    },
+    {
+      "tu": "111",
+      "den": "271",
+      "khu_pho": "3"
+    },
+    {
+      "tu": "73",
+      "den": "107",
+      "khu_pho": "4"
+    },
+    {
+      "tu": "3",
+      "den": "71",
+      "khu_pho": "5"
+    }
+  ],
+  "binh long": [
+    {
+      "tu": "220",
+      "den": "290",
+      "khu_pho": "1"
+    },
+    {
+      "tu": "148",
+      "den": "218",
+      "khu_pho": "12"
+    },
+    {
+      "tu": "104",
+      "den": "182",
+      "khu_pho": "14"
+    }
+  ],
+  "hien vuong": [
+    {
+      "tu": "168",
+      "den": "328",
+      "khu_pho": "2"
+    },
+    {
+      "tu": "25",
+      "den": "41",
+      "khu_pho": "4"
+    },
+    {
+      "tu": "28",
+      "den": "56",
+      "khu_pho": "4"
+    },
+    {
+      "tu": "1",
+      "den": "25",
+      "khu_pho": "5"
+    },
+    {
+      "tu": "2",
+      "den": "26",
+      "khu_pho": "5"
+    },
+    {
+      "tu": "173",
+      "den": "297",
+      "khu_pho": "9"
+    }
+  ],
+  "le lo": [
+    {
+      "tu": "3",
+      "den": "13",
+      "khu_pho": "2"
+    },
+    {
+      "tu": "1",
+      "den": "3",
+      "khu_pho": "12"
+    },
+    {
+      "tu": "2",
+      "den": "6",
+      "khu_pho": "12"
+    }
+  ],
+  "inh liet": [
+    {
+      "tu": "1A",
+      "den": "3C",
+      "khu_pho": "2"
+    },
+    {
+      "tu": "4",
+      "den": "10",
+      "khu_pho": "3"
+    },
+    {
+      "tu": "5A",
+      "den": "5A",
+      "khu_pho": "9"
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "11"
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "11"
+    }
+  ],
+  "tran thu o": [
+    {
+      "tu": "193",
+      "den": "327",
+      "khu_pho": "2"
+    },
+    {
+      "tu": "162",
+      "den": "234",
+      "khu_pho": "2"
+    },
+    {
+      "tu": "53",
+      "den": "189",
+      "khu_pho": "3"
+    },
+    {
+      "tu": "26",
+      "den": "156",
+      "khu_pho": "3"
+    },
+    {
+      "tu": "1",
+      "den": "47",
+      "khu_pho": "4"
+    },
+    {
+      "tu": "2",
+      "den": "22A",
+      "khu_pho": "4"
+    }
+  ],
+  "le sao": [
+    {
+      "tu": "165",
+      "den": "325",
+      "khu_pho": "2"
+    },
+    {
+      "tu": "174",
+      "den": "308",
+      "khu_pho": "2"
+    },
+    {
+      "tu": "41",
+      "den": "163",
+      "khu_pho": "3"
+    },
+    {
+      "tu": "48",
+      "den": "172",
+      "khu_pho": "3"
+    },
+    {
+      "tu": "1",
+      "den": "37",
+      "khu_pho": "4"
+    },
+    {
+      "tu": "2",
+      "den": "44",
+      "khu_pho": "4"
+    }
+  ],
+  "phan van xao": [
+    {
+      "tu": "25A",
+      "den": "35",
+      "khu_pho": "2"
+    },
+    {
+      "tu": "20",
+      "den": "32",
+      "khu_pho": "2"
+    },
+    {
+      "tu": "1",
+      "den": "5",
+      "khu_pho": "12"
+    },
+    {
+      "tu": "2",
+      "den": "6",
+      "khu_pho": "12"
+    }
+  ],
+  "le khoi": [
+    {
+      "tu": "19",
+      "den": "27",
+      "khu_pho": "3"
+    },
+    {
+      "tu": "77",
+      "den": "143",
+      "khu_pho": "4"
+    },
+    {
+      "tu": "2",
+      "den": "56",
+      "khu_pho": "4"
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "11"
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "11"
+    },
+    {
+      "tu": "1",
+      "den": "7",
+      "khu_pho": "13"
+    }
+  ],
+  "vo van dung": [
+    {
+      "tu": "15",
+      "den": "15",
+      "khu_pho": "3"
+    },
+    {
+      "tu": "26A",
+      "den": "28",
+      "khu_pho": "3"
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "11"
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "11"
+    },
+    {
+      "tu": "1",
+      "den": "5",
+      "khu_pho": "13"
+    },
+    {
+      "tu": "2",
+      "den": "8",
+      "khu_pho": "13"
+    }
+  ],
+  "o uc duc": [
+    {
+      "tu": "15",
+      "den": "15",
+      "khu_pho": "3"
+    },
+    {
+      "tu": "14",
+      "den": "14",
+      "khu_pho": "3"
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "11"
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "11"
+    },
+    {
+      "tu": "1",
+      "den": "7",
+      "khu_pho": "13"
+    },
+    {
+      "tu": "2",
+      "den": "8",
+      "khu_pho": "13"
+    }
+  ],
+  "nguyen chich": [
+    {
+      "tu": "9",
+      "den": "13",
+      "khu_pho": "3"
+    },
+    {
+      "tu": "10",
+      "den": "10",
+      "khu_pho": "3"
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "11"
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "11"
+    },
+    {
+      "tu": "1",
+      "den": "1D",
+      "khu_pho": "13"
+    },
+    {
+      "tu": "2",
+      "den": "2A",
+      "khu_pho": "13"
+    }
+  ],
+  "thach lam": [
+    {
+      "tu": "178",
+      "den": "244",
+      "khu_pho": "4"
+    },
+    {
+      "tu": "2",
+      "den": "20",
+      "khu_pho": "7"
+    },
+    {
+      "tu": "328",
+      "den": "430",
+      "khu_pho": "12"
+    },
+    {
+      "tu": "182",
+      "den": "332",
+      "khu_pho": "13"
+    },
+    {
+      "tu": "309",
+      "den": "379",
+      "khu_pho": "14"
+    },
+    {
+      "tu": "193",
+      "den": "307",
+      "khu_pho": "15"
+    },
+    {
+      "tu": "163",
+      "den": "193",
+      "khu_pho": "17"
+    },
+    {
+      "tu": "22",
+      "den": "140",
+      "khu_pho": "18"
+    },
+    {
+      "tu": "125",
+      "den": "153",
+      "khu_pho": "21"
+    },
+    {
+      "tu": "106",
+      "den": "140",
+      "khu_pho": "21"
+    },
+    {
+      "tu": "63",
+      "den": "113",
+      "khu_pho": "22"
+    },
+    {
+      "tu": "1",
+      "den": "61",
+      "khu_pho": "23"
+    }
+  ],
+  "hem 107 le khoi": [
+    {
+      "tu": "1",
+      "den": "13A",
+      "khu_pho": "4"
+    },
+    {
+      "tu": "2",
+      "den": "28",
+      "khu_pho": "4"
+    }
+  ],
+  "hem 137 le khoi": [
+    {
+      "tu": "1",
+      "den": "3",
+      "khu_pho": "4"
+    },
+    {
+      "tu": "2",
+      "den": "2",
+      "khu_pho": "4"
+    }
+  ],
+  "phan van nam": [
+    {
+      "tu": "2",
+      "den": "54",
+      "khu_pho": "4"
+    },
+    {
+      "tu": "1",
+      "den": "73",
+      "khu_pho": "5"
+    }
+  ],
+  "le cao lang": [
+    {
+      "tu": "1",
+      "den": "21",
+      "khu_pho": "4"
+    },
+    {
+      "tu": "2",
+      "den": "34",
+      "khu_pho": "4"
+    },
+    {
+      "tu": "nan",
+      "den": "239",
+      "khu_pho": "12"
+    },
+    {
+      "tu": "174A",
+      "den": "248",
+      "khu_pho": "12"
+    },
+    {
+      "tu": "23",
+      "den": "163",
+      "khu_pho": "13"
+    },
+    {
+      "tu": "38",
+      "den": "174",
+      "khu_pho": "13"
+    }
+  ],
+  "le niem": [
+    {
+      "tu": "1",
+      "den": "41",
+      "khu_pho": "4"
+    },
+    {
+      "tu": "2",
+      "den": "20",
+      "khu_pho": "4"
+    },
+    {
+      "tu": "148",
+      "den": "254",
+      "khu_pho": "9"
+    },
+    {
+      "tu": "43",
+      "den": "177",
+      "khu_pho": "11"
+    },
+    {
+      "tu": "22",
+      "den": "146",
+      "khu_pho": "11"
+    },
+    {
+      "tu": "117",
+      "den": "269",
+      "khu_pho": "12"
+    }
+  ],
+  "le lam": [
+    {
+      "tu": "1",
+      "den": "19",
+      "khu_pho": "4"
+    },
+    {
+      "tu": "2",
+      "den": "40",
+      "khu_pho": "4"
+    },
+    {
+      "tu": "143",
+      "den": "233",
+      "khu_pho": "9"
+    },
+    {
+      "tu": "166",
+      "den": "246",
+      "khu_pho": "9"
+    },
+    {
+      "tu": "23",
+      "den": "141A",
+      "khu_pho": "11"
+    },
+    {
+      "tu": "42",
+      "den": "146B",
+      "khu_pho": "11"
+    }
+  ],
+  "quach inh bao": [
+    {
+      "tu": "3",
+      "den": "21",
+      "khu_pho": "4"
+    },
+    {
+      "tu": "2",
+      "den": "36",
+      "khu_pho": "4"
+    },
+    {
+      "tu": "157",
+      "den": "251",
+      "khu_pho": "9"
+    },
+    {
+      "tu": "154",
+      "den": "280",
+      "khu_pho": "9"
+    }
+  ],
+  "hem 13 nguyen son": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "5"
+    }
+  ],
+  "hem 59 nguyen son": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "5"
+    }
+  ],
+  "thoai ngoc hau": [
+    {
+      "tu": "126",
+      "den": "244",
+      "khu_pho": "5"
+    },
+    {
+      "tu": "175",
+      "den": "177",
+      "khu_pho": "7"
+    },
+    {
+      "tu": "256",
+      "den": "342",
+      "khu_pho": "17"
+    },
+    {
+      "tu": "231",
+      "den": "295",
+      "khu_pho": "18"
+    },
+    {
+      "tu": "297",
+      "den": "307",
+      "khu_pho": "21"
+    }
+  ],
+  "hem 182 thoai ngoc hau": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "5"
+    }
+  ],
+  "hem 198 thoai ngoc hau": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "5"
+    }
+  ],
+  "hem 212 thoai ngoc hau": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "5"
+    }
+  ],
+  "hem 240 thoai ngoc hau": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "5"
+    }
+  ],
+  "hem 242 thoai ngoc hau": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "5"
+    }
+  ],
+  "hem 244 thoai ngoc hau": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "5"
+    }
+  ],
+  "hem 19 phan van nam": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "5"
+    }
+  ],
+  "hem 47 phan van nam": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "5"
+    }
+  ],
+  "hem 3 hien vuong": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "5"
+    }
+  ],
+  "hem 11 hien vuong": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "5"
+    }
+  ],
+  "hem 12 hien vuong": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "5"
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "6"
+    }
+  ],
+  "luy ban bich": [
+    {
+      "tu": "483",
+      "den": "621",
+      "khu_pho": "7"
+    },
+    {
+      "tu": "391",
+      "den": "481",
+      "khu_pho": "23"
+    },
+    {
+      "tu": "2",
+      "den": "4",
+      "khu_pho": "28"
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "29"
+    },
+    {
+      "tu": "159",
+      "den": "239",
+      "khu_pho": "34"
+    },
+    {
+      "tu": "127",
+      "den": "157",
+      "khu_pho": "41"
+    },
+    {
+      "tu": "95",
+      "den": "125",
+      "khu_pho": "45"
+    },
+    {
+      "tu": "1",
+      "den": "93",
+      "khu_pho": "47"
+    }
+  ],
+  "hem 621 luy ban bich": [
+    {
+      "tu": "1",
+      "den": "11",
+      "khu_pho": "7"
+    }
+  ],
+  "uong a khu adc": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "7"
+    }
+  ],
+  "uong b khu adc": [
+    {
+      "tu": "toàn bộ nhà số lẽ",
+      "den": "nan",
+      "khu_pho": "7"
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "8"
+    }
+  ],
+  "pham van xao": [
+    {
+      "tu": "7",
+      "den": "25A",
+      "khu_pho": "9"
+    },
+    {
+      "tu": "10",
+      "den": "14",
+      "khu_pho": "9"
+    }
+  ],
+  "o bi": [
+    {
+      "tu": "129",
+      "den": "199",
+      "khu_pho": "12"
+    },
+    {
+      "tu": "162",
+      "den": "218A",
+      "khu_pho": "12"
+    },
+    {
+      "tu": "1",
+      "den": "121",
+      "khu_pho": "13"
+    },
+    {
+      "tu": "2",
+      "den": "158",
+      "khu_pho": "13"
+    }
+  ],
+  "tran quang co": [
+    {
+      "tu": "121",
+      "den": "187",
+      "khu_pho": "14"
+    },
+    {
+      "tu": "4",
+      "den": "138",
+      "khu_pho": "15"
+    },
+    {
+      "tu": "1",
+      "den": "119",
+      "khu_pho": "17"
+    }
+  ],
+  "hem 16 tran quang co": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "15"
+    }
+  ],
+  "hem 82 tran quang co": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "15"
+    }
+  ],
+  "hem 98 tran quang co": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "15"
+    }
+  ],
+  "hem 122 tran quang co": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "15"
+    }
+  ],
+  "hem 209 thach lam": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "15"
+    }
+  ],
+  "hem 247 thach lam": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "15"
+    }
+  ],
+  "hem 263 thach lam": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "15"
+    }
+  ],
+  "hem 307 thach lam": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "15"
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "16"
+    }
+  ],
+  "nguyen ly": [
+    {
+      "tu": "13",
+      "den": "43",
+      "khu_pho": "17"
+    },
+    {
+      "tu": "32",
+      "den": "52",
+      "khu_pho": "17"
+    },
+    {
+      "tu": "1",
+      "den": "25",
+      "khu_pho": "21"
+    },
+    {
+      "tu": "2",
+      "den": "26",
+      "khu_pho": "21"
+    }
+  ],
+  "hem 23 nguyen ly": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "17"
+    }
+  ],
+  "hem 318 thoai ngoc hau": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "17"
+    }
+  ],
+  "hem 326 thoai ngoc hau": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "17"
+    }
+  ],
+  "hem 332 thoai ngoc hau": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "17"
+    }
+  ],
+  "hem 338 thoai ngoc hau": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "17"
+    }
+  ],
+  "hem 342 thoai ngoc hau": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "17"
+    }
+  ],
+  "hem 9 tran quang co": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "17"
+    }
+  ],
+  "hem 17 tran quang co": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "17"
+    }
+  ],
+  "hem 33 tran quang co": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "17"
+    }
+  ],
+  "hem 57/1 tran quang co": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "17"
+    }
+  ],
+  "hem 87 tran quang co": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "17"
+    }
+  ],
+  "hem 119 tran quang co": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "17"
+    }
+  ],
+  "hem 102 binh long": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "17"
+    }
+  ],
+  "hem 58 thach lam": [
+    {
+      "tu": "1",
+      "den": "29A",
+      "khu_pho": "18"
+    },
+    {
+      "tu": "2",
+      "den": "32",
+      "khu_pho": "18"
+    }
+  ],
+  "hem 96 thach lam": [
+    {
+      "tu": "1",
+      "den": "13",
+      "khu_pho": "18"
+    },
+    {
+      "tu": "2",
+      "den": "16",
+      "khu_pho": "18"
+    }
+  ],
+  "hem 257 thoai ngoc hau": [
+    {
+      "tu": "1",
+      "den": "19",
+      "khu_pho": "18"
+    },
+    {
+      "tu": "2",
+      "den": "30",
+      "khu_pho": "18"
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "19"
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "20"
+    }
+  ],
+  "hoang thieu hoa": [
+    {
+      "tu": "45",
+      "den": "99",
+      "khu_pho": "21"
+    },
+    {
+      "tu": "46",
+      "den": "100",
+      "khu_pho": "21"
+    },
+    {
+      "tu": "24B",
+      "den": "28",
+      "khu_pho": "22"
+    },
+    {
+      "tu": "25",
+      "den": "55",
+      "khu_pho": "24"
+    },
+    {
+      "tu": "20",
+      "den": "24A",
+      "khu_pho": "24"
+    },
+    {
+      "tu": "2",
+      "den": "8",
+      "khu_pho": "28"
+    },
+    {
+      "tu": "1",
+      "den": "15",
+      "khu_pho": "28"
+    }
+  ],
+  "luong truc am": [
+    {
+      "tu": "57B",
+      "den": "73B",
+      "khu_pho": "21"
+    },
+    {
+      "tu": "102",
+      "den": "128",
+      "khu_pho": "21"
+    },
+    {
+      "tu": "60",
+      "den": "98",
+      "khu_pho": "22"
+    },
+    {
+      "tu": "2B",
+      "den": "4",
+      "khu_pho": "23"
+    },
+    {
+      "tu": "43",
+      "den": "73",
+      "khu_pho": "24"
+    }
+  ],
+  "to hieu": [
+    {
+      "tu": "244",
+      "den": "264",
+      "khu_pho": "21"
+    },
+    {
+      "tu": "202",
+      "den": "244",
+      "khu_pho": "24"
+    },
+    {
+      "tu": "84",
+      "den": "202",
+      "khu_pho": "25"
+    },
+    {
+      "tu": "172",
+      "den": "182",
+      "khu_pho": "28"
+    },
+    {
+      "tu": "31",
+      "den": "99",
+      "khu_pho": "31"
+    },
+    {
+      "tu": "108D",
+      "den": "166",
+      "khu_pho": "32"
+    },
+    {
+      "tu": "5",
+      "den": "17",
+      "khu_pho": "38"
+    },
+    {
+      "tu": "56",
+      "den": "108",
+      "khu_pho": "39"
+    },
+    {
+      "tu": "1A",
+      "den": "9",
+      "khu_pho": "42"
+    },
+    {
+      "tu": "2",
+      "den": "56",
+      "khu_pho": "43"
+    }
+  ],
+  "duong khue": [
+    {
+      "tu": "93",
+      "den": "123",
+      "khu_pho": "21"
+    },
+    {
+      "tu": "84",
+      "den": "108",
+      "khu_pho": "21"
+    },
+    {
+      "tu": "19",
+      "den": "91A",
+      "khu_pho": "22"
+    },
+    {
+      "tu": "52",
+      "den": "82",
+      "khu_pho": "22"
+    },
+    {
+      "tu": "1",
+      "den": "17A",
+      "khu_pho": "23"
+    },
+    {
+      "tu": "2",
+      "den": "50A",
+      "khu_pho": "23"
+    }
+  ],
+  "huynh van mot": [
+    {
+      "tu": "93",
+      "den": "131",
+      "khu_pho": "21"
+    },
+    {
+      "tu": "108",
+      "den": "142",
+      "khu_pho": "21"
+    },
+    {
+      "tu": "19",
+      "den": "91",
+      "khu_pho": "22"
+    },
+    {
+      "tu": "14",
+      "den": "106",
+      "khu_pho": "22"
+    },
+    {
+      "tu": "1",
+      "den": "17",
+      "khu_pho": "23"
+    },
+    {
+      "tu": "2",
+      "den": "12",
+      "khu_pho": "23"
+    }
+  ],
+  "y lan": [
+    {
+      "tu": "107",
+      "den": "147",
+      "khu_pho": "21"
+    },
+    {
+      "tu": "100",
+      "den": "120",
+      "khu_pho": "21"
+    },
+    {
+      "tu": "69",
+      "den": "105",
+      "khu_pho": "22"
+    },
+    {
+      "tu": "56",
+      "den": "98",
+      "khu_pho": "22"
+    },
+    {
+      "tu": "1",
+      "den": "67A",
+      "khu_pho": "23"
+    },
+    {
+      "tu": "2",
+      "den": "54",
+      "khu_pho": "23"
+    }
+  ],
+  "tran van giap": [
+    {
+      "tu": "83",
+      "den": "105A",
+      "khu_pho": "21"
+    },
+    {
+      "tu": "70",
+      "den": "84",
+      "khu_pho": "21"
+    },
+    {
+      "tu": "37",
+      "den": "81",
+      "khu_pho": "22"
+    },
+    {
+      "tu": "34",
+      "den": "66",
+      "khu_pho": "22"
+    },
+    {
+      "tu": "1",
+      "den": "35A",
+      "khu_pho": "23"
+    },
+    {
+      "tu": "2",
+      "den": "32",
+      "khu_pho": "23"
+    }
+  ],
+  "le quang chieu": [
+    {
+      "tu": "1",
+      "den": "47",
+      "khu_pho": "21"
+    },
+    {
+      "tu": "2",
+      "den": "24",
+      "khu_pho": "21"
+    }
+  ],
+  "trinh thi tho": [
+    {
+      "tu": "2",
+      "den": "80",
+      "khu_pho": "22"
+    },
+    {
+      "tu": "1",
+      "den": "11",
+      "khu_pho": "23"
+    }
+  ],
+  "nguy nhu kom tum": [
+    {
+      "tu": "8",
+      "den": "8",
+      "khu_pho": "22"
+    },
+    {
+      "tu": "1",
+      "den": "61",
+      "khu_pho": "23"
+    },
+    {
+      "tu": "2",
+      "den": "6",
+      "khu_pho": "23"
+    }
+  ],
+  "hem 15 thach lam": [
+    {
+      "tu": "1",
+      "den": "17",
+      "khu_pho": "23"
+    },
+    {
+      "tu": "2",
+      "den": "26",
+      "khu_pho": "23"
+    }
+  ],
+  "hem 202 to hieu": [
+    {
+      "tu": "1",
+      "den": "59",
+      "khu_pho": "24"
+    },
+    {
+      "tu": "2",
+      "den": "38",
+      "khu_pho": "25"
+    }
+  ],
+  "hem 232 to hieu": [
+    {
+      "tu": "1",
+      "den": "43",
+      "khu_pho": "24"
+    },
+    {
+      "tu": "2",
+      "den": "46",
+      "khu_pho": "24"
+    }
+  ],
+  "le than": [
+    {
+      "tu": "7",
+      "den": "19",
+      "khu_pho": "24"
+    },
+    {
+      "tu": "22",
+      "den": "24",
+      "khu_pho": "24"
+    },
+    {
+      "tu": "1",
+      "den": "5",
+      "khu_pho": "25"
+    },
+    {
+      "tu": "2",
+      "den": "22",
+      "khu_pho": "25"
+    }
+  ],
+  "hem 22 le than": [
+    {
+      "tu": "1",
+      "den": "45",
+      "khu_pho": "24"
+    },
+    {
+      "tu": "2",
+      "den": "44",
+      "khu_pho": "25"
+    }
+  ],
+  "tran quang qua": [
+    {
+      "tu": "1",
+      "den": "43",
+      "khu_pho": "24"
+    },
+    {
+      "tu": "2",
+      "den": "112",
+      "khu_pho": "24"
+    }
+  ],
+  "chu thien": [
+    {
+      "tu": "1",
+      "den": "105",
+      "khu_pho": "25"
+    },
+    {
+      "tu": "2",
+      "den": "92",
+      "khu_pho": "28"
+    }
+  ],
+  "hem 85/2 chu thien": [
+    {
+      "tu": "1",
+      "den": "9",
+      "khu_pho": "25"
+    }
+  ],
+  "hem 18 le than": [
+    {
+      "tu": "1",
+      "den": "43",
+      "khu_pho": "25"
+    },
+    {
+      "tu": "2",
+      "den": "44",
+      "khu_pho": "25"
+    }
+  ],
+  "nguyen thieu lau": [
+    {
+      "tu": "1",
+      "den": "59",
+      "khu_pho": "25"
+    },
+    {
+      "tu": "2",
+      "den": "66",
+      "khu_pho": "25"
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "26"
+    }
+  ],
+  "hoa binh": [
+    {
+      "tu": "278",
+      "den": "278",
+      "khu_pho": "27"
+    },
+    {
+      "tu": "178",
+      "den": "278",
+      "khu_pho": "28"
+    },
+    {
+      "tu": "239",
+      "den": "341",
+      "khu_pho": "30"
+    },
+    {
+      "tu": "233",
+      "den": "237",
+      "khu_pho": "31"
+    },
+    {
+      "tu": "179",
+      "den": "231",
+      "khu_pho": "32"
+    },
+    {
+      "tu": "135",
+      "den": "179",
+      "khu_pho": "33"
+    },
+    {
+      "tu": "93",
+      "den": "133",
+      "khu_pho": "34"
+    }
+  ],
+  "hem 178 to hieu": [
+    {
+      "tu": "1",
+      "den": "75",
+      "khu_pho": "28"
+    },
+    {
+      "tu": "2",
+      "den": "88",
+      "khu_pho": "28"
+    }
+  ],
+  "cay keo": [
+    {
+      "tu": "1",
+      "den": "155",
+      "khu_pho": "28"
+    },
+    {
+      "tu": "34",
+      "den": "162",
+      "khu_pho": "28"
+    }
+  ],
+  "nguyen my ca": [
+    {
+      "tu": "1",
+      "den": "5",
+      "khu_pho": "28"
+    }
+  ],
+  "hem 47 to hieu": [
+    {
+      "tu": "1",
+      "den": "17",
+      "khu_pho": "31"
+    },
+    {
+      "tu": "2",
+      "den": "16",
+      "khu_pho": "31"
+    }
+  ],
+  "hem 57 to hieu": [
+    {
+      "tu": "1",
+      "den": "51",
+      "khu_pho": "31"
+    },
+    {
+      "tu": "2",
+      "den": "72",
+      "khu_pho": "31"
+    }
+  ],
+  "hem 57/9 to hieu": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "31"
+    }
+  ],
+  "hem 57/27 to hieu": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "31"
+    }
+  ],
+  "hem 57/41 to hieu": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "31"
+    }
+  ],
+  "hem 57/43 to hieu": [
+    {
+      "tu": "2",
+      "den": "12",
+      "khu_pho": "31"
+    }
+  ],
+  "hem 87 to hieu": [
+    {
+      "tu": "1",
+      "den": "41",
+      "khu_pho": "31"
+    },
+    {
+      "tu": "2",
+      "den": "32",
+      "khu_pho": "31"
+    }
+  ],
+  "hem 99 to hieu": [
+    {
+      "tu": "1",
+      "den": "25",
+      "khu_pho": "31"
+    }
+  ],
+  "hem 99/7 to hieu": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "31"
+    }
+  ],
+  "hem 99/9 to hieu": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "31"
+    }
+  ],
+  "hem 99/17 to hieu": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "31"
+    }
+  ],
+  "hem 108 to hieu": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "32"
+    }
+  ],
+  "hem 110 to hieu": [
+    {
+      "tu": "22",
+      "den": "62",
+      "khu_pho": "32"
+    },
+    {
+      "tu": "45",
+      "den": "73",
+      "khu_pho": "33"
+    }
+  ],
+  "hem 136 to hieu": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "32"
+    }
+  ],
+  "hem 164 to hieu": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "32"
+    }
+  ],
+  "hem 179 hoa binh": [
+    {
+      "tu": "2",
+      "den": "76",
+      "khu_pho": "32"
+    },
+    {
+      "tu": "1",
+      "den": "45",
+      "khu_pho": "33"
+    }
+  ],
+  "hem 179/4 hoa binh": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "32"
+    }
+  ],
+  "hem 187 hoa binh": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "32"
+    }
+  ],
+  "nguyen van vinh": [
+    {
+      "tu": "46",
+      "den": "68",
+      "khu_pho": "32"
+    },
+    {
+      "tu": "2",
+      "den": "66",
+      "khu_pho": "33"
+    },
+    {
+      "tu": "1",
+      "den": "35",
+      "khu_pho": "34"
+    }
+  ],
+  "ly thanh tong": [
+    {
+      "tu": "48",
+      "den": "120",
+      "khu_pho": "32"
+    },
+    {
+      "tu": "2",
+      "den": "44",
+      "khu_pho": "34"
+    },
+    {
+      "tu": "139",
+      "den": "239",
+      "khu_pho": "38"
+    },
+    {
+      "tu": "75",
+      "den": "137",
+      "khu_pho": "39"
+    },
+    {
+      "tu": "111B",
+      "den": "111B",
+      "khu_pho": "39"
+    },
+    {
+      "tu": "45",
+      "den": "75",
+      "khu_pho": "40"
+    },
+    {
+      "tu": "1",
+      "den": "45",
+      "khu_pho": "41"
+    }
+  ],
+  "hem 46 ly thanh tong": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "32"
+    }
+  ],
+  "hem 66 ly thanh tong": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "32"
+    }
+  ],
+  "hem 74 ly thanh tong": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "32"
+    }
+  ],
+  "hem 76 ly thanh tong": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "32"
+    }
+  ],
+  "hem 179/33 hoa binh": [
+    {
+      "tu": "2",
+      "den": "8",
+      "khu_pho": "33"
+    }
+  ],
+  "hem 179/39 hoa binh": [
+    {
+      "tu": "1",
+      "den": "31",
+      "khu_pho": "33"
+    },
+    {
+      "tu": "2",
+      "den": "32",
+      "khu_pho": "33"
+    }
+  ],
+  "hem 2 nguyen van vinh": [
+    {
+      "tu": "1",
+      "den": "35",
+      "khu_pho": "33"
+    },
+    {
+      "tu": "2",
+      "den": "36",
+      "khu_pho": "33"
+    }
+  ],
+  "hem 2/11 nguyen van vinh": [
+    {
+      "tu": "1",
+      "den": "33",
+      "khu_pho": "33"
+    },
+    {
+      "tu": "2",
+      "den": "34",
+      "khu_pho": "33"
+    }
+  ],
+  "hem 6 nguyen van vinh": [
+    {
+      "tu": "1",
+      "den": "11",
+      "khu_pho": "33"
+    }
+  ],
+  "hem 26 nguyen van vinh": [
+    {
+      "tu": "1",
+      "den": "45",
+      "khu_pho": "33"
+    },
+    {
+      "tu": "2",
+      "den": "46",
+      "khu_pho": "33"
+    }
+  ],
+  "hem 26/15 nguyen van vinh": [
+    {
+      "tu": "1",
+      "den": "21",
+      "khu_pho": "33"
+    },
+    {
+      "tu": "2",
+      "den": "22",
+      "khu_pho": "33"
+    }
+  ],
+  "hem 38 nguyen van vinh": [
+    {
+      "tu": "1",
+      "den": "51",
+      "khu_pho": "33"
+    }
+  ],
+  "hem 161 luy ban bich": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "34"
+    }
+  ],
+  "ly thai tong": [
+    {
+      "tu": "1",
+      "den": "51",
+      "khu_pho": "34"
+    },
+    {
+      "tu": "2",
+      "den": "52",
+      "khu_pho": "34"
+    }
+  ],
+  "hoang xuan hoanh": [
+    {
+      "tu": "1",
+      "den": "33",
+      "khu_pho": "34"
+    },
+    {
+      "tu": "4",
+      "den": "42",
+      "khu_pho": "34"
+    }
+  ],
+  "hem 8 hoang xuan hoanh": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "34"
+    }
+  ],
+  "hem 18 hoang xuan hoanh": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "34"
+    }
+  ],
+  "hem 26 hoang xuan hoanh": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "34"
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "35"
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "36"
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "37"
+    }
+  ],
+  "hem 149 ly thanh tong": [
+    {
+      "tu": "LôA",
+      "den": "LôD",
+      "khu_pho": "38"
+    }
+  ],
+  "phan anh": [
+    {
+      "tu": "194",
+      "den": "228",
+      "khu_pho": "38"
+    },
+    {
+      "tu": "96",
+      "den": "194",
+      "khu_pho": "42"
+    }
+  ],
+  "nguyen van yen": [
+    {
+      "tu": "1",
+      "den": "67",
+      "khu_pho": "38"
+    },
+    {
+      "tu": "67",
+      "den": "107",
+      "khu_pho": "42"
+    },
+    {
+      "tu": "2",
+      "den": "84",
+      "khu_pho": "42"
+    }
+  ],
+  "hem 75 ly thanh tong": [
+    {
+      "tu": "2",
+      "den": "12",
+      "khu_pho": "39"
+    },
+    {
+      "tu": "1",
+      "den": "37",
+      "khu_pho": "40"
+    },
+    {
+      "tu": "33",
+      "den": "119",
+      "khu_pho": "44"
+    },
+    {
+      "tu": "20",
+      "den": "130",
+      "khu_pho": "44"
+    }
+  ],
+  "hem 111 ly thanh tong": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "39"
+    }
+  ],
+  "hem 56 to hieu": [
+    {
+      "tu": "1",
+      "den": "37A",
+      "khu_pho": "39"
+    },
+    {
+      "tu": "2",
+      "den": "64",
+      "khu_pho": "43"
+    }
+  ],
+  "hem 151/53 luy ban bich": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "40"
+    }
+  ],
+  "hem 149 luy ban bich": [
+    {
+      "tu": "29",
+      "den": "73",
+      "khu_pho": "40"
+    },
+    {
+      "tu": "28",
+      "den": "78",
+      "khu_pho": "40"
+    },
+    {
+      "tu": "1",
+      "den": "27",
+      "khu_pho": "41"
+    },
+    {
+      "tu": "2",
+      "den": "26A",
+      "khu_pho": "41"
+    }
+  ],
+  "hem 151 luy ban bich": [
+    {
+      "tu": "1",
+      "den": "51",
+      "khu_pho": "41"
+    },
+    {
+      "tu": "2",
+      "den": "60",
+      "khu_pho": "41"
+    }
+  ],
+  "hem 151/31 luy ban bich": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "41"
+    }
+  ],
+  "hem 151/31/10 luy ban bich": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "41"
+    }
+  ],
+  "hem 151/31/26 luy ban bich": [
+    {
+      "tu": "2",
+      "den": "20",
+      "khu_pho": "41"
+    }
+  ],
+  "hem 34 nguyen van yen": [
+    {
+      "tu": "1",
+      "den": "11",
+      "khu_pho": "42"
+    },
+    {
+      "tu": "2",
+      "den": "16",
+      "khu_pho": "42"
+    }
+  ],
+  "hem 54 nguyen van yen": [
+    {
+      "tu": "1",
+      "den": "19",
+      "khu_pho": "42"
+    },
+    {
+      "tu": "2",
+      "den": "20",
+      "khu_pho": "42"
+    }
+  ],
+  "hem 67/8 nguyen van yen": [
+    {
+      "tu": "2",
+      "den": "24",
+      "khu_pho": "42"
+    },
+    {
+      "tu": "3",
+      "den": "3",
+      "khu_pho": "42"
+    }
+  ],
+  "hem 67/16 nguyen van yen": [
+    {
+      "tu": "1",
+      "den": "21",
+      "khu_pho": "42"
+    },
+    {
+      "tu": "2",
+      "den": "20",
+      "khu_pho": "42"
+    }
+  ],
+  "hem 9 to hieu": [
+    {
+      "tu": "1",
+      "den": "7A",
+      "khu_pho": "42"
+    }
+  ],
+  "hem 158 phan anh": [
+    {
+      "tu": "1",
+      "den": "51C",
+      "khu_pho": "42"
+    },
+    {
+      "tu": "A38",
+      "den": "A65",
+      "khu_pho": "42"
+    },
+    {
+      "tu": "B25",
+      "den": "B48",
+      "khu_pho": "42"
+    },
+    {
+      "tu": "C1",
+      "den": "C52",
+      "khu_pho": "42"
+    },
+    {
+      "tu": "D21",
+      "den": "D38",
+      "khu_pho": "42"
+    },
+    {
+      "tu": "E1",
+      "den": "E10",
+      "khu_pho": "42"
+    }
+  ],
+  "hem158/49 phan anh": [
+    {
+      "tu": "1",
+      "den": "3",
+      "khu_pho": "42"
+    },
+    {
+      "tu": "2",
+      "den": "10",
+      "khu_pho": "42"
+    }
+  ],
+  "hem 40 to hieu": [
+    {
+      "tu": "1",
+      "den": "57",
+      "khu_pho": "43"
+    },
+    {
+      "tu": "2",
+      "den": "70",
+      "khu_pho": "43"
+    },
+    {
+      "tu": "59",
+      "den": "75",
+      "khu_pho": "46"
+    }
+  ],
+  "hem 40/13 to hieu": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "43"
+    }
+  ],
+  "hem 40/40 to hieu": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "43"
+    }
+  ],
+  "hem 50 to hieu": [
+    {
+      "tu": "1",
+      "den": "51",
+      "khu_pho": "43"
+    },
+    {
+      "tu": "2",
+      "den": "44",
+      "khu_pho": "43"
+    }
+  ],
+  "hem 58 luong the vinh": [
+    {
+      "tu": "13",
+      "den": "29",
+      "khu_pho": "43"
+    },
+    {
+      "tu": "24",
+      "den": "34",
+      "khu_pho": "43"
+    },
+    {
+      "tu": "1",
+      "den": "9",
+      "khu_pho": "44"
+    },
+    {
+      "tu": "2",
+      "den": "28",
+      "khu_pho": "44"
+    }
+  ],
+  "hem 58/26 luong the vinh": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "43"
+    }
+  ],
+  "hem 58/30 luong the vinh": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "43"
+    }
+  ],
+  "hem 90 luong the vinh": [
+    {
+      "tu": "4",
+      "den": "10",
+      "khu_pho": "43"
+    },
+    {
+      "tu": "2",
+      "den": "2",
+      "khu_pho": "44"
+    },
+    {
+      "tu": "1",
+      "den": "19",
+      "khu_pho": "46"
+    }
+  ],
+  "luong the vinh": [
+    {
+      "tu": "2",
+      "den": "90",
+      "khu_pho": "44"
+    },
+    {
+      "tu": "1",
+      "den": "125",
+      "khu_pho": "45"
+    },
+    {
+      "tu": "92",
+      "den": "nan",
+      "khu_pho": "46"
+    },
+    {
+      "tu": "127",
+      "den": "147",
+      "khu_pho": "46"
+    },
+    {
+      "tu": "149",
+      "den": "153",
+      "khu_pho": "47"
+    },
+    {
+      "tu": "126",
+      "den": "134",
+      "khu_pho": "47"
+    }
+  ],
+  "hem 28 luong the vinh": [
+    {
+      "tu": "1",
+      "den": "79",
+      "khu_pho": "44"
+    },
+    {
+      "tu": "2",
+      "den": "36",
+      "khu_pho": "44"
+    }
+  ],
+  "hem 28/36 luong the vinh": [
+    {
+      "tu": "1",
+      "den": "27",
+      "khu_pho": "44"
+    },
+    {
+      "tu": "4",
+      "den": "24",
+      "khu_pho": "44"
+    }
+  ],
+  "hem 58/9 luong the vinh": [
+    {
+      "tu": "1",
+      "den": "19",
+      "khu_pho": "44"
+    },
+    {
+      "tu": "2",
+      "den": "20",
+      "khu_pho": "44"
+    }
+  ],
+  "tran van can": [
+    {
+      "tu": "2",
+      "den": "112",
+      "khu_pho": "45"
+    },
+    {
+      "tu": "1",
+      "den": "33",
+      "khu_pho": "47"
+    }
+  ],
+  "tran van cam": [
+    {
+      "tu": "35",
+      "den": "87",
+      "khu_pho": "46"
+    }
+  ],
+  "hem 47 tran van cam": [
+    {
+      "tu": "1",
+      "den": "23",
+      "khu_pho": "46"
+    },
+    {
+      "tu": "2",
+      "den": "30",
+      "khu_pho": "46"
+    }
+  ],
+  "hem 53 tran van cam": [
+    {
+      "tu": "1",
+      "den": "5",
+      "khu_pho": "46"
+    },
+    {
+      "tu": "2",
+      "den": "28",
+      "khu_pho": "46"
+    }
+  ],
+  "hem 67 tran van cam": [
+    {
+      "tu": "1",
+      "den": "31",
+      "khu_pho": "46"
+    },
+    {
+      "tu": "2",
+      "den": "34",
+      "khu_pho": "46"
+    }
+  ],
+  "hem 77a tran van cam": [
+    {
+      "tu": "1",
+      "den": "11",
+      "khu_pho": "46"
+    }
+  ],
+  "hem 90/3 luong the vinh": [
+    {
+      "tu": "1",
+      "den": "5A",
+      "khu_pho": "46"
+    },
+    {
+      "tu": "2",
+      "den": "10",
+      "khu_pho": "46"
+    }
+  ],
+  "hem 137 luong the vinh": [
+    {
+      "tu": "1",
+      "den": "5",
+      "khu_pho": "46"
+    },
+    {
+      "tu": "2",
+      "den": "2",
+      "khu_pho": "46"
+    }
+  ],
+  "hem 139 luong the vinh": [
+    {
+      "tu": "2",
+      "den": "18",
+      "khu_pho": "46"
+    }
+  ],
+  "luong minh nguyet": [
+    {
+      "tu": "42",
+      "den": "72",
+      "khu_pho": "46"
+    },
+    {
+      "tu": "1",
+      "den": "57",
+      "khu_pho": "47"
+    },
+    {
+      "tu": "2",
+      "den": "40",
+      "khu_pho": "47"
+    },
+    {
+      "tu": "33",
+      "den": "33",
+      "khu_pho": "48"
+    }
+  ],
+  "hem 40 luong minh nguyet": [
+    {
+      "tu": "1",
+      "den": "43",
+      "khu_pho": "46"
+    },
+    {
+      "tu": "2",
+      "den": "36",
+      "khu_pho": "47"
+    }
+  ],
+  "hem 72 luong minh nguyet": [
+    {
+      "tu": "2",
+      "den": "8",
+      "khu_pho": "46"
+    }
+  ],
+  "hem 17 luy ban bich": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "47"
+    }
+  ],
+  "hem 37 luy ban bich": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "47"
+    }
+  ],
+  "hem 67 luy ban bich": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "47"
+    }
+  ],
+  "hem 77 luy ban bich": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "47"
+    }
+  ],
+  "hem 3 luong minh nguyet": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "47"
+    }
+  ],
+  "hem 17 luong minh nguyet": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "47"
+    }
+  ],
+  "hem 45 luong minh nguyet": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "47"
+    }
+  ],
+  "hem 134 luong the vinh": [
+    {
+      "tu": "134A",
+      "den": "134A3",
+      "khu_pho": "47"
+    }
+  ],
+  "hem 9 tran van can": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "47"
+    }
+  ],
+  "hem 23 tran van can": [
+    {
+      "tu": "toàn bộ nhà",
+      "den": "nan",
+      "khu_pho": "47"
+    }
+  ]
+}
