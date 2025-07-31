@@ -33,7 +33,7 @@ def gpt_reply(prompt):
     try:
         print("🔁 Gọi GPT với prompt:", prompt)
         client = openai.OpenAI()
-        response = client.chat.completions.create(
+        response = openai.chatCompletion.create(
             model="mistralai/Mixtral-8x7B-Instruct-v0.1",
             messages=[
                 {
