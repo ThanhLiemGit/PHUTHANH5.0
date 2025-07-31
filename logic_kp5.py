@@ -1,7 +1,6 @@
 import re
 import unicodedata
 
-# Hàm chuẩn hóa tên đường: xóa dấu tiếng Việt
 def normalize(text):
     text = unicodedata.normalize("NFD", text)
     text = text.encode("ascii", "ignore").decode("utf-8")
@@ -10,31 +9,13 @@ def normalize(text):
 def check_address(input_text):
     input_text = input_text.lower().strip()
 
-    # Dữ liệu quản lý của KP5
     kp5_data = {
-        "nguyen son": {
-            "range": (1, 71),
-            "side": "odd",
-            "hems": [13, 59, 61],
-        },
-        "thoai ngoc hau": {
-            "range": (126, 244),
-            "side": "even",
-            "hems": [182, 198, 212, 240, 242, 244],
-        },
-        "phan van nam": {
-            "range": (1, 73),
-            "side": "odd",
-            "hems": [19, 47],
-        },
-        "hien vuong": {
-            "range": (1, 26),
-            "side": "both",
-            "hems": [3, 11, 12],
-        },
+        "nguyen son": {"range": (1, 71), "side": "odd", "hems": [13, 59, 61]},
+        "thoai ngoc hau": {"range": (126, 244), "side": "even", "hems": [182, 198, 212, 240, 242, 244]},
+        "phan van nam": {"range": (1, 73), "side": "odd", "hems": [19, 47]},
+        "hien vuong": {"range": (1, 26), "side": "both", "hems": [3, 11, 12]},
     }
 
-    # Phân tích chuỗi nhập vào
     match = re.match(r"(?:số\s*)?([\d/]+)\s+(?:đường\s*)?(.+)", input_text)
     if not match:
         return "⛔ Không xác định được địa chỉ. Vui lòng kiểm tra lại."
@@ -49,20 +30,16 @@ def check_address(input_text):
     info = kp5_data[duong]
     tu, den = info["range"]
     so_nha_parts = so_nha_raw.split("/")
-    match_so = re.match(r"(\d+)", so_nha_parts[0])
-    so_nha_chinh = int(match_so.group(1)) if match_so else None
+    so_nha_chinh = int(so_nha_parts[0]) if so_nha_parts[0].isdigit() else None
 
-    
     if so_nha_chinh is None or not (tu <= so_nha_chinh <= den):
         return "⛔ Số nhà không thuộc phạm vi quản lý."
 
-    # Kiểm tra chẵn/lẻ nếu có quy định
     if info["side"] == "even" and so_nha_chinh % 2 != 0:
         return "⛔ Chỉ quản lý phía số **chẵn** trên tuyến đường này."
     if info["side"] == "odd" and so_nha_chinh % 2 != 1:
         return "⛔ Chỉ quản lý phía số **lẻ** trên tuyến đường này."
 
-    # Kiểm tra hẻm cấp 1 nếu có
     if len(so_nha_parts) > 1:
         hem_cap_1 = int(so_nha_parts[0])
         if info["hems"] and hem_cap_1 not in info["hems"]:

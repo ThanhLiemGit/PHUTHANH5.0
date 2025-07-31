@@ -43,7 +43,7 @@ def gpt_reply(prompt):
     try:
         print("🔁 Gọi GPT với prompt:", prompt)
         response = openai.chat.completions.create(
-            model="openchat/openchat-3.5-1210",  # Hoặc model bạn chọn
+            model="openchat/openchat-3.5-1210",
             messages=[
                 {"role": "system", "content": "Bạn là trợ lý hành chính khu phố 5..."},
                 {"role": "user", "content": prompt}
@@ -53,4 +53,3 @@ def gpt_reply(prompt):
     except Exception as e:
         print("❌ Lỗi GPT:", e)
         return "⚠️ Xin lỗi, tôi đang gặp sự cố khi truy cập GPT. Vui lòng thử lại sau."
-
