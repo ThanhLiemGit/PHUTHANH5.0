@@ -11,14 +11,13 @@ USE_GPT = os.getenv("USE_GPT", "false").lower() == "true"
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 API_URL = f"https://api.telegram.org/bot{TOKEN}"
 
-# Cấu hình API Together AI (không dùng proxies)
 if USE_GPT and OPENAI_API_KEY:
     openai.api_key = OPENAI_API_KEY
     openai.api_base = "https://api.together.xyz/v1"
 
 def is_address(text: str):
     text = text.strip().lower()
-    pattern = r"^(số\s*)?\d+(?:/\d+)*(?:\s+đường)?\s+[a-zàáảãạâầấậẫẩăằắặẵẳêềếệễểôồốộỗổơờớợỡởưừứựữửèéẹẽẻùúụũủìíịĩỉỳýỵỹỷđ\s]+$"
+    pattern = r"^(số\s*)?\d+[a-zA-Z]?(?:/\d+)*(?:\s+đường)?\s+[a-zàáảãạâầấậẫẩăằắặẵẳêềếệễểôồốộỗổơờớợỡởưừứựữửèéẹẽẻùúụũủìíịĩỉỳýỵỹỷđ\s]+$"
     return re.match(pattern, text) is not None
 
 def send(chat_id, text):
@@ -42,11 +41,10 @@ async def telegram_webhook(req: Request):
 def gpt_reply(prompt):
     try:
         print("🔁 Gọi GPT với prompt:", prompt)
-        client = openai.OpenAI()
-        response = client.chat.completions.create(
-            model="mistralai/Mixtral-8x7B-Instruct-v0.1",
+        response = openai.chat.completions.create(
+            model="openchat/openchat-3.5-1210",
             messages=[
-                {"role": "system", "content": "Bạn là trợ lý hành chính khu phố 5, Phường Phú Thạnh."},
+                {"role": "system", "content": "Bạn là trợ lý hành chính khu phố 5."},
                 {"role": "user", "content": prompt}
             ]
         )
