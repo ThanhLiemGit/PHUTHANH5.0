@@ -43,7 +43,7 @@ def gpt_reply(prompt):
     try:
         print("🔁 Gọi GPT với prompt:", prompt)
         response = openai.chat.completions.create(
-            model="openchat/openchat-3.5-1210",
+            model="mistralai/Mixtral-8x7B-Instruct-v0.1",
             messages=[
                 {"role": "system", "content": "Bạn là trợ lý hành chính khu phố 5..."},
                 {"role": "user", "content": prompt}
