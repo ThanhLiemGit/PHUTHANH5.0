@@ -43,7 +43,7 @@
       "khu_pho": "4"
     },
     {
-      "tu": "3",
+      "tu": "1",
       "den": "71",
       "khu_pho": "5"
     }
@@ -83,11 +83,6 @@
     },
     {
       "tu": "1",
-      "den": "25",
-      "khu_pho": "5"
-    },
-    {
-      "tu": "2",
       "den": "26",
       "khu_pho": "5"
     },
@@ -205,7 +200,7 @@
       "khu_pho": "4"
     }
   ],
-  "phan van xao": [
+  "pham van xao": [
     {
       "tu": "25A",
       "den": "35",
@@ -215,6 +210,16 @@
       "tu": "20",
       "den": "32",
       "khu_pho": "2"
+    },
+    {
+      "tu": "7",
+      "den": "25A",
+      "khu_pho": "9"
+    },
+    {
+      "tu": "10",
+      "den": "14",
+      "khu_pho": "9"
     },
     {
       "tu": "1",
@@ -417,27 +422,17 @@
       "khu_pho": "23"
     }
   ],
-  "hem 107 le khoi": [
+  "107 le khoi": [
     {
       "tu": "1",
-      "den": "13A",
-      "khu_pho": "4"
-    },
-    {
-      "tu": "2",
       "den": "28",
       "khu_pho": "4"
     }
   ],
-  "hem 137 le khoi": [
+  "137 le khoi": [
     {
       "tu": "1",
       "den": "3",
-      "khu_pho": "4"
-    },
-    {
-      "tu": "2",
-      "den": "2",
       "khu_pho": "4"
     }
   ],
@@ -571,17 +566,17 @@
       "khu_pho": "9"
     }
   ],
-  "hem 13 nguyen son": [
+  "13 nguyen son": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "99",
       "khu_pho": "5"
     }
   ],
-  "hem 59 nguyen son": [
+  "59 nguyen son": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "99",
       "khu_pho": "5"
     }
   ],
@@ -612,84 +607,84 @@
       "khu_pho": "21"
     }
   ],
-  "hem 182 thoai ngoc hau": [
+  "182 thoai ngoc hau": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "99",
       "khu_pho": "5"
     }
   ],
-  "hem 198 thoai ngoc hau": [
+  "198 thoai ngoc hau": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "99",
       "khu_pho": "5"
     }
   ],
-  "hem 212 thoai ngoc hau": [
+  "212 thoai ngoc hau": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "99",
       "khu_pho": "5"
     }
   ],
-  "hem 240 thoai ngoc hau": [
+  "240 thoai ngoc hau": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "99",
       "khu_pho": "5"
     }
   ],
-  "hem 242 thoai ngoc hau": [
+  "242 thoai ngoc hau": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "99",
       "khu_pho": "5"
     }
   ],
-  "hem 244 thoai ngoc hau": [
+  "244 thoai ngoc hau": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "99",
       "khu_pho": "5"
     }
   ],
-  "hem 19 phan van nam": [
+  "19 phan van nam": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "99",
       "khu_pho": "5"
     }
   ],
-  "hem 47 phan van nam": [
+  "47 phan van nam": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "99",
       "khu_pho": "5"
     }
   ],
-  "hem 3 hien vuong": [
+  "3 hien vuong": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "99",
       "khu_pho": "5"
     }
   ],
-  "hem 11 hien vuong": [
+  "11 hien vuong": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "99",
       "khu_pho": "5"
     }
   ],
-  "hem 12 hien vuong": [
+  "12 hien vuong": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "99",
       "khu_pho": "5"
     },
     {
-      "tu": "nan",
+      "tu": "CHUNG CƯ PHÚ THẠNH",
       "den": "nan",
       "khu_pho": "6"
     }
@@ -736,7 +731,7 @@
       "khu_pho": "47"
     }
   ],
-  "hem 621 luy ban bich": [
+  "621 luy ban bich": [
     {
       "tu": "1",
       "den": "11",
@@ -745,33 +740,21 @@
   ],
   "uong a khu adc": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "7"
     }
   ],
   "uong b khu adc": [
     {
-      "tu": "toàn bộ nhà số lẽ",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "7"
     },
     {
       "tu": "nan",
       "den": "nan",
       "khu_pho": "8"
-    }
-  ],
-  "pham van xao": [
-    {
-      "tu": "7",
-      "den": "25A",
-      "khu_pho": "9"
-    },
-    {
-      "tu": "10",
-      "den": "14",
-      "khu_pho": "9"
     }
   ],
   "o bi": [
@@ -813,59 +796,59 @@
       "khu_pho": "17"
     }
   ],
-  "hem 16 tran quang co": [
+  "16 tran quang co": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "15"
     }
   ],
-  "hem 82 tran quang co": [
+  "82 tran quang co": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "15"
     }
   ],
-  "hem 98 tran quang co": [
+  "98 tran quang co": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "15"
     }
   ],
-  "hem 122 tran quang co": [
+  "122 tran quang co": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "15"
     }
   ],
-  "hem 209 thach lam": [
+  "209 thach lam": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "15"
     }
   ],
-  "hem 247 thach lam": [
+  "247 thach lam": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "15"
     }
   ],
-  "hem 263 thach lam": [
+  "263 thach lam": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "15"
     }
   ],
-  "hem 307 thach lam": [
+  "307 thach lam": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "15"
     },
     {
@@ -896,98 +879,98 @@
       "khu_pho": "21"
     }
   ],
-  "hem 23 nguyen ly": [
+  "23 nguyen ly": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "17"
     }
   ],
-  "hem 318 thoai ngoc hau": [
+  "318 thoai ngoc hau": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "17"
     }
   ],
-  "hem 326 thoai ngoc hau": [
+  "326 thoai ngoc hau": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "17"
     }
   ],
-  "hem 332 thoai ngoc hau": [
+  "332 thoai ngoc hau": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "17"
     }
   ],
-  "hem 338 thoai ngoc hau": [
+  "338 thoai ngoc hau": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "17"
     }
   ],
-  "hem 342 thoai ngoc hau": [
+  "342 thoai ngoc hau": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "17"
     }
   ],
-  "hem 9 tran quang co": [
+  "9 tran quang co": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "17"
     }
   ],
-  "hem 17 tran quang co": [
+  "17 tran quang co": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "17"
     }
   ],
-  "hem 33 tran quang co": [
+  "33 tran quang co": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "17"
     }
   ],
-  "hem 57/1 tran quang co": [
+  "57/1 tran quang co": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "17"
     }
   ],
-  "hem 87 tran quang co": [
+  "87 tran quang co": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "17"
     }
   ],
-  "hem 119 tran quang co": [
+  "119 tran quang co": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "17"
     }
   ],
-  "hem 102 binh long": [
+  "102 binh long": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "17"
     }
   ],
-  "hem 58 thach lam": [
+  "58 thach lam": [
     {
       "tu": "1",
       "den": "29A",
@@ -999,7 +982,7 @@
       "khu_pho": "18"
     }
   ],
-  "hem 96 thach lam": [
+  "96 thach lam": [
     {
       "tu": "1",
       "den": "13",
@@ -1011,7 +994,7 @@
       "khu_pho": "18"
     }
   ],
-  "hem 257 thoai ngoc hau": [
+  "257 thoai ngoc hau": [
     {
       "tu": "1",
       "den": "19",
@@ -1318,7 +1301,7 @@
       "khu_pho": "23"
     }
   ],
-  "hem 15 thach lam": [
+  "15 thach lam": [
     {
       "tu": "1",
       "den": "17",
@@ -1330,7 +1313,7 @@
       "khu_pho": "23"
     }
   ],
-  "hem 202 to hieu": [
+  "202 to hieu": [
     {
       "tu": "1",
       "den": "59",
@@ -1342,7 +1325,7 @@
       "khu_pho": "25"
     }
   ],
-  "hem 232 to hieu": [
+  "232 to hieu": [
     {
       "tu": "1",
       "den": "43",
@@ -1376,7 +1359,7 @@
       "khu_pho": "25"
     }
   ],
-  "hem 22 le than": [
+  "22 le than": [
     {
       "tu": "1",
       "den": "45",
@@ -1412,14 +1395,14 @@
       "khu_pho": "28"
     }
   ],
-  "hem 85/2 chu thien": [
+  "85/2 chu thien": [
     {
       "tu": "1",
       "den": "9",
       "khu_pho": "25"
     }
   ],
-  "hem 18 le than": [
+  "18 le than": [
     {
       "tu": "1",
       "den": "43",
@@ -1446,14 +1429,14 @@
       "tu": "nan",
       "den": "nan",
       "khu_pho": "26"
+    },
+    {
+      "tu": "Chung Cư RichStar 1",
+      "den": "nan",
+      "khu_pho": "27"
     }
   ],
   "hoa binh": [
-    {
-      "tu": "278",
-      "den": "278",
-      "khu_pho": "27"
-    },
     {
       "tu": "178",
       "den": "278",
@@ -1462,6 +1445,11 @@
     {
       "tu": "239",
       "den": "341",
+      "khu_pho": "30"
+    },
+    {
+      "tu": "Chung Cư RichStar 2",
+      "den": "nan",
       "khu_pho": "30"
     },
     {
@@ -1485,7 +1473,7 @@
       "khu_pho": "34"
     }
   ],
-  "hem 178 to hieu": [
+  "178 to hieu": [
     {
       "tu": "1",
       "den": "75",
@@ -1516,7 +1504,7 @@
       "khu_pho": "28"
     }
   ],
-  "hem 47 to hieu": [
+  "47 to hieu": [
     {
       "tu": "1",
       "den": "17",
@@ -1528,7 +1516,7 @@
       "khu_pho": "31"
     }
   ],
-  "hem 57 to hieu": [
+  "57 to hieu": [
     {
       "tu": "1",
       "den": "51",
@@ -1540,35 +1528,35 @@
       "khu_pho": "31"
     }
   ],
-  "hem 57/9 to hieu": [
+  "57/9 to hieu": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "99",
       "khu_pho": "31"
     }
   ],
-  "hem 57/27 to hieu": [
+  "57/27 to hieu": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "99",
       "khu_pho": "31"
     }
   ],
-  "hem 57/41 to hieu": [
+  "57/41 to hieu": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "99",
       "khu_pho": "31"
     }
   ],
-  "hem 57/43 to hieu": [
+  "57/43 to hieu": [
     {
       "tu": "2",
       "den": "12",
       "khu_pho": "31"
     }
   ],
-  "hem 87 to hieu": [
+  "87 to hieu": [
     {
       "tu": "1",
       "den": "41",
@@ -1580,42 +1568,42 @@
       "khu_pho": "31"
     }
   ],
-  "hem 99 to hieu": [
+  "99 to hieu": [
     {
       "tu": "1",
       "den": "25",
       "khu_pho": "31"
     }
   ],
-  "hem 99/7 to hieu": [
+  "99/7 to hieu": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "99",
       "khu_pho": "31"
     }
   ],
-  "hem 99/9 to hieu": [
+  "99/9 to hieu": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "99",
       "khu_pho": "31"
     }
   ],
-  "hem 99/17 to hieu": [
+  "99/17 to hieu": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "99",
       "khu_pho": "31"
     }
   ],
-  "hem 108 to hieu": [
+  "108 to hieu": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "32"
     }
   ],
-  "hem 110 to hieu": [
+  "110 to hieu": [
     {
       "tu": "22",
       "den": "62",
@@ -1627,21 +1615,21 @@
       "khu_pho": "33"
     }
   ],
-  "hem 136 to hieu": [
+  "136 to hieu": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "32"
     }
   ],
-  "hem 164 to hieu": [
+  "164 to hieu": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "32"
     }
   ],
-  "hem 179 hoa binh": [
+  "179 hoa binh": [
     {
       "tu": "2",
       "den": "76",
@@ -1653,17 +1641,17 @@
       "khu_pho": "33"
     }
   ],
-  "hem 179/4 hoa binh": [
+  "179/4 hoa binh": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "32"
     }
   ],
-  "hem 187 hoa binh": [
+  "187 hoa binh": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "32"
     }
   ],
@@ -1721,42 +1709,42 @@
       "khu_pho": "41"
     }
   ],
-  "hem 46 ly thanh tong": [
+  "46 ly thanh tong": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "32"
     }
   ],
-  "hem 66 ly thanh tong": [
+  "66 ly thanh tong": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "32"
     }
   ],
-  "hem 74 ly thanh tong": [
+  "74 ly thanh tong": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "32"
     }
   ],
-  "hem 76 ly thanh tong": [
+  "76 ly thanh tong": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "32"
     }
   ],
-  "hem 179/33 hoa binh": [
+  "179/33 hoa binh": [
     {
       "tu": "2",
       "den": "8",
       "khu_pho": "33"
     }
   ],
-  "hem 179/39 hoa binh": [
+  "179/39 hoa binh": [
     {
       "tu": "1",
       "den": "31",
@@ -1768,7 +1756,7 @@
       "khu_pho": "33"
     }
   ],
-  "hem 2 nguyen van vinh": [
+  "2 nguyen van vinh": [
     {
       "tu": "1",
       "den": "35",
@@ -1780,7 +1768,7 @@
       "khu_pho": "33"
     }
   ],
-  "hem 2/11 nguyen van vinh": [
+  "2/11 nguyen van vinh": [
     {
       "tu": "1",
       "den": "33",
@@ -1792,14 +1780,14 @@
       "khu_pho": "33"
     }
   ],
-  "hem 6 nguyen van vinh": [
+  "6 nguyen van vinh": [
     {
       "tu": "1",
       "den": "11",
       "khu_pho": "33"
     }
   ],
-  "hem 26 nguyen van vinh": [
+  "26 nguyen van vinh": [
     {
       "tu": "1",
       "den": "45",
@@ -1811,7 +1799,7 @@
       "khu_pho": "33"
     }
   ],
-  "hem 26/15 nguyen van vinh": [
+  "26/15 nguyen van vinh": [
     {
       "tu": "1",
       "den": "21",
@@ -1823,17 +1811,17 @@
       "khu_pho": "33"
     }
   ],
-  "hem 38 nguyen van vinh": [
+  "38 nguyen van vinh": [
     {
       "tu": "1",
       "den": "51",
       "khu_pho": "33"
     }
   ],
-  "hem 161 luy ban bich": [
+  "161 luy ban bich": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "34"
     }
   ],
@@ -1861,24 +1849,24 @@
       "khu_pho": "34"
     }
   ],
-  "hem 8 hoang xuan hoanh": [
+  "8 hoang xuan hoanh": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "34"
     }
   ],
-  "hem 18 hoang xuan hoanh": [
+  "18 hoang xuan hoanh": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "34"
     }
   ],
-  "hem 26 hoang xuan hoanh": [
+  "26 hoang xuan hoanh": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "34"
     },
     {
@@ -1897,7 +1885,7 @@
       "khu_pho": "37"
     }
   ],
-  "hem 149 ly thanh tong": [
+  "149 ly thanh tong": [
     {
       "tu": "LôA",
       "den": "LôD",
@@ -1933,7 +1921,7 @@
       "khu_pho": "42"
     }
   ],
-  "hem 75 ly thanh tong": [
+  "75 ly thanh tong": [
     {
       "tu": "2",
       "den": "12",
@@ -1955,14 +1943,14 @@
       "khu_pho": "44"
     }
   ],
-  "hem 111 ly thanh tong": [
+  "111 ly thanh tong": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "39"
     }
   ],
-  "hem 56 to hieu": [
+  "56 to hieu": [
     {
       "tu": "1",
       "den": "37A",
@@ -1974,14 +1962,14 @@
       "khu_pho": "43"
     }
   ],
-  "hem 151/53 luy ban bich": [
+  "151/53 luy ban bich": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "40"
     }
   ],
-  "hem 149 luy ban bich": [
+  "149 luy ban bich": [
     {
       "tu": "29",
       "den": "73",
@@ -2003,7 +1991,7 @@
       "khu_pho": "41"
     }
   ],
-  "hem 151 luy ban bich": [
+  "151 luy ban bich": [
     {
       "tu": "1",
       "den": "51",
@@ -2015,28 +2003,28 @@
       "khu_pho": "41"
     }
   ],
-  "hem 151/31 luy ban bich": [
+  "151/31 luy ban bich": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "41"
     }
   ],
-  "hem 151/31/10 luy ban bich": [
+  "151/31/10 luy ban bich": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "41"
     }
   ],
-  "hem 151/31/26 luy ban bich": [
+  "151/31/26 luy ban bich": [
     {
       "tu": "2",
       "den": "20",
       "khu_pho": "41"
     }
   ],
-  "hem 34 nguyen van yen": [
+  "34 nguyen van yen": [
     {
       "tu": "1",
       "den": "11",
@@ -2048,7 +2036,7 @@
       "khu_pho": "42"
     }
   ],
-  "hem 54 nguyen van yen": [
+  "54 nguyen van yen": [
     {
       "tu": "1",
       "den": "19",
@@ -2060,7 +2048,7 @@
       "khu_pho": "42"
     }
   ],
-  "hem 67/8 nguyen van yen": [
+  "67/8 nguyen van yen": [
     {
       "tu": "2",
       "den": "24",
@@ -2072,7 +2060,7 @@
       "khu_pho": "42"
     }
   ],
-  "hem 67/16 nguyen van yen": [
+  "67/16 nguyen van yen": [
     {
       "tu": "1",
       "den": "21",
@@ -2084,14 +2072,14 @@
       "khu_pho": "42"
     }
   ],
-  "hem 9 to hieu": [
+  "9 to hieu": [
     {
       "tu": "1",
       "den": "7A",
       "khu_pho": "42"
     }
   ],
-  "hem 158 phan anh": [
+  "158 phan anh": [
     {
       "tu": "1",
       "den": "51C",
@@ -2135,7 +2123,7 @@
       "khu_pho": "42"
     }
   ],
-  "hem 40 to hieu": [
+  "40 to hieu": [
     {
       "tu": "1",
       "den": "57",
@@ -2152,21 +2140,21 @@
       "khu_pho": "46"
     }
   ],
-  "hem 40/13 to hieu": [
+  "40/13 to hieu": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "43"
     }
   ],
-  "hem 40/40 to hieu": [
+  "40/40 to hieu": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "43"
     }
   ],
-  "hem 50 to hieu": [
+  "50 to hieu": [
     {
       "tu": "1",
       "den": "51",
@@ -2178,7 +2166,7 @@
       "khu_pho": "43"
     }
   ],
-  "hem 58 luong the vinh": [
+  "58 luong the vinh": [
     {
       "tu": "13",
       "den": "29",
@@ -2200,21 +2188,21 @@
       "khu_pho": "44"
     }
   ],
-  "hem 58/26 luong the vinh": [
+  "58/26 luong the vinh": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "43"
     }
   ],
-  "hem 58/30 luong the vinh": [
+  "58/30 luong the vinh": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "43"
     }
   ],
-  "hem 90 luong the vinh": [
+  "90 luong the vinh": [
     {
       "tu": "4",
       "den": "10",
@@ -2263,7 +2251,7 @@
       "khu_pho": "47"
     }
   ],
-  "hem 28 luong the vinh": [
+  "28 luong the vinh": [
     {
       "tu": "1",
       "den": "79",
@@ -2275,7 +2263,7 @@
       "khu_pho": "44"
     }
   ],
-  "hem 28/36 luong the vinh": [
+  "28/36 luong the vinh": [
     {
       "tu": "1",
       "den": "27",
@@ -2287,7 +2275,7 @@
       "khu_pho": "44"
     }
   ],
-  "hem 58/9 luong the vinh": [
+  "58/9 luong the vinh": [
     {
       "tu": "1",
       "den": "19",
@@ -2318,7 +2306,7 @@
       "khu_pho": "46"
     }
   ],
-  "hem 47 tran van cam": [
+  "47 tran van cam": [
     {
       "tu": "1",
       "den": "23",
@@ -2330,7 +2318,7 @@
       "khu_pho": "46"
     }
   ],
-  "hem 53 tran van cam": [
+  "53 tran van cam": [
     {
       "tu": "1",
       "den": "5",
@@ -2342,7 +2330,7 @@
       "khu_pho": "46"
     }
   ],
-  "hem 67 tran van cam": [
+  "67 tran van cam": [
     {
       "tu": "1",
       "den": "31",
@@ -2354,14 +2342,14 @@
       "khu_pho": "46"
     }
   ],
-  "hem 77a tran van cam": [
+  "77a tran van cam": [
     {
       "tu": "1",
       "den": "11",
       "khu_pho": "46"
     }
   ],
-  "hem 90/3 luong the vinh": [
+  "90/3 luong the vinh": [
     {
       "tu": "1",
       "den": "5A",
@@ -2373,7 +2361,7 @@
       "khu_pho": "46"
     }
   ],
-  "hem 137 luong the vinh": [
+  "137 luong the vinh": [
     {
       "tu": "1",
       "den": "5",
@@ -2385,7 +2373,7 @@
       "khu_pho": "46"
     }
   ],
-  "hem 139 luong the vinh": [
+  "139 luong the vinh": [
     {
       "tu": "2",
       "den": "18",
@@ -2414,7 +2402,7 @@
       "khu_pho": "48"
     }
   ],
-  "hem 40 luong minh nguyet": [
+  "40 luong minh nguyet": [
     {
       "tu": "1",
       "den": "43",
@@ -2426,80 +2414,80 @@
       "khu_pho": "47"
     }
   ],
-  "hem 72 luong minh nguyet": [
+  "72 luong minh nguyet": [
     {
       "tu": "2",
       "den": "8",
       "khu_pho": "46"
     }
   ],
-  "hem 17 luy ban bich": [
+  "17 luy ban bich": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "47"
     }
   ],
-  "hem 37 luy ban bich": [
+  "37 luy ban bich": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "47"
     }
   ],
-  "hem 67 luy ban bich": [
+  "67 luy ban bich": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "47"
     }
   ],
-  "hem 77 luy ban bich": [
+  "77 luy ban bich": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "47"
     }
   ],
-  "hem 3 luong minh nguyet": [
+  "3 luong minh nguyet": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "47"
     }
   ],
-  "hem 17 luong minh nguyet": [
+  "17 luong minh nguyet": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "47"
     }
   ],
-  "hem 45 luong minh nguyet": [
+  "45 luong minh nguyet": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "47"
     }
   ],
-  "hem 134 luong the vinh": [
+  "134 luong the vinh": [
     {
       "tu": "134A",
       "den": "134A3",
       "khu_pho": "47"
     }
   ],
-  "hem 9 tran van can": [
+  "9 tran van can": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "47"
     }
   ],
-  "hem 23 tran van can": [
+  "23 tran van can": [
     {
-      "tu": "toàn bộ nhà",
-      "den": "nan",
+      "tu": "1",
+      "den": "999",
       "khu_pho": "47"
     }
   ]
