@@ -15,7 +15,7 @@ if USE_GPT and OPENAI_API_KEY:
     openai.api_key = OPENAI_API_KEY
     openai.api_base = "https://api.together.xyz/v1"
 
-def is_address(text: str):
+def Import normalize(text: str):
     text = text.strip().lower()
     pattern = r"^(số\s*)?\d+[a-zA-Z]?(?:/\d+)*(?:\s+đường)?\s+[a-zàáảãạâầấậẫẩăằắặẵẳêềếệễểôồốộỗổơờớợỡởưừứựữửèéẹẽẻùúụũủìíịĩỉỳýỵỹỷđ\s]+$"
     return re.match(pattern, text) is not None
@@ -29,7 +29,7 @@ async def telegram_webhook(req: Request):
     if "message" in data and "text" in data["message"]:
         chat_id = data["message"]["chat"]["id"]
         text = data["message"]["text"]
-        if is_address(text):
+        if Import normalize(text):
             reply = check_address(text)
         elif USE_GPT:
             reply = gpt_reply(text)
@@ -42,7 +42,7 @@ def gpt_reply(prompt):
     try:
         print("🔁 Gọi GPT với prompt:", prompt)
         response = openai.chat.completions.create(
-            model="openchat/openchat-3.5-1210",
+            model="Mixtral-8x7B-Instruct-v0.1",
             messages=[
                 {"role": "system", "content": "Bạn là trợ lý hành chính khu phố 5."},
                 {"role": "user", "content": prompt}
