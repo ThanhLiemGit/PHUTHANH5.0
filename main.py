@@ -1,3 +1,4 @@
+
 from fastapi import FastAPI, Request
 from logic_kp5 import check_address
 import os
@@ -11,7 +12,6 @@ USE_GPT = os.getenv("USE_GPT", "false").lower() == "true"
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 API_URL = f"https://api.telegram.org/bot{TOKEN}"
 
-# Cấu hình API Together AI
 if USE_GPT and OPENAI_API_KEY:
     openai.api_key = OPENAI_API_KEY
     openai.api_base = "https://api.together.xyz/v1"

@@ -1,3 +1,4 @@
+
 import re
 import unicodedata
 
@@ -30,7 +31,7 @@ def check_address(input_text):
     info = kp5_data[duong]
     tu, den = info["range"]
     so_nha_parts = so_nha_raw.split("/")
-    so_nha_chinh = int(so_nha_parts[0]) if so_nha_parts[0].isdigit() else None
+    so_nha_chinh = int(re.match(r"\d+", so_nha_parts[0]).group()) if re.match(r"\d+", so_nha_parts[0]) else None
 
     if so_nha_chinh is None or not (tu <= so_nha_chinh <= den):
         return "⛔ Số nhà không thuộc phạm vi quản lý."
