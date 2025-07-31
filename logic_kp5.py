@@ -9,12 +9,12 @@ def normalize(text):
     return text.lower().strip()
 
 # Trích số chính từ số nhà, ví dụ: 1A → 1
+def check_address(input_text):
+    input_text = input_text.lower().strip()
+    
 def extract_main_number(so):
     match = re.match(r"(\d+)", so)
     return int(match.group(1)) if match else None
-
-def check_address(input_text):
-    input_text = input_text.lower().strip()
 
     # Dữ liệu quản lý của KP5
     kp5_data = {
