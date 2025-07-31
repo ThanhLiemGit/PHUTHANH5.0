@@ -1,12 +1,11 @@
 from fastapi import FastAPI, Request
-from logic_kp5 import check_address, normalize
+from logic_kp5 import check_address
 import os
 import requests
 import openai
 import re
 
 app = FastAPI()
-
 TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 USE_GPT = os.getenv("USE_GPT", "false").lower() == "true"
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
@@ -17,10 +16,9 @@ if USE_GPT and OPENAI_API_KEY:
     openai.api_key = OPENAI_API_KEY
     openai.api_base = "https://api.together.xyz/v1"
 
-# Nhận diện chuỗi có thể là địa chỉ (không dấu, đã normalize)
-def is_address(text: str): 
-    text = normalize(text)
-    pattern = r"^(so\s*)?\d+(?:/\d+)*(?:\s+duong)?\s+[a-z0-9\s]+$"
+def is_address(text: str):
+    text = text.strip().lower()
+    pattern = r"^(số\s*)?\d+(?:/\d+)*(?:\s+đường)?\s+[a-zàáảãạâầấậẫẩăằắặẵẳêềếệễểôồốộỗổơờớợỡởưừứựữửèéẹẽẻùúụũủìíịĩỉỳýỵỹỷđ\s]+$"
     return re.match(pattern, text) is not None
 
 def send(chat_id, text):
@@ -47,7 +45,7 @@ def gpt_reply(prompt):
         response = openai.chat.completions.create(
             model="openchat/openchat-3.5-1210",
             messages=[
-                {"role": "system", "content": "Bạn là trợ lý hành chính khu phố 5, giúp người dân kiểm tra địa chỉ thuộc khu phố, tư vấn hành chính một cách mềm mại."},
+                {"role": "system", "content": "Bạn là trợ lý hành chính khu phố 5."},
                 {"role": "user", "content": prompt}
             ]
         )
