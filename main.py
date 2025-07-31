@@ -41,13 +41,16 @@ async def telegram_webhook(req: Request):
 
 def gpt_reply(prompt):
     try:
-        response = openai.chatcompletions.create(
-            model="mistralai/Mixtral-8x7B-Instruct-v0.1",
+        print("🔁 Gọi GPT với prompt:", prompt)
+        response = openai.chat.completions.create(
+            model="openchat/openchat-3.5-1210",  # Hoặc model bạn chọn
             messages=[
-                {"role": "system", "content": "Bạn là trợ lý hành chính khu phố 5, Phường Phú Thạnh, trả lời thân thiện và đúng phạm vi."},
+                {"role": "system", "content": "Bạn là trợ lý hành chính khu phố 5..."},
                 {"role": "user", "content": prompt}
             ]
         )
         return response.choices[0].message.content.strip()
     except Exception as e:
+        print("❌ Lỗi GPT:", e)
         return "⚠️ Xin lỗi, tôi đang gặp sự cố khi truy cập GPT. Vui lòng thử lại sau."
+
