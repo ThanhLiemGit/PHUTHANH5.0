@@ -7,16 +7,21 @@ import openai
 
 app = FastAPI()
 
+import openai
+
 # Lấy token Telegram và cấu hình GPT
 TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 API_URL = f"https://api.telegram.org/bot{TOKEN}"
 USE_GPT = os.getenv("USE_GPT", "true").lower() == "true"
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-# Cấu hình GPT (Together API)
+# Khởi tạo client GPT (Together API)
+client = None
 if USE_GPT and OPENAI_API_KEY:
-    openai.api_key = OPENAI_API_KEY
-    openai.base_url = "https://api.together.xyz/v1"
+    client = openai.OpenAI(
+        api_key=OPENAI_API_KEY,
+        base_url="https://api.together.xyz/v1"
+    )
 
 # Hàm kiểm tra định dạng địa chỉ
 def is_address(text: str):
@@ -27,12 +32,11 @@ def is_address(text: str):
 def send(chat_id, text):
     requests.post(f"{API_URL}/sendMessage", json={"chat_id": chat_id, "text": text})
 
-# Hàm xử lý GPT
+# ✅ Hàm xử lý GPT dùng SDK >= 1.0
 def gpt_reply(prompt):
     try:
         print("🔁 Gọi GPT với prompt:", prompt)
-        client = openai.OpenAI()
-        response = openai.ChatCompletion.create(
+        response = client.chat.completions.create(
             model="mistralai/Mixtral-8x7B-Instruct-v0.1",
             messages=[
                 {
@@ -46,6 +50,7 @@ def gpt_reply(prompt):
     except Exception as e:
         print("❌ Lỗi GPT:", e)
         return "⚠️ Xin lỗi, tôi đang gặp sự cố khi truy cập GPT. Vui lòng thử lại sau."
+
 
 # Webhook Telegram
 @app.post("/webhook")
