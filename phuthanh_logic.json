@@ -128,7 +128,7 @@
       "side": "even"
     }
   ],
-  "inh liet": [
+  "dinh liet": [
     {
       "tu": "1A",
       "den": "3C",
@@ -158,7 +158,7 @@
       "khu_pho": "11"
     }
   ],
-  "tran thu o": [
+  "tran thu do": [
     {
       "tu": "193",
       "den": "327",
@@ -344,7 +344,7 @@
       "side": "even"
     }
   ],
-  "o uc duc": [
+  "do duc duc": [
     {
       "tu": "15",
       "den": "15",
@@ -633,7 +633,7 @@
       "side": "even"
     }
   ],
-  "quach inh bao": [
+  "quach dinh bao": [
     {
       "tu": "3",
       "den": "21",
@@ -857,7 +857,7 @@
       "side": "odd"
     }
   ],
-  "uong a khu adc": [
+  "duong a khu adc": [
     {
       "tu": "1",
       "den": "999",
@@ -865,7 +865,7 @@
       "side": "odd"
     }
   ],
-  "uong b khu adc": [
+  "duong b khu adc": [
     {
       "tu": "1",
       "den": "999",
@@ -878,7 +878,7 @@
       "khu_pho": "8"
     }
   ],
-  "o bi": [
+  "do bi": [
     {
       "tu": "129",
       "den": "199",
