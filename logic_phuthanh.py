@@ -31,7 +31,7 @@ def check_address(input_text):
 
     so_nha_raw = match.group(1)
     duong_raw = match.group(2)
-    duong = normalize_street(duong_raw)
+    duong = normalize(duong_raw)
 
     if duong not in DATA:
         return f"⛔ Địa chỉ không thuộc phạm vi Phường Phú Thạnh."
