@@ -6,7 +6,7 @@ from pathlib import Path
 with open(Path(__file__).parent / "phuthanh_logic.json", "r", encoding="utf-8") as f:
     DATA = json.load(f)
 
-def normalize_street(name):
+def normalize(name):
     name = str(name).lower()
     name = re.sub(r"\b(hẻm|hem)\b", "", name)
     name = unicodedata.normalize("NFD", name).encode("ascii", "ignore").decode("utf-8")
