@@ -1,5 +1,5 @@
 from fastapi import FastAPI, Request
-from logic_phuthanh import check_address
+from logic_phuthanh import check_address, normalize
 import os
 import requests
 import re
@@ -25,6 +25,7 @@ if USE_GPT and OPENAI_API_KEY:
 
 # Hàm kiểm tra định dạng địa chỉ
 def is_address(text: str):
+    text = normalize(text)
     pattern = r"^\d+[a-zA-Z]?(?:/\d+)*(?:\s+duong)?\s+[a-z\s]+$"
     return re.match(pattern, text) is not None
 
