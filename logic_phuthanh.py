@@ -3,7 +3,6 @@ import json
 import unicodedata
 from pathlib import Path
 
-# Load dữ liệu toàn phường
 with open(Path(__file__).parent / "phuthanh_logic.json", "r", encoding="utf-8") as f:
     DATA = json.load(f)
 
@@ -16,13 +15,16 @@ def normalize_street(name):
         return "do bi"
     return name
 
-def extract_main_number(raw):
-    # Lấy số đầu tiên bất kể viết kiểu gì (vd: A15 -> 15, 15A -> 15)
-    match = re.findall(r"\d+", raw)
-    return int(match[0]) if match else None
+def extract_main_number(so_nha_raw):
+    parts = so_nha_raw.split("/")
+    for part in parts:
+        digits = re.findall(r"\d+", part)
+        if digits:
+            return int(digits[0])
+    return None
 
-def check_address(text):
-    input_text = text.lower().strip()
+def check_address(input_text):
+    input_text = input_text.lower().strip()
     match = re.match(r"(?:số\s*)?([\w/]+)\s+(?:đường\s*)?(.+)", input_text)
     if not match:
         return "⛔ Không xác định được địa chỉ."
@@ -34,22 +36,14 @@ def check_address(text):
     if duong not in DATA:
         return f"⛔ Địa chỉ không thuộc phạm vi Phường Phú Thạnh."
 
-    so_parts = so_nha_raw.split("/")
-    so_chinh = extract_main_number(so_parts[0])
-
+    so_chinh = extract_main_number(so_nha_raw)
     if so_chinh is None:
         return "⛔ Không xác định được số nhà."
 
     for segment in DATA[duong]:
-        try:
-            tu = extract_main_number(segment["tu"])
-            den = extract_main_number(segment["den"])
-        except:
-            continue
-
-        if tu is None or den is None:
-            continue
-        if not (tu <= so_chinh <= den):
+        tu = extract_main_number(segment["tu"])
+        den = extract_main_number(segment["den"])
+        if tu is None or den is None or not (tu <= so_chinh <= den):
             continue
 
         side = segment.get("side")
@@ -61,10 +55,10 @@ def check_address(text):
         return f"""✅ Địa chỉ thuộc **Khu phố {segment['khu_pho']}**
 
 📌 Thông tin quản lý:
-– Bí thư chi bộ
-– Khu phố trưởng
-– Trưởng Ban CTMT
-– Cảnh sát khu vực
+– Bí thư chi bộ: Nguyễn Thị Hiền
+– Khu phố trưởng: Lê Thị Thúy Vân
+– Trưởng Ban CTMT: Lê Thanh Liêm – 📞 0909 292 289
+– Cảnh sát khu vực: Nguyễn Phước Thiện
 
 🔎 Bạn cần liên hệ với ai không?"""
 
