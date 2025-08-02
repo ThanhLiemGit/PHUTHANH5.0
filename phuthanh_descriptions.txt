@@ -1,0 +1,786 @@
+Van Cao:
+- Quản lý số **lẻ** từ 1 đến 55
+- Quản lý số **chẵn** từ 16 đến 28
+- Quản lý số **chẵn** từ 8A đến 12
+- Quản lý cả **chẵn và lẻ** từ nan đến nan
+
+Nguyen Son:
+- Quản lý số **lẻ** từ 343 đến 387
+- Quản lý số **lẻ** từ 275 đến 341
+- Quản lý số **lẻ** từ 111 đến 271
+- Quản lý số **lẻ** từ 73 đến 107
+- Quản lý số **lẻ** từ 1 đến 71
+
+Binh Long:
+- Quản lý số **chẵn** từ 220 đến 290
+- Quản lý số **chẵn** từ 148 đến 218
+- Quản lý số **chẵn** từ 104 đến 182
+
+Hien Vuong:
+- Quản lý số **chẵn** từ 168 đến 328
+- Quản lý số **lẻ** từ 25 đến 41
+- Quản lý số **chẵn** từ 28 đến 56
+- Quản lý cả **chẵn và lẻ** từ 1 đến 26
+- Quản lý số **lẻ** từ 173 đến 297
+
+Le Lo:
+- Quản lý số **lẻ** từ 3 đến 13
+- Quản lý số **lẻ** từ 1 đến 3
+- Quản lý số **chẵn** từ 2 đến 6
+
+Dinh Liet:
+- Quản lý số **lẻ** từ 1A đến 3C
+- Quản lý số **chẵn** từ 4 đến 10
+- Quản lý số **lẻ** từ 5A đến 5A
+- Quản lý cả **chẵn và lẻ** từ nan đến nan
+- Quản lý cả **chẵn và lẻ** từ nan đến nan
+
+Tran Thu Do:
+- Quản lý số **lẻ** từ 193 đến 327
+- Quản lý số **chẵn** từ 162 đến 234
+- Quản lý số **lẻ** từ 53 đến 189
+- Quản lý số **chẵn** từ 26 đến 156
+- Quản lý số **lẻ** từ 1 đến 47
+- Quản lý số **chẵn** từ 2 đến 22A
+
+Le Sao:
+- Quản lý số **lẻ** từ 165 đến 325
+- Quản lý số **chẵn** từ 174 đến 308
+- Quản lý số **lẻ** từ 41 đến 163
+- Quản lý số **chẵn** từ 48 đến 172
+- Quản lý số **lẻ** từ 1 đến 37
+- Quản lý số **chẵn** từ 2 đến 44
+
+Pham Van Xao:
+- Quản lý số **lẻ** từ 25A đến 35
+- Quản lý số **chẵn** từ 20 đến 32
+- Quản lý số **lẻ** từ 7 đến 25A
+- Quản lý số **chẵn** từ 10 đến 14
+- Quản lý số **lẻ** từ 1 đến 5
+- Quản lý số **chẵn** từ 2 đến 6
+
+Le Khoi:
+- Quản lý số **lẻ** từ 19 đến 27
+- Quản lý số **lẻ** từ 77 đến 143
+- Quản lý số **chẵn** từ 2 đến 56
+- Quản lý cả **chẵn và lẻ** từ nan đến nan
+- Quản lý cả **chẵn và lẻ** từ nan đến nan
+- Quản lý số **lẻ** từ 1 đến 7
+
+Vo Van Dung:
+- Quản lý số **lẻ** từ 15 đến 15
+- Quản lý số **chẵn** từ 26A đến 28
+- Quản lý cả **chẵn và lẻ** từ nan đến nan
+- Quản lý cả **chẵn và lẻ** từ nan đến nan
+- Quản lý số **lẻ** từ 1 đến 5
+- Quản lý số **chẵn** từ 2 đến 8
+
+Do Duc Duc:
+- Quản lý số **lẻ** từ 15 đến 15
+- Quản lý số **chẵn** từ 14 đến 14
+- Quản lý cả **chẵn và lẻ** từ nan đến nan
+- Quản lý cả **chẵn và lẻ** từ nan đến nan
+- Quản lý số **lẻ** từ 1 đến 7
+- Quản lý số **chẵn** từ 2 đến 8
+
+Nguyen Chich:
+- Quản lý số **lẻ** từ 9 đến 13
+- Quản lý số **chẵn** từ 10 đến 10
+- Quản lý cả **chẵn và lẻ** từ nan đến nan
+- Quản lý cả **chẵn và lẻ** từ nan đến nan
+- Quản lý số **lẻ** từ 1 đến 1D
+- Quản lý số **chẵn** từ 2 đến 2A
+
+Thach Lam:
+- Quản lý số **chẵn** từ 178 đến 244
+- Quản lý số **chẵn** từ 2 đến 20
+- Quản lý số **chẵn** từ 328 đến 430
+- Quản lý số **chẵn** từ 182 đến 332
+- Quản lý số **lẻ** từ 309 đến 379
+- Quản lý số **lẻ** từ 193 đến 307
+- Quản lý số **lẻ** từ 163 đến 193
+- Quản lý số **chẵn** từ 22 đến 140
+- Quản lý số **lẻ** từ 125 đến 153
+- Quản lý số **chẵn** từ 106 đến 140
+- Quản lý số **lẻ** từ 63 đến 113
+- Quản lý số **lẻ** từ 1 đến 61
+
+107 Le Khoi:
+- Quản lý cả **chẵn và lẻ** từ 1 đến 28
+
+137 Le Khoi:
+- Quản lý số **lẻ** từ 1 đến 3
+
+Phan Van Nam:
+- Quản lý số **chẵn** từ 2 đến 54
+- Quản lý số **lẻ** từ 1 đến 73
+
+Le Cao Lang:
+- Quản lý số **lẻ** từ 1 đến 21
+- Quản lý số **chẵn** từ 2 đến 34
+- Quản lý cả **chẵn và lẻ** từ nan đến 239
+- Quản lý số **chẵn** từ 174A đến 248
+- Quản lý số **lẻ** từ 23 đến 163
+- Quản lý số **chẵn** từ 38 đến 174
+
+Le Niem:
+- Quản lý số **lẻ** từ 1 đến 41
+- Quản lý số **chẵn** từ 2 đến 20
+- Quản lý số **chẵn** từ 148 đến 254
+- Quản lý số **lẻ** từ 43 đến 177
+- Quản lý số **chẵn** từ 22 đến 146
+- Quản lý số **lẻ** từ 117 đến 269
+
+Le Lam:
+- Quản lý số **lẻ** từ 1 đến 19
+- Quản lý số **chẵn** từ 2 đến 40
+- Quản lý số **lẻ** từ 143 đến 233
+- Quản lý số **chẵn** từ 166 đến 246
+- Quản lý số **lẻ** từ 23 đến 141A
+- Quản lý số **chẵn** từ 42 đến 146B
+
+Quach Dinh Bao:
+- Quản lý số **lẻ** từ 3 đến 21
+- Quản lý số **chẵn** từ 2 đến 36
+- Quản lý số **lẻ** từ 157 đến 251
+- Quản lý số **chẵn** từ 154 đến 280
+
+13 Nguyen Son:
+- Quản lý số **lẻ** từ 1 đến 99
+
+59 Nguyen Son:
+- Quản lý số **lẻ** từ 1 đến 99
+
+Thoai Ngoc Hau:
+- Quản lý số **chẵn** từ 126 đến 244
+- Quản lý số **lẻ** từ 175 đến 177
+- Quản lý số **chẵn** từ 256 đến 342
+- Quản lý số **lẻ** từ 231 đến 295
+- Quản lý số **lẻ** từ 297 đến 307
+
+182 Thoai Ngoc Hau:
+- Quản lý số **lẻ** từ 1 đến 99
+
+198 Thoai Ngoc Hau:
+- Quản lý số **lẻ** từ 1 đến 99
+
+212 Thoai Ngoc Hau:
+- Quản lý số **lẻ** từ 1 đến 99
+
+240 Thoai Ngoc Hau:
+- Quản lý số **lẻ** từ 1 đến 99
+
+242 Thoai Ngoc Hau:
+- Quản lý số **lẻ** từ 1 đến 99
+
+244 Thoai Ngoc Hau:
+- Quản lý số **lẻ** từ 1 đến 99
+
+19 Phan Van Nam:
+- Quản lý số **lẻ** từ 1 đến 99
+
+47 Phan Van Nam:
+- Quản lý số **lẻ** từ 1 đến 99
+
+3 Hien Vuong:
+- Quản lý số **lẻ** từ 1 đến 99
+
+11 Hien Vuong:
+- Quản lý số **lẻ** từ 1 đến 99
+
+12 Hien Vuong:
+- Quản lý số **lẻ** từ 1 đến 99
+- Quản lý cả **chẵn và lẻ** từ CHUNG CƯ PHÚ THẠNH đến nan
+
+Luy Ban Bich:
+- Quản lý số **lẻ** từ 483 đến 621
+- Quản lý số **lẻ** từ 391 đến 481
+- Quản lý số **chẵn** từ 2 đến 4
+- Quản lý cả **chẵn và lẻ** từ nan đến nan
+- Quản lý số **lẻ** từ 159 đến 239
+- Quản lý số **lẻ** từ 127 đến 157
+- Quản lý số **lẻ** từ 95 đến 125
+- Quản lý số **lẻ** từ 1 đến 93
+
+621 Luy Ban Bich:
+- Quản lý số **lẻ** từ 1 đến 11
+
+Duong A Khu Adc:
+- Quản lý số **lẻ** từ 1 đến 999
+
+Duong B Khu Adc
+- Quản lý cả **chẵn và lẻ**
+
+Do Bi:
+- Quản lý số **lẻ** từ 129 đến 199
+- Quản lý số **chẵn** từ 162 đến 218A
+- Quản lý số **lẻ** từ 1 đến 121
+- Quản lý số **chẵn** từ 2 đến 158
+
+Tran Quang Co:
+- Quản lý số **lẻ** từ 121 đến 187
+- Quản lý số **chẵn** từ 4 đến 138
+- Quản lý số **lẻ** từ 1 đến 119
+
+16 Tran Quang Co:
+- Quản lý số **lẻ** từ 1 đến 999
+
+82 Tran Quang Co:
+- Quản lý số **lẻ** từ 1 đến 999
+
+98 Tran Quang Co:
+- Quản lý số **lẻ** từ 1 đến 999
+
+122 Tran Quang Co:
+- Quản lý số **lẻ** từ 1 đến 999
+
+209 Thach Lam:
+- Quản lý số **lẻ** từ 1 đến 999
+
+247 Thach Lam:
+- Quản lý số **lẻ** từ 1 đến 999
+
+263 Thach Lam:
+- Quản lý số **lẻ** từ 1 đến 999
+
+307 Thach Lam:
+- Quản lý số **lẻ** từ 1 đến 999
+- Quản lý cả **chẵn và lẻ** từ nan đến nan
+
+Nguyen Ly:
+- Quản lý số **lẻ** từ 13 đến 43
+- Quản lý số **chẵn** từ 32 đến 52
+- Quản lý số **lẻ** từ 1 đến 25
+- Quản lý số **chẵn** từ 2 đến 26
+
+23 Nguyen Ly:
+- Quản lý số **lẻ** từ 1 đến 999
+
+318 Thoai Ngoc Hau:
+- Quản lý số **lẻ** từ 1 đến 999
+
+326 Thoai Ngoc Hau:
+- Quản lý số **lẻ** từ 1 đến 999
+
+332 Thoai Ngoc Hau:
+- Quản lý số **lẻ** từ 1 đến 999
+
+338 Thoai Ngoc Hau:
+- Quản lý số **lẻ** từ 1 đến 999
+
+342 Thoai Ngoc Hau:
+- Quản lý số **lẻ** từ 1 đến 999
+
+9 Tran Quang Co:
+- Quản lý số **lẻ** từ 1 đến 999
+
+17 Tran Quang Co:
+- Quản lý số **lẻ** từ 1 đến 999
+
+33 Tran Quang Co:
+- Quản lý số **lẻ** từ 1 đến 999
+
+57/1 Tran Quang Co:
+- Quản lý số **lẻ** từ 1 đến 999
+
+87 Tran Quang Co:
+- Quản lý số **lẻ** từ 1 đến 999
+
+119 Tran Quang Co:
+- Quản lý số **lẻ** từ 1 đến 999
+
+102 Binh Long:
+- Quản lý số **lẻ** từ 1 đến 999
+
+58 Thach Lam:
+- Quản lý số **lẻ** từ 1 đến 29A
+- Quản lý số **chẵn** từ 2 đến 32
+
+96 Thach Lam:
+- Quản lý số **lẻ** từ 1 đến 13
+- Quản lý số **chẵn** từ 2 đến 16
+
+257 Thoai Ngoc Hau:
+- Quản lý số **lẻ** từ 1 đến 19
+- Quản lý số **chẵn** từ 2 đến 30
+- Quản lý cả **chẵn và lẻ** từ nan đến nan
+- Quản lý cả **chẵn và lẻ** từ nan đến nan
+
+Hoang Thieu Hoa:
+- Quản lý số **lẻ** từ 45 đến 99
+- Quản lý số **chẵn** từ 46 đến 100
+- Quản lý số **chẵn** từ 24B đến 28
+- Quản lý số **lẻ** từ 25 đến 55
+- Quản lý số **chẵn** từ 20 đến 24A
+- Quản lý số **chẵn** từ 2 đến 8
+- Quản lý số **lẻ** từ 1 đến 15
+
+Luong Truc Dam:
+- Quản lý số **lẻ** từ 57B đến 73B
+- Quản lý số **chẵn** từ 102 đến 128
+- Quản lý số **chẵn** từ 60 đến 98
+- Quản lý số **chẵn** từ 2B đến 4
+- Quản lý số **lẻ** từ 43 đến 73
+
+To Hieu:
+- Quản lý số **chẵn** từ 244 đến 264
+- Quản lý số **chẵn** từ 202 đến 244
+- Quản lý số **chẵn** từ 84 đến 202
+- Quản lý số **chẵn** từ 172 đến 182
+- Quản lý số **lẻ** từ 31 đến 99
+- Quản lý số **chẵn** từ 108D đến 166
+- Quản lý số **lẻ** từ 5 đến 17
+- Quản lý số **chẵn** từ 56 đến 108
+- Quản lý số **lẻ** từ 1A đến 9
+- Quản lý số **chẵn** từ 2 đến 56
+
+Duong Khue:
+- Quản lý số **lẻ** từ 93 đến 123
+- Quản lý số **chẵn** từ 84 đến 108
+- Quản lý số **lẻ** từ 19 đến 91A
+- Quản lý số **chẵn** từ 52 đến 82
+- Quản lý số **lẻ** từ 1 đến 17A
+- Quản lý số **chẵn** từ 2 đến 50A
+
+Huynh Van Mot:
+- Quản lý số **lẻ** từ 93 đến 131
+- Quản lý số **chẵn** từ 108 đến 142
+- Quản lý số **lẻ** từ 19 đến 91
+- Quản lý số **chẵn** từ 14 đến 106
+- Quản lý số **lẻ** từ 1 đến 17
+- Quản lý số **chẵn** từ 2 đến 12
+
+Y Lan:
+- Quản lý số **lẻ** từ 107 đến 147
+- Quản lý số **chẵn** từ 100 đến 120
+- Quản lý số **lẻ** từ 69 đến 105
+- Quản lý số **chẵn** từ 56 đến 98
+- Quản lý số **lẻ** từ 1 đến 67A
+- Quản lý số **chẵn** từ 2 đến 54
+
+Tran Van Giap:
+- Quản lý số **lẻ** từ 83 đến 105A
+- Quản lý số **chẵn** từ 70 đến 84
+- Quản lý số **lẻ** từ 37 đến 81
+- Quản lý số **chẵn** từ 34 đến 66
+- Quản lý số **lẻ** từ 1 đến 35A
+- Quản lý số **chẵn** từ 2 đến 32
+
+Le Quang Chieu:
+- Quản lý số **lẻ** từ 1 đến 47
+- Quản lý số **chẵn** từ 2 đến 24
+
+Trinh Thi Tho:
+- Quản lý số **chẵn** từ 2 đến 80
+- Quản lý số **lẻ** từ 1 đến 11
+
+Nguy Nhu Kom Tum:
+- Quản lý số **chẵn** từ 8 đến 8
+- Quản lý số **lẻ** từ 1 đến 61
+- Quản lý số **chẵn** từ 2 đến 6
+
+15 Thach Lam:
+- Quản lý số **lẻ** từ 1 đến 17
+- Quản lý số **chẵn** từ 2 đến 26
+
+202 To Hieu:
+- Quản lý số **lẻ** từ 1 đến 59
+- Quản lý số **chẵn** từ 2 đến 38
+
+232 To Hieu:
+- Quản lý số **lẻ** từ 1 đến 43
+- Quản lý số **chẵn** từ 2 đến 46
+
+Le Than:
+- Quản lý số **lẻ** từ 7 đến 19
+- Quản lý số **chẵn** từ 22 đến 24
+- Quản lý số **lẻ** từ 1 đến 5
+- Quản lý số **chẵn** từ 2 đến 22
+
+22 Le Than:
+- Quản lý số **lẻ** từ 1 đến 45
+- Quản lý số **chẵn** từ 2 đến 44
+
+Tran Quang Qua:
+- Quản lý số **lẻ** từ 1 đến 43
+- Quản lý số **chẵn** từ 2 đến 112
+
+Chu Thien:
+- Quản lý số **lẻ** từ 1 đến 105
+- Quản lý số **chẵn** từ 2 đến 92
+
+85/2 Chu Thien:
+- Quản lý số **lẻ** từ 1 đến 9
+
+18 Le Than:
+- Quản lý số **lẻ** từ 1 đến 43
+- Quản lý số **chẵn** từ 2 đến 44
+
+Nguyen Thieu Lau:
+- Quản lý số **lẻ** từ 1 đến 59
+- Quản lý số **chẵn** từ 2 đến 66
+- Quản lý cả **chẵn và lẻ** từ nan đến nan
+- Quản lý cả **chẵn và lẻ** từ Chung Cư RichStar 1 đến nan
+
+Hoa Binh:
+- Quản lý số **chẵn** từ 178 đến 278
+- Quản lý số **lẻ** từ 239 đến 341
+- Quản lý cả **chẵn và lẻ** từ Chung Cư RichStar 2 đến nan
+- Quản lý số **lẻ** từ 233 đến 237
+- Quản lý số **lẻ** từ 179 đến 231
+- Quản lý số **lẻ** từ 135 đến 179
+- Quản lý số **lẻ** từ 93 đến 133
+
+178 To Hieu:
+- Quản lý số **lẻ** từ 1 đến 75
+- Quản lý số **chẵn** từ 2 đến 88
+
+Cay Keo:
+- Quản lý số **lẻ** từ 1 đến 155
+- Quản lý số **chẵn** từ 34 đến 162
+
+Nguyen My Ca:
+- Quản lý số **lẻ** từ 1 đến 5
+
+47 To Hieu:
+- Quản lý số **lẻ** từ 1 đến 17
+- Quản lý số **chẵn** từ 2 đến 16
+
+57 To Hieu:
+- Quản lý số **lẻ** từ 1 đến 51
+- Quản lý số **chẵn** từ 2 đến 72
+
+57/9 To Hieu:
+- Quản lý số **lẻ** từ 1 đến 99
+
+57/27 To Hieu:
+- Quản lý số **lẻ** từ 1 đến 99
+
+57/41 To Hieu:
+- Quản lý số **lẻ** từ 1 đến 99
+
+57/43 To Hieu:
+- Quản lý số **chẵn** từ 2 đến 12
+
+87 To Hieu:
+- Quản lý số **lẻ** từ 1 đến 41
+- Quản lý số **chẵn** từ 2 đến 32
+
+99 To Hieu:
+- Quản lý số **lẻ** từ 1 đến 25
+
+99/7 To Hieu:
+- Quản lý số **lẻ** từ 1 đến 99
+
+99/9 To Hieu:
+- Quản lý số **lẻ** từ 1 đến 99
+
+99/17 To Hieu:
+- Quản lý số **lẻ** từ 1 đến 99
+
+108 To Hieu:
+- Quản lý số **lẻ** từ 1 đến 999
+
+110 To Hieu:
+- Quản lý số **chẵn** từ 22 đến 62
+- Quản lý số **lẻ** từ 45 đến 73
+
+136 To Hieu:
+- Quản lý số **lẻ** từ 1 đến 999
+
+164 To Hieu:
+- Quản lý số **lẻ** từ 1 đến 999
+
+179 Hoa Binh:
+- Quản lý số **chẵn** từ 2 đến 76
+- Quản lý số **lẻ** từ 1 đến 45
+
+179/4 Hoa Binh:
+- Quản lý số **lẻ** từ 1 đến 999
+
+187 Hoa Binh:
+- Quản lý số **lẻ** từ 1 đến 999
+
+Nguyen Van Vinh:
+- Quản lý số **chẵn** từ 46 đến 68
+- Quản lý số **chẵn** từ 2 đến 66
+- Quản lý số **lẻ** từ 1 đến 35
+
+Ly Thanh Tong:
+- Quản lý số **chẵn** từ 48 đến 120
+- Quản lý số **chẵn** từ 2 đến 44
+- Quản lý số **lẻ** từ 139 đến 239
+- Quản lý số **lẻ** từ 75 đến 137
+- Quản lý số **lẻ** từ 111B đến 111B
+- Quản lý số **lẻ** từ 45 đến 75
+- Quản lý số **lẻ** từ 1 đến 45
+
+46 Ly Thanh Tong:
+- Quản lý số **lẻ** từ 1 đến 999
+
+66 Ly Thanh Tong:
+- Quản lý số **lẻ** từ 1 đến 999
+
+74 Ly Thanh Tong:
+- Quản lý số **lẻ** từ 1 đến 999
+
+76 Ly Thanh Tong:
+- Quản lý số **lẻ** từ 1 đến 999
+
+179/33 Hoa Binh:
+- Quản lý số **chẵn** từ 2 đến 8
+
+179/39 Hoa Binh:
+- Quản lý số **lẻ** từ 1 đến 31
+- Quản lý số **chẵn** từ 2 đến 32
+
+2 Nguyen Van Vinh:
+- Quản lý số **lẻ** từ 1 đến 35
+- Quản lý số **chẵn** từ 2 đến 36
+
+2/11 Nguyen Van Vinh:
+- Quản lý số **lẻ** từ 1 đến 33
+- Quản lý số **chẵn** từ 2 đến 34
+
+6 Nguyen Van Vinh:
+- Quản lý số **lẻ** từ 1 đến 11
+
+26 Nguyen Van Vinh:
+- Quản lý số **lẻ** từ 1 đến 45
+- Quản lý số **chẵn** từ 2 đến 46
+
+26/15 Nguyen Van Vinh:
+- Quản lý số **lẻ** từ 1 đến 21
+- Quản lý số **chẵn** từ 2 đến 22
+
+38 Nguyen Van Vinh:
+- Quản lý số **lẻ** từ 1 đến 51
+
+161 Luy Ban Bich:
+- Quản lý số **lẻ** từ 1 đến 999
+
+Ly Thai Tong:
+- Quản lý số **lẻ** từ 1 đến 51
+- Quản lý số **chẵn** từ 2 đến 52
+
+Hoang Xuan Hoanh:
+- Quản lý số **lẻ** từ 1 đến 33
+- Quản lý số **chẵn** từ 4 đến 42
+
+8 Hoang Xuan Hoanh:
+- Quản lý số **lẻ** từ 1 đến 999
+
+18 Hoang Xuan Hoanh:
+- Quản lý số **lẻ** từ 1 đến 999
+
+26 Hoang Xuan Hoanh:
+- Quản lý số **lẻ** từ 1 đến 999
+- Quản lý cả **chẵn và lẻ** từ nan đến nan
+- Quản lý cả **chẵn và lẻ** từ nan đến nan
+- Quản lý cả **chẵn và lẻ** từ nan đến nan
+
+149 Ly Thanh Tong:
+- Quản lý cả **chẵn và lẻ** từ LôA đến LôD
+
+Phan Anh:
+- Quản lý số **chẵn** từ 194 đến 228
+- Quản lý số **chẵn** từ 96 đến 194
+
+Nguyen Van Yen:
+- Quản lý số **lẻ** từ 1 đến 67
+- Quản lý số **lẻ** từ 69 đến 107
+- Quản lý số **chẵn** từ 2 đến 84
+
+75 Ly Thanh Tong:
+- Quản lý số **chẵn** từ 2 đến 12
+- Quản lý số **lẻ** từ 1 đến 37
+- Quản lý số **lẻ** từ 33 đến 119
+- Quản lý số **chẵn** từ 20 đến 130
+
+111 Ly Thanh Tong:
+- Quản lý số **lẻ** từ 1 đến 999
+
+56 To Hieu:
+- Quản lý số **lẻ** từ 1 đến 37A
+- Quản lý số **chẵn** từ 2 đến 64
+
+151/53 Luy Ban Bich:
+- Quản lý số **lẻ** từ 1 đến 999
+
+149 Luy Ban Bich:
+- Quản lý số **lẻ** từ 29 đến 73
+- Quản lý số **chẵn** từ 28 đến 78
+- Quản lý số **lẻ** từ 1 đến 27
+- Quản lý số **chẵn** từ 2 đến 26A
+
+151 Luy Ban Bich:
+- Quản lý số **lẻ** từ 1 đến 51
+- Quản lý số **chẵn** từ 2 đến 60
+
+151/31 Luy Ban Bich:
+- Quản lý số **lẻ** từ 1 đến 999
+
+151/31/10 Luy Ban Bich:
+- Quản lý số **lẻ** từ 1 đến 999
+
+151/31/26 Luy Ban Bich:
+- Quản lý số **chẵn** từ 2 đến 20
+
+34 Nguyen Van Yen:
+- Quản lý số **lẻ** từ 1 đến 11
+- Quản lý số **chẵn** từ 2 đến 16
+
+54 Nguyen Van Yen:
+- Quản lý số **lẻ** từ 1 đến 19
+- Quản lý số **chẵn** từ 2 đến 20
+
+67/8 Nguyen Van Yen:
+- Quản lý số **chẵn** từ 2 đến 24
+- Quản lý số **lẻ** từ 3 đến 3
+
+67/16 Nguyen Van Yen:
+- Quản lý số **lẻ** từ 1 đến 21
+- Quản lý số **chẵn** từ 2 đến 20
+
+9 To Hieu:
+- Quản lý số **lẻ** từ 1 đến 7A
+
+158 Phan Anh:
+- Quản lý số **lẻ** từ 1 đến 51C
+- Quản lý cả **chẵn và lẻ** từ A38 đến A65
+- Quản lý cả **chẵn và lẻ** từ B25 đến B48
+- Quản lý cả **chẵn và lẻ** từ C1 đến C52
+- Quản lý cả **chẵn và lẻ** từ D21 đến D38
+- Quản lý cả **chẵn và lẻ** từ E1 đến E10
+
+158/49 Phan Anh:
+- Quản lý số **lẻ** từ 1 đến 3
+- Quản lý số **chẵn** từ 2 đến 10
+
+40 To Hieu:
+- Quản lý số **lẻ** từ 1 đến 57
+- Quản lý số **chẵn** từ 2 đến 70
+- Quản lý số **lẻ** từ 59 đến 75
+
+40/13 To Hieu:
+- Quản lý số **lẻ** từ 1 đến 999
+
+40/40 To Hieu:
+- Quản lý số **lẻ** từ 1 đến 999
+
+50 To Hieu:
+- Quản lý số **lẻ** từ 1 đến 51
+- Quản lý số **chẵn** từ 2 đến 44
+
+58 Luong The Vinh:
+- Quản lý số **lẻ** từ 13 đến 29
+- Quản lý số **chẵn** từ 24 đến 34
+- Quản lý số **lẻ** từ 1 đến 9
+- Quản lý số **chẵn** từ 2 đến 28
+
+58/26 Luong The Vinh:
+- Quản lý số **lẻ** từ 1 đến 999
+
+58/30 Luong The Vinh:
+- Quản lý số **lẻ** từ 1 đến 999
+
+90 Luong The Vinh:
+- Quản lý số **chẵn** từ 4 đến 10
+- Quản lý số **chẵn** từ 2 đến 2
+- Quản lý số **lẻ** từ 1 đến 19
+
+Luong The Vinh:
+- Quản lý số **chẵn** từ 2 đến 90
+- Quản lý số **lẻ** từ 1 đến 125
+- Quản lý cả **chẵn và lẻ** từ 92 đến nan
+- Quản lý số **lẻ** từ 127 đến 147
+- Quản lý số **lẻ** từ 149 đến 153
+- Quản lý số **chẵn** từ 126 đến 134
+
+28 Luong The Vinh:
+- Quản lý số **lẻ** từ 1 đến 79
+- Quản lý số **chẵn** từ 2 đến 36
+
+28/36 Luong The Vinh:
+- Quản lý số **lẻ** từ 1 đến 27
+- Quản lý số **chẵn** từ 4 đến 24
+
+58/9 Luong The Vinh:
+- Quản lý số **lẻ** từ 1 đến 19
+- Quản lý số **chẵn** từ 2 đến 20
+
+Tran Van Can:
+- Quản lý số **chẵn** từ 2 đến 112
+- Quản lý số **lẻ** từ 1 đến 33
+
+Tran Van Can:
+- Quản lý số **lẻ** từ 35 đến 87
+
+47 TTran Van Can:
+- Quản lý số **lẻ** từ 1 đến 23
+- Quản lý số **chẵn** từ 2 đến 30
+
+53 Tran Van Can:
+- Quản lý số **lẻ** từ 1 đến 5
+- Quản lý số **chẵn** từ 2 đến 28
+
+67 Tran Van Can:
+- Quản lý số **lẻ** từ 1 đến 31
+- Quản lý số **chẵn** từ 2 đến 34
+
+77A Tran Van Can:
+- Quản lý số **lẻ** từ 1 đến 11
+
+90/3 Luong The Vinh:
+- Quản lý số **lẻ** từ 1 đến 5A
+- Quản lý số **chẵn** từ 2 đến 10
+
+137 Luong The Vinh:
+- Quản lý số **lẻ** từ 1 đến 5
+- Quản lý số **chẵn** từ 2 đến 2
+
+139 Luong The Vinh:
+- Quản lý số **chẵn** từ 2 đến 18
+
+Luong Minh Nguyet:
+- Quản lý số **chẵn** từ 42 đến 72
+- Quản lý số **lẻ** từ 1 đến 57
+- Quản lý số **chẵn** từ 2 đến 40
+- Quản lý số **lẻ** từ 33 đến 33
+
+40 Luong Minh Nguyet:
+- Quản lý số **lẻ** từ 1 đến 43
+- Quản lý số **chẵn** từ 2 đến 36
+
+72 Luong Minh Nguyet:
+- Quản lý số **chẵn** từ 2 đến 8
+
+17 Luy Ban Bich:
+- Quản lý số **lẻ** từ 1 đến 999
+
+37 Luy Ban Bich:
+- Quản lý số **lẻ** từ 1 đến 999
+
+67 Luy Ban Bich:
+- Quản lý số **lẻ** từ 1 đến 999
+
+77 Luy Ban Bich:
+- Quản lý số **lẻ** từ 1 đến 999
+
+3 Luong Minh Nguyet:
+- Quản lý số **lẻ** từ 1 đến 999
+
+17 Luong Minh Nguyet:
+- Quản lý số **lẻ** từ 1 đến 999
+
+45 Luong Minh Nguyet:
+- Quản lý số **lẻ** từ 1 đến 999
+
+134 Luong The Vinh:
+- Quản lý số **chẵn** từ 134A đến 134A3
+
+9 Tran Van Can:
+- Quản lý số **lẻ** từ 1 đến 999
+
+23 Tran Van Can:
+- Quản lý số **lẻ** từ 1 đến 999
