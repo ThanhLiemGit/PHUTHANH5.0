@@ -32,7 +32,7 @@ def is_address(text: str):
 def send(chat_id, text):
     requests.post(f"{API_URL}/sendMessage", json={"chat_id": chat_id, "text": text})
 
-# Hàm xử lý GPT dùng SDK >= 1.0
+# Hàm xử lý GPT
 def gpt_reply(prompt):
     try:
         print("🔁 Gọi GPT với prompt:", prompt)
@@ -41,7 +41,7 @@ def gpt_reply(prompt):
             messages=[
                 {
                     "role": "system",
-                    "content": "Bạn là trợ lý hành chính phường Phú Thạnh, TP. Hồ Chí Minh. Hãy trả lời thân thiện và chính xác theo ngữ cảnh địa phương."
+                    "content": "Bạn là cán bộ phường tư vấn địa chỉ, nói thân thiện nhưng đúng thực tế dữ liệu địa phương."
                 },
                 {"role": "user", "content": prompt}
             ]
@@ -60,34 +60,28 @@ async def telegram_webhook(req: Request):
         text = data["message"]["text"]
 
         if is_address(text):
-            logic = check_address(text)
-            data = analyze_address(text)
+            logic_result = check_address(text)
+            if logic_result.startswith("✅"):
+                data = analyze_address(text)
+                if data:
+                    prompt = f"""
+Địa chỉ người dân nhập: **{text}**
 
-            if data:
-                prompt = f"""
-Bạn là cán bộ hành chính tại Phường Phú Thạnh, Quận Tân Phú.
+✅ Hệ thống đã xác nhận địa chỉ hợp lệ: {logic_result}
 
-Người dân nhập địa chỉ: **{text}**
-
-Thông tin hệ thống trích xuất:
-– Số nhà: {data['so_nha']}
-– Tuyến đường: {data['duong_raw']}
-– Mô tả tuyến đường:
+Mô tả tuyến đường:
 {data['mo_ta']}
 
-Dựa vào các thông tin trên, bạn hãy:
-1. Cho biết địa chỉ này có hợp lệ không (theo quản lý phường)?
-2. Nếu hợp lệ, thuộc Khu phố nào (nếu đã có trong logic)?
-3. Nếu không hợp lệ, chỉ rõ vì sao.
-
-Phản hồi thân thiện, ngắn gọn như cán bộ phường tư vấn trực tiếp.
+Hãy phản hồi lại như cán bộ phường: xác nhận địa chỉ và chia sẻ thêm vài lưu ý nếu có.
 """
-                reply = gpt_reply(prompt)
+                    reply = gpt_reply(prompt)
+                else:
+                    reply = logic_result
             else:
-                reply = "⛔ Không xác định được địa chỉ."
+                reply = logic_result  # lỗi logic, không dùng GPT
         elif USE_GPT:
             reply = gpt_reply(text)
         else:
             reply = "❗ Vui lòng nhập địa chỉ theo mẫu: 3/11 Hiền Vương"
         send(chat_id, reply)
-    return {"ok": True}
+    return {"ok": True"}
