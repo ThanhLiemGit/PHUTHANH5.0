@@ -69,8 +69,7 @@ async def telegram_webhook(req: Request):
 
 ✅ Hệ thống đã xác nhận địa chỉ hợp lệ: {logic_result}
 
-Hãy phản hồi lại như cán bộ phường: xác nhận địa chỉ và chia sẻ thêm vài lưu ý nếu có.
-"""
+
                     reply = gpt_reply(prompt)
                 else:
                     reply = logic_result
