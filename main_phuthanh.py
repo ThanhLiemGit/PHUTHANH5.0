@@ -84,4 +84,4 @@ Hãy phản hồi lại như cán bộ phường: xác nhận địa chỉ và c
         else:
             reply = "❗ Vui lòng nhập địa chỉ theo mẫu: 3/11 Hiền Vương"
         send(chat_id, reply)
-    return {"ok": True"}
+    return {"ok": True}
