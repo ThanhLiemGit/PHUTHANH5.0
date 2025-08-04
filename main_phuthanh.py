@@ -41,7 +41,7 @@ def gpt_reply(prompt):
             messages=[
                 {
                     "role": "system",
-                    "content": "Bạn là cán bộ phường tư vấn địa chỉ, nói thân thiện nhưng đúng thực tế dữ liệu địa phương."
+                    "content": "Bạn là cán bộ hành chính phường Phú Thạnh. Hãy luôn trả lời bằng tiếng Việt, thân thiện và chính xác theo dữ liệu địa phương."
                 },
                 {"role": "user", "content": prompt}
             ]
@@ -68,9 +68,6 @@ async def telegram_webhook(req: Request):
 Địa chỉ người dân nhập: **{text}**
 
 ✅ Hệ thống đã xác nhận địa chỉ hợp lệ: {logic_result}
-
-Mô tả tuyến đường:
-{data['mo_ta']}
 
 Hãy phản hồi lại như cán bộ phường: xác nhận địa chỉ và chia sẻ thêm vài lưu ý nếu có.
 """
