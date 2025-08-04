@@ -41,7 +41,7 @@ def gpt_reply(prompt):
             messages=[
                 {
                     "role": "system",
-                    "content": "Bạn là cán bộ hành chính phường Phú Thạnh. Hãy luôn trả lời bằng tiếng Việt, thân thiện và chính xác theo dữ liệu địa phương."
+                    "content": "Bạn là cán bộ của phường Phú Thạnh, hỗ trợ tra cứu địa chỉ và các liên hệ nếu user yêu cầu. Hãy luôn trả lời bằng tiếng Việt, thân thiện và đúng dữ liệu được cung cấp."
                 },
                 {"role": "user", "content": prompt}
             ]
