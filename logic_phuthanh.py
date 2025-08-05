@@ -5,6 +5,9 @@ from pathlib import Path
 
 with open(Path(__file__).parent / "phuthanh_logic.json", "r", encoding="utf-8") as f:
     DATA = json.load(f)
+    
+with open(Path(__file__).parent / "khu_pho_info.json", "r", encoding="utf-8") as f:
+    KP_INFO = json.load(f)
 
 def normalize(name):
     name = str(name).lower()
@@ -51,15 +54,16 @@ def check_address(input_text):
             continue
         if side == "even" and so_chinh % 2 != 0:
             continue
+        kp_id = segment["khu_pho"]
+info = KP_INFO.get(kp_id, {})
 
-        return f"""✅ Địa chỉ thuộc **Khu phố {segment['khu_pho']}**
+        return f"""✅ Địa chỉ thuộc **Khu phố {kp_id}**
 
 📌 Thông tin quản lý:
-– Bí thư chi bộ: Nguyễn Thị Hiền
-– Khu phố trưởng: Lê Thị Thúy Vân
-– Trưởng Ban CTMT: Lê Thanh Liêm – 📞 0909 292 289
-– Cảnh sát khu vực: Nguyễn Phước Thiện
-
-🔎 Bạn cần liên hệ với ai không?"""
+– Bí thư chi bộ: {info.get('bi_thu', 'N/A')}
+– Khu phố trưởng: {info.get('kp_truong', 'N/A')}
+– Trưởng Ban CTMT: {info.get('truong_ctmt', 'N/A')}
+– Cảnh sát khu vực: {info.get('cskv', 'N/A')}
+"""
 
     return "⛔ Địa chỉ không thuộc đoạn nào được quản lý."
