@@ -55,9 +55,9 @@ def check_address(input_text):
         if side == "even" and so_chinh % 2 != 0:
             continue
         kp_id = segment["khu_pho"]
-info = KP_INFO.get(kp_id, {})
+        info = KP_INFO.get(kp_id, {})
 
-    return f"""✅ Địa chỉ thuộc **Khu phố {kp_id}**
+        return f"""✅ Địa chỉ thuộc **Khu phố {kp_id}**
 
 📌 Thông tin quản lý:
 – Bí thư chi bộ: {info.get('bi_thu', 'N/A')}
