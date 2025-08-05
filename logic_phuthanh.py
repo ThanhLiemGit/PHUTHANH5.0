@@ -57,7 +57,7 @@ def check_address(input_text):
         kp_id = segment["khu_pho"]
 info = KP_INFO.get(kp_id, {})
 
-        return f"""✅ Địa chỉ thuộc **Khu phố {kp_id}**
+    return f"""✅ Địa chỉ thuộc **Khu phố {kp_id}**
 
 📌 Thông tin quản lý:
 – Bí thư chi bộ: {info.get('bi_thu', 'N/A')}
