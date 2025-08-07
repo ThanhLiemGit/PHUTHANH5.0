@@ -2448,7 +2448,7 @@
       "side": "odd"
     }
   ],
-  "hem158/49 phan anh": [
+  "158/49 phan anh": [
     {
       "tu": "1",
       "den": "3",
@@ -2458,6 +2458,44 @@
     {
       "tu": "2",
       "den": "10",
+      "khu_pho": "42",
+      "side": "even"
+    }
+  ],
+  "158 phan anh": [
+    {
+      "tu": "1",
+      "den": "51C",
+      "khu_pho": "42",
+      "side": "odd"
+    },
+    {
+      "tu": "B25",
+      "den": "B48",
+      "khu_pho": "42",
+      "side": "even"
+    },
+    {
+      "tu": "C1",
+      "den": "C52",
+      "khu_pho": "42",
+      "side": "both"
+    },
+    {
+      "tu": "D21",
+      "den": "D38",
+      "khu_pho": "42",
+      "side": "both"
+    },
+    {
+      "tu": "E1",
+      "den": "E10",
+      "khu_pho": "42",
+      "side": "both"
+    },
+    {
+      "tu": "A38",
+      "den": "A65",
       "khu_pho": "42",
       "side": "even"
     }
