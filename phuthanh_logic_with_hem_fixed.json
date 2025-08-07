@@ -1,0 +1,30 @@
+{
+  "hien vuong": [
+    {
+      "tu": "1",
+      "den": "26",
+      "khu_pho": "5",
+      "side": "both"
+    },
+    {
+      "tu": "28",
+      "den": "56",
+      "khu_pho": "4",
+      "side": "even"
+    },
+    {
+      "tu": "168",
+      "den": "328",
+      "khu_pho": "2",
+      "side": "even"
+    }
+  ],
+  "phan anh": [
+    {
+      "tu": "1",
+      "den": "51C",
+      "khu_pho": "42",
+      "side": "odd"
+    }
+  ]
+}
