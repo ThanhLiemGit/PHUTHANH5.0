@@ -58,24 +58,25 @@ def check_address(addr: str):
     except:
         return None
 
-def safe_int(val):
-    """Lấy phần số đầu tiên từ chuỗi (vd: '25A' -> 25)"""
-    m = re.match(r"^(\d+)", str(val))
-    return int(m.group(1)) if m else None
+    # ✅ safe_int đặt trong check_address
+    def safe_int(val):
+        """Lấy phần số đầu tiên từ chuỗi (vd: '25A' -> 25)"""
+        m = re.match(r"^(\d+)", str(val))
+        return int(m.group(1)) if m else None
 
     for rule in rules:
-    tu = safe_int(rule["tu"])
-    den = safe_int(rule["den"])
-    if tu is None or den is None:
-        continue  # bỏ qua rule không parse được
+        tu = safe_int(rule["tu"])
+        den = safe_int(rule["den"])
+        if tu is None or den is None:
+            continue  # bỏ qua rule không parse được
 
-    side = rule.get("side", "both")
-    if tu <= num <= den:
-        if side == "both" or get_side(num) == side:
-            return {
-                "khu_pho": rule["khu_pho"],
-                "street": street,
-                "house": str(num)
-            }
+        side = rule.get("side", "both")
+        if tu <= num <= den:
+            if side == "both" or get_side(num) == side:
+                return {
+                    "khu_pho": rule["khu_pho"],
+                    "street": street,
+                    "house": str(num)
+                }
 
     return None
