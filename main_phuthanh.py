@@ -5,26 +5,23 @@ import os
 from logic_phuthanh_hem_fixed import check_address
 from openai import AsyncOpenAI
 
-# Khởi tạo FastAPI
 app = FastAPI()
 
 # Load dữ liệu cán bộ khu phố
 with open("khu_pho_info.json", "r", encoding="utf-8") as f:
     khu_pho_data = json.load(f)
 
-# OpenAI/Together API
+# Together API
 client = AsyncOpenAI(api_key=os.getenv("TOGETHER_API_KEY"), base_url="https://api.together.xyz/v1")
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}"
 
 # ------------------------------------------------
-# Hàm format trả lời theo logic
-# ------------------------------------------------
 def format_address_response(addr_info, user_input):
     kp = addr_info.get("khu_pho")
     if not kp:
-        return f"❌ Xin lỗi, chưa tìm thấy thông tin cho địa chỉ **{user_input}**."
+        return f"❌ Không tìm thấy thông tin cho địa chỉ {user_input}"
 
     info = khu_pho_data.get(str(kp), {})
     return (
@@ -35,46 +32,32 @@ def format_address_response(addr_info, user_input):
         f"👮 CSKV: {info.get('canh_sat', 'Chưa cập nhật')}"
     )
 
-# ------------------------------------------------
-# Hàm fallback GPT
-# ------------------------------------------------
 async def call_gpt_with_context(user_input: str):
     prompt = f"""
-Bạn là cán bộ phường Phú Thạnh. Người dân vừa nhắn: "{user_input}".
-Nếu đây không phải địa chỉ hợp lệ trong dữ liệu thì trả lời thân thiện, giải thích bạn chỉ hỗ trợ tra cứu địa chỉ trong Phường Phú Thạnh.
-    """
-
+Bạn là cán bộ phường Phú Thạnh. Người dân nhắn: "{user_input}".
+Nếu đây không phải địa chỉ hợp lệ trong dữ liệu thì trả lời thân thiện, giải thích rằng bạn chỉ hỗ trợ tra cứu địa chỉ trong Phường Phú Thạnh.
+"""
     response = await client.chat.completions.create(
         model="mistralai/Mixtral-8x7B-Instruct-v0.1",
         messages=[{"role": "user", "content": prompt}],
         max_tokens=400
     )
-
     return response.choices[0].message.content.strip()
 
-# ------------------------------------------------
-# Hàm xử lý tin nhắn Telegram
-# ------------------------------------------------
 async def handle_message(user_input: str):
     addr_info = check_address(user_input)
 
-    if addr_info:   # tức là trả về string khu phố
-        kp = str(addr_info).replace("KP", "")
-        return format_address_response({"khu_pho": kp}, user_input)
+    if addr_info and addr_info.get("khu_pho"):
+        return format_address_response(addr_info, user_input)
     else:
         return await call_gpt_with_context(user_input)
 
-# ------------------------------------------------
-# Webhook nhận từ Telegram
-# ------------------------------------------------
 @app.post("/webhook")
 async def telegram_webhook(request: Request):
     data = await request.json()
-
     if "message" in data and "text" in data["message"]:
         chat_id = data["message"]["chat"]["id"]
         user_input = data["message"]["text"].strip()
-
         reply = await handle_message(user_input)
 
         async with httpx.AsyncClient() as client:
