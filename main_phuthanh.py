@@ -26,8 +26,16 @@ if USE_GPT and OPENAI_API_KEY:
 # Hàm kiểm tra định dạng địa chỉ
 def is_address(text: str):
     text = normalize(text)
-    pattern = r"^\d+[a-zA-Z]?(?:/\d+)*(?:\s+duong)?\s+[a-z\s]+$"
-    return re.match(pattern, text) is not None
+    # Cho phép:
+    #  - 12/57/27 to hieu
+    #  - 12 57/27 to hieu  (hẻm rời)
+    #  - 4 158/49 phan anh
+    #  - 134A luong the vinh
+    patterns = [
+        r"^\d+[a-zA-Z]?(?:/\d+)*(?:\s+(?:duong)\s+)?[a-z][a-z\s]+$",           # cũ
+        r"^\d+[a-zA-Z]?\s+\d+(?:/\d+)+(?:\s+(?:duong)\s+)?[a-z][a-z\s]+$",     # số nhà + hẻm rời + tên đường
+    ]
+    return any(re.match(p, text) for p in patterns)
 
 # Hàm gửi tin nhắn Telegram
 def send(chat_id, text):
