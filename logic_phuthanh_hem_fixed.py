@@ -58,7 +58,7 @@ def check_address(addr: str):
     except:
         return None
 
-    def safe_int(val):
+def safe_int(val):
     """Lấy phần số đầu tiên từ chuỗi (vd: '25A' -> 25)"""
     m = re.match(r"^(\d+)", str(val))
     return int(m.group(1)) if m else None
