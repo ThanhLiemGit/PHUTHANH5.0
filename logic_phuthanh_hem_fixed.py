@@ -63,7 +63,7 @@ def check_address(addr: str):
     m = re.match(r"^(\d+)", str(val))
     return int(m.group(1)) if m else None
 
-for rule in rules:
+    for rule in rules:
     tu = safe_int(rule["tu"])
     den = safe_int(rule["den"])
     if tu is None or den is None:
