@@ -1,0 +1,3168 @@
+{
+  "van cao": [
+    {
+      "tu": "1",
+      "den": "55",
+      "khu_pho": "1",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "16",
+      "den": "28",
+      "khu_pho": "2",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "8A",
+      "den": "12",
+      "khu_pho": "9",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "10",
+      "side": "both",
+      "hems": []
+    }
+  ],
+  "nguyen son": [
+    {
+      "tu": "343",
+      "den": "387",
+      "khu_pho": "1",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "275",
+      "den": "341",
+      "khu_pho": "2",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "111",
+      "den": "271",
+      "khu_pho": "3",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "73",
+      "den": "107",
+      "khu_pho": "4",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "71",
+      "khu_pho": "5",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "99",
+      "khu_pho": "5",
+      "side": "odd",
+      "hems": [
+        "13",
+        "59"
+      ]
+    }
+  ],
+  "binh long": [
+    {
+      "tu": "220",
+      "den": "290",
+      "khu_pho": "1",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "148",
+      "den": "218",
+      "khu_pho": "12",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "104",
+      "den": "182",
+      "khu_pho": "14",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "17",
+      "side": "odd",
+      "hems": [
+        "102"
+      ]
+    }
+  ],
+  "hien vuong": [
+    {
+      "tu": "168",
+      "den": "328",
+      "khu_pho": "2",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "25",
+      "den": "41",
+      "khu_pho": "4",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "28",
+      "den": "56",
+      "khu_pho": "4",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "26",
+      "khu_pho": "5",
+      "side": "both",
+      "hems": []
+    },
+    {
+      "tu": "173",
+      "den": "297",
+      "khu_pho": "9",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "99",
+      "khu_pho": "5",
+      "side": "odd",
+      "hems": [
+        "3",
+        "11",
+        "12"
+      ]
+    },
+    {
+      "tu": "CHUNG CƯ PHÚ THẠNH",
+      "den": "nan",
+      "khu_pho": "6",
+      "side": "both",
+      "hems": [
+        "12"
+      ]
+    }
+  ],
+  "le lo": [
+    {
+      "tu": "3",
+      "den": "13",
+      "khu_pho": "2",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "3",
+      "khu_pho": "12",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "6",
+      "khu_pho": "12",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "dinh liet": [
+    {
+      "tu": "1A",
+      "den": "3C",
+      "khu_pho": "2",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "4",
+      "den": "10",
+      "khu_pho": "3",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "5A",
+      "den": "5A",
+      "khu_pho": "9",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "11",
+      "side": "both",
+      "hems": []
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "11",
+      "side": "both",
+      "hems": []
+    }
+  ],
+  "tran thu do": [
+    {
+      "tu": "193",
+      "den": "327",
+      "khu_pho": "2",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "162",
+      "den": "234",
+      "khu_pho": "2",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "53",
+      "den": "189",
+      "khu_pho": "3",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "26",
+      "den": "156",
+      "khu_pho": "3",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "47",
+      "khu_pho": "4",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "22A",
+      "khu_pho": "4",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "le sao": [
+    {
+      "tu": "165",
+      "den": "325",
+      "khu_pho": "2",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "174",
+      "den": "308",
+      "khu_pho": "2",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "41",
+      "den": "163",
+      "khu_pho": "3",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "48",
+      "den": "172",
+      "khu_pho": "3",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "37",
+      "khu_pho": "4",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "44",
+      "khu_pho": "4",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "pham van xao": [
+    {
+      "tu": "25A",
+      "den": "35",
+      "khu_pho": "2",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "20",
+      "den": "32",
+      "khu_pho": "2",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "7",
+      "den": "25A",
+      "khu_pho": "9",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "10",
+      "den": "14",
+      "khu_pho": "9",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "5",
+      "khu_pho": "12",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "6",
+      "khu_pho": "12",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "le khoi": [
+    {
+      "tu": "19",
+      "den": "27",
+      "khu_pho": "3",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "77",
+      "den": "143",
+      "khu_pho": "4",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "56",
+      "khu_pho": "4",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "11",
+      "side": "both",
+      "hems": []
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "11",
+      "side": "both",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "7",
+      "khu_pho": "13",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "28",
+      "khu_pho": "4",
+      "side": "both",
+      "hems": [
+        "107"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "3",
+      "khu_pho": "4",
+      "side": "odd",
+      "hems": [
+        "137"
+      ]
+    }
+  ],
+  "vo van dung": [
+    {
+      "tu": "15",
+      "den": "15",
+      "khu_pho": "3",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "26A",
+      "den": "28",
+      "khu_pho": "3",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "11",
+      "side": "both",
+      "hems": []
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "11",
+      "side": "both",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "5",
+      "khu_pho": "13",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "8",
+      "khu_pho": "13",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "do duc duc": [
+    {
+      "tu": "15",
+      "den": "15",
+      "khu_pho": "3",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "14",
+      "den": "14",
+      "khu_pho": "3",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "11",
+      "side": "both",
+      "hems": []
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "11",
+      "side": "both",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "7",
+      "khu_pho": "13",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "8",
+      "khu_pho": "13",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "nguyen chich": [
+    {
+      "tu": "9",
+      "den": "13",
+      "khu_pho": "3",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "10",
+      "den": "10",
+      "khu_pho": "3",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "11",
+      "side": "both",
+      "hems": []
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "11",
+      "side": "both",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "1D",
+      "khu_pho": "13",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "2A",
+      "khu_pho": "13",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "thach lam": [
+    {
+      "tu": "178",
+      "den": "244",
+      "khu_pho": "4",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "20",
+      "khu_pho": "7",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "328",
+      "den": "430",
+      "khu_pho": "12",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "182",
+      "den": "332",
+      "khu_pho": "13",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "309",
+      "den": "379",
+      "khu_pho": "14",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "193",
+      "den": "307",
+      "khu_pho": "15",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "163",
+      "den": "193",
+      "khu_pho": "17",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "22",
+      "den": "140",
+      "khu_pho": "18",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "125",
+      "den": "153",
+      "khu_pho": "21",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "106",
+      "den": "140",
+      "khu_pho": "21",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "63",
+      "den": "113",
+      "khu_pho": "22",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "61",
+      "khu_pho": "23",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "15",
+      "side": "odd",
+      "hems": [
+        "209",
+        "247",
+        "263",
+        "307"
+      ]
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "16",
+      "side": "both",
+      "hems": [
+        "307"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "29A",
+      "khu_pho": "18",
+      "side": "odd",
+      "hems": [
+        "58"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "32",
+      "khu_pho": "18",
+      "side": "even",
+      "hems": [
+        "58"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "13",
+      "khu_pho": "18",
+      "side": "odd",
+      "hems": [
+        "96"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "16",
+      "khu_pho": "18",
+      "side": "even",
+      "hems": [
+        "96"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "17",
+      "khu_pho": "23",
+      "side": "odd",
+      "hems": [
+        "15"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "26",
+      "khu_pho": "23",
+      "side": "even",
+      "hems": [
+        "15"
+      ]
+    }
+  ],
+  "phan van nam": [
+    {
+      "tu": "2",
+      "den": "54",
+      "khu_pho": "4",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "73",
+      "khu_pho": "5",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "99",
+      "khu_pho": "5",
+      "side": "odd",
+      "hems": [
+        "19",
+        "47"
+      ]
+    }
+  ],
+  "le cao lang": [
+    {
+      "tu": "1",
+      "den": "21",
+      "khu_pho": "4",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "34",
+      "khu_pho": "4",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "nan",
+      "den": "239",
+      "khu_pho": "12",
+      "side": "both",
+      "hems": []
+    },
+    {
+      "tu": "174A",
+      "den": "248",
+      "khu_pho": "12",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "23",
+      "den": "163",
+      "khu_pho": "13",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "38",
+      "den": "174",
+      "khu_pho": "13",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "le niem": [
+    {
+      "tu": "1",
+      "den": "41",
+      "khu_pho": "4",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "20",
+      "khu_pho": "4",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "148",
+      "den": "254",
+      "khu_pho": "9",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "43",
+      "den": "177",
+      "khu_pho": "11",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "22",
+      "den": "146",
+      "khu_pho": "11",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "117",
+      "den": "269",
+      "khu_pho": "12",
+      "side": "odd",
+      "hems": []
+    }
+  ],
+  "le lam": [
+    {
+      "tu": "1",
+      "den": "19",
+      "khu_pho": "4",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "40",
+      "khu_pho": "4",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "143",
+      "den": "233",
+      "khu_pho": "9",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "166",
+      "den": "246",
+      "khu_pho": "9",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "23",
+      "den": "141A",
+      "khu_pho": "11",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "42",
+      "den": "146B",
+      "khu_pho": "11",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "quach dinh bao": [
+    {
+      "tu": "3",
+      "den": "21",
+      "khu_pho": "4",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "36",
+      "khu_pho": "4",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "157",
+      "den": "251",
+      "khu_pho": "9",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "154",
+      "den": "280",
+      "khu_pho": "9",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "thoai ngoc hau": [
+    {
+      "tu": "126",
+      "den": "244",
+      "khu_pho": "5",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "175",
+      "den": "177",
+      "khu_pho": "7",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "256",
+      "den": "342",
+      "khu_pho": "17",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "231",
+      "den": "295",
+      "khu_pho": "18",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "297",
+      "den": "307",
+      "khu_pho": "21",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "99",
+      "khu_pho": "5",
+      "side": "odd",
+      "hems": [
+        "182",
+        "198",
+        "212",
+        "240",
+        "242",
+        "244"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "17",
+      "side": "odd",
+      "hems": [
+        "318",
+        "326",
+        "332",
+        "338",
+        "342"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "19",
+      "khu_pho": "18",
+      "side": "odd",
+      "hems": [
+        "257"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "30",
+      "khu_pho": "18",
+      "side": "even",
+      "hems": [
+        "257"
+      ]
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "19",
+      "side": "both",
+      "hems": [
+        "257"
+      ]
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "20",
+      "side": "both",
+      "hems": [
+        "257"
+      ]
+    }
+  ],
+  "luy ban bich": [
+    {
+      "tu": "483",
+      "den": "621",
+      "khu_pho": "7",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "391",
+      "den": "481",
+      "khu_pho": "23",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "4",
+      "khu_pho": "28",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "29",
+      "side": "both",
+      "hems": []
+    },
+    {
+      "tu": "159",
+      "den": "239",
+      "khu_pho": "34",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "127",
+      "den": "157",
+      "khu_pho": "41",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "95",
+      "den": "125",
+      "khu_pho": "45",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "93",
+      "khu_pho": "47",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "11",
+      "khu_pho": "7",
+      "side": "odd",
+      "hems": [
+        "621"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "34",
+      "side": "odd",
+      "hems": [
+        "161"
+      ]
+    },
+    {
+      "tu": "29",
+      "den": "73",
+      "khu_pho": "40",
+      "side": "odd",
+      "hems": [
+        "149"
+      ]
+    },
+    {
+      "tu": "28",
+      "den": "78",
+      "khu_pho": "40",
+      "side": "even",
+      "hems": [
+        "149"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "27",
+      "khu_pho": "41",
+      "side": "odd",
+      "hems": [
+        "149"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "26A",
+      "khu_pho": "41",
+      "side": "even",
+      "hems": [
+        "149"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "51",
+      "khu_pho": "41",
+      "side": "odd",
+      "hems": [
+        "151"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "60",
+      "khu_pho": "41",
+      "side": "even",
+      "hems": [
+        "151"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "47",
+      "side": "odd",
+      "hems": [
+        "17",
+        "37",
+        "67",
+        "77"
+      ]
+    }
+  ],
+  "uong a khu adc": [
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "7",
+      "side": "odd",
+      "hems": []
+    }
+  ],
+  "uong b khu adc": [
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "7",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "8",
+      "side": "both",
+      "hems": []
+    }
+  ],
+  "do bi": [
+    {
+      "tu": "129",
+      "den": "199",
+      "khu_pho": "12",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "162",
+      "den": "218A",
+      "khu_pho": "12",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "121",
+      "khu_pho": "13",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "158",
+      "khu_pho": "13",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "tran quang co": [
+    {
+      "tu": "121",
+      "den": "187",
+      "khu_pho": "14",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "4",
+      "den": "138",
+      "khu_pho": "15",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "119",
+      "khu_pho": "17",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "15",
+      "side": "odd",
+      "hems": [
+        "16",
+        "82",
+        "98",
+        "122"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "17",
+      "side": "odd",
+      "hems": [
+        "9",
+        "17",
+        "33",
+        "87",
+        "119"
+      ]
+    }
+  ],
+  "nguyen ly": [
+    {
+      "tu": "13",
+      "den": "43",
+      "khu_pho": "17",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "32",
+      "den": "52",
+      "khu_pho": "17",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "25",
+      "khu_pho": "21",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "26",
+      "khu_pho": "21",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "17",
+      "side": "odd",
+      "hems": [
+        "23"
+      ]
+    }
+  ],
+  "57/1 tran quang co": [
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "17",
+      "side": "odd",
+      "hems": []
+    }
+  ],
+  "hoang thieu hoa": [
+    {
+      "tu": "45",
+      "den": "99",
+      "khu_pho": "21",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "46",
+      "den": "100",
+      "khu_pho": "21",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "24B",
+      "den": "28",
+      "khu_pho": "22",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "25",
+      "den": "55",
+      "khu_pho": "24",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "20",
+      "den": "24A",
+      "khu_pho": "24",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "8",
+      "khu_pho": "28",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "15",
+      "khu_pho": "28",
+      "side": "odd",
+      "hems": []
+    }
+  ],
+  "luong truc dam": [
+    {
+      "tu": "57B",
+      "den": "73B",
+      "khu_pho": "21",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "102",
+      "den": "128",
+      "khu_pho": "21",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "60",
+      "den": "98",
+      "khu_pho": "22",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "2B",
+      "den": "4",
+      "khu_pho": "23",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "43",
+      "den": "73",
+      "khu_pho": "24",
+      "side": "odd",
+      "hems": []
+    }
+  ],
+  "to hieu": [
+    {
+      "tu": "244",
+      "den": "264",
+      "khu_pho": "21",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "202",
+      "den": "244",
+      "khu_pho": "24",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "84",
+      "den": "202",
+      "khu_pho": "25",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "172",
+      "den": "182",
+      "khu_pho": "28",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "31",
+      "den": "99",
+      "khu_pho": "31",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "108D",
+      "den": "166",
+      "khu_pho": "32",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "5",
+      "den": "17",
+      "khu_pho": "38",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "56",
+      "den": "108",
+      "khu_pho": "39",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1A",
+      "den": "9",
+      "khu_pho": "42",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "56",
+      "khu_pho": "43",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "59",
+      "khu_pho": "24",
+      "side": "odd",
+      "hems": [
+        "202"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "38",
+      "khu_pho": "25",
+      "side": "even",
+      "hems": [
+        "202"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "43",
+      "khu_pho": "24",
+      "side": "odd",
+      "hems": [
+        "232"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "46",
+      "khu_pho": "24",
+      "side": "even",
+      "hems": [
+        "232"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "75",
+      "khu_pho": "28",
+      "side": "odd",
+      "hems": [
+        "178"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "88",
+      "khu_pho": "28",
+      "side": "even",
+      "hems": [
+        "178"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "17",
+      "khu_pho": "31",
+      "side": "odd",
+      "hems": [
+        "47"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "16",
+      "khu_pho": "31",
+      "side": "even",
+      "hems": [
+        "47"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "51",
+      "khu_pho": "31",
+      "side": "odd",
+      "hems": [
+        "57"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "72",
+      "khu_pho": "31",
+      "side": "even",
+      "hems": [
+        "57"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "41",
+      "khu_pho": "31",
+      "side": "odd",
+      "hems": [
+        "87"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "32",
+      "khu_pho": "31",
+      "side": "even",
+      "hems": [
+        "87"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "25",
+      "khu_pho": "31",
+      "side": "odd",
+      "hems": [
+        "99"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "32",
+      "side": "odd",
+      "hems": [
+        "108",
+        "136",
+        "164"
+      ]
+    },
+    {
+      "tu": "22",
+      "den": "62",
+      "khu_pho": "32",
+      "side": "even",
+      "hems": [
+        "110"
+      ]
+    },
+    {
+      "tu": "45",
+      "den": "73",
+      "khu_pho": "33",
+      "side": "odd",
+      "hems": [
+        "110"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "37A",
+      "khu_pho": "39",
+      "side": "odd",
+      "hems": [
+        "56"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "64",
+      "khu_pho": "43",
+      "side": "even",
+      "hems": [
+        "56"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "7A",
+      "khu_pho": "42",
+      "side": "odd",
+      "hems": [
+        "9"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "57",
+      "khu_pho": "43",
+      "side": "odd",
+      "hems": [
+        "40"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "70",
+      "khu_pho": "43",
+      "side": "even",
+      "hems": [
+        "40"
+      ]
+    },
+    {
+      "tu": "59",
+      "den": "75",
+      "khu_pho": "46",
+      "side": "odd",
+      "hems": [
+        "40"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "51",
+      "khu_pho": "43",
+      "side": "odd",
+      "hems": [
+        "50"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "44",
+      "khu_pho": "43",
+      "side": "even",
+      "hems": [
+        "50"
+      ]
+    }
+  ],
+  "duong khue": [
+    {
+      "tu": "93",
+      "den": "123",
+      "khu_pho": "21",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "84",
+      "den": "108",
+      "khu_pho": "21",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "19",
+      "den": "91A",
+      "khu_pho": "22",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "52",
+      "den": "82",
+      "khu_pho": "22",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "17A",
+      "khu_pho": "23",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "50A",
+      "khu_pho": "23",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "huynh van mot": [
+    {
+      "tu": "93",
+      "den": "131",
+      "khu_pho": "21",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "108",
+      "den": "142",
+      "khu_pho": "21",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "19",
+      "den": "91",
+      "khu_pho": "22",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "14",
+      "den": "106",
+      "khu_pho": "22",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "17",
+      "khu_pho": "23",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "12",
+      "khu_pho": "23",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "y lan": [
+    {
+      "tu": "107",
+      "den": "147",
+      "khu_pho": "21",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "100",
+      "den": "120",
+      "khu_pho": "21",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "69",
+      "den": "105",
+      "khu_pho": "22",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "56",
+      "den": "98",
+      "khu_pho": "22",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "67A",
+      "khu_pho": "23",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "54",
+      "khu_pho": "23",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "tran van giap": [
+    {
+      "tu": "83",
+      "den": "105A",
+      "khu_pho": "21",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "70",
+      "den": "84",
+      "khu_pho": "21",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "37",
+      "den": "81",
+      "khu_pho": "22",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "34",
+      "den": "66",
+      "khu_pho": "22",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "35A",
+      "khu_pho": "23",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "32",
+      "khu_pho": "23",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "le quang chieu": [
+    {
+      "tu": "1",
+      "den": "47",
+      "khu_pho": "21",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "24",
+      "khu_pho": "21",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "trinh thi tho": [
+    {
+      "tu": "2",
+      "den": "80",
+      "khu_pho": "22",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "11",
+      "khu_pho": "23",
+      "side": "odd",
+      "hems": []
+    }
+  ],
+  "nguy nhu kon tum": [
+    {
+      "tu": "8",
+      "den": "8",
+      "khu_pho": "22",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "61",
+      "khu_pho": "23",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "6",
+      "khu_pho": "23",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "le than": [
+    {
+      "tu": "7",
+      "den": "19",
+      "khu_pho": "24",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "22",
+      "den": "24",
+      "khu_pho": "24",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "5",
+      "khu_pho": "25",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "22",
+      "khu_pho": "25",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "45",
+      "khu_pho": "24",
+      "side": "odd",
+      "hems": [
+        "22"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "44",
+      "khu_pho": "25",
+      "side": "even",
+      "hems": [
+        "22",
+        "18"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "43",
+      "khu_pho": "25",
+      "side": "odd",
+      "hems": [
+        "18"
+      ]
+    }
+  ],
+  "tran quang qua": [
+    {
+      "tu": "1",
+      "den": "43",
+      "khu_pho": "24",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "112",
+      "khu_pho": "24",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "chu thien": [
+    {
+      "tu": "1",
+      "den": "105",
+      "khu_pho": "25",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "92",
+      "khu_pho": "28",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "85/2 chu thien": [
+    {
+      "tu": "1",
+      "den": "9",
+      "khu_pho": "25",
+      "side": "odd",
+      "hems": []
+    }
+  ],
+  "nguyen thieu lau": [
+    {
+      "tu": "1",
+      "den": "59",
+      "khu_pho": "25",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "66",
+      "khu_pho": "25",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "26",
+      "side": "both",
+      "hems": []
+    },
+    {
+      "tu": "Chung Cư RichStar 1",
+      "den": "nan",
+      "khu_pho": "27",
+      "side": "both",
+      "hems": []
+    }
+  ],
+  "hoa binh": [
+    {
+      "tu": "178",
+      "den": "278",
+      "khu_pho": "28",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "239",
+      "den": "341",
+      "khu_pho": "30",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "Chung Cư RichStar 2",
+      "den": "nan",
+      "khu_pho": "30",
+      "side": "both",
+      "hems": []
+    },
+    {
+      "tu": "233",
+      "den": "237",
+      "khu_pho": "31",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "179",
+      "den": "231",
+      "khu_pho": "32",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "135",
+      "den": "179",
+      "khu_pho": "33",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "93",
+      "den": "133",
+      "khu_pho": "34",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "76",
+      "khu_pho": "32",
+      "side": "even",
+      "hems": [
+        "179"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "45",
+      "khu_pho": "33",
+      "side": "odd",
+      "hems": [
+        "179"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "32",
+      "side": "odd",
+      "hems": [
+        "187"
+      ]
+    }
+  ],
+  "cay keo": [
+    {
+      "tu": "1",
+      "den": "155",
+      "khu_pho": "28",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "34",
+      "den": "162",
+      "khu_pho": "28",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "nguyen my ca": [
+    {
+      "tu": "1",
+      "den": "5",
+      "khu_pho": "28",
+      "side": "odd",
+      "hems": []
+    }
+  ],
+  "57/9 to hieu": [
+    {
+      "tu": "1",
+      "den": "99",
+      "khu_pho": "31",
+      "side": "odd",
+      "hems": []
+    }
+  ],
+  "57/27 to hieu": [
+    {
+      "tu": "1",
+      "den": "99",
+      "khu_pho": "31",
+      "side": "odd",
+      "hems": []
+    }
+  ],
+  "57/41 to hieu": [
+    {
+      "tu": "1",
+      "den": "99",
+      "khu_pho": "31",
+      "side": "odd",
+      "hems": []
+    }
+  ],
+  "57/43 to hieu": [
+    {
+      "tu": "2",
+      "den": "12",
+      "khu_pho": "31",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "99/7 to hieu": [
+    {
+      "tu": "1",
+      "den": "99",
+      "khu_pho": "31",
+      "side": "odd",
+      "hems": []
+    }
+  ],
+  "99/9 to hieu": [
+    {
+      "tu": "1",
+      "den": "99",
+      "khu_pho": "31",
+      "side": "odd",
+      "hems": []
+    }
+  ],
+  "99/17 to hieu": [
+    {
+      "tu": "1",
+      "den": "99",
+      "khu_pho": "31",
+      "side": "odd",
+      "hems": []
+    }
+  ],
+  "179/4 hoa binh": [
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "32",
+      "side": "odd",
+      "hems": []
+    }
+  ],
+  "nguyen van vinh": [
+    {
+      "tu": "46",
+      "den": "68",
+      "khu_pho": "32",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "66",
+      "khu_pho": "33",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "35",
+      "khu_pho": "34",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "35",
+      "khu_pho": "33",
+      "side": "odd",
+      "hems": [
+        "2"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "36",
+      "khu_pho": "33",
+      "side": "even",
+      "hems": [
+        "2"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "11",
+      "khu_pho": "33",
+      "side": "odd",
+      "hems": [
+        "6"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "45",
+      "khu_pho": "33",
+      "side": "odd",
+      "hems": [
+        "26"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "46",
+      "khu_pho": "33",
+      "side": "even",
+      "hems": [
+        "26"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "51",
+      "khu_pho": "33",
+      "side": "odd",
+      "hems": [
+        "38"
+      ]
+    }
+  ],
+  "ly thanh tong": [
+    {
+      "tu": "48",
+      "den": "120",
+      "khu_pho": "32",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "44",
+      "khu_pho": "34",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "139",
+      "den": "239",
+      "khu_pho": "38",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "75",
+      "den": "137",
+      "khu_pho": "39",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "111B",
+      "den": "111B",
+      "khu_pho": "39",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "45",
+      "den": "75",
+      "khu_pho": "40",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "45",
+      "khu_pho": "41",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "32",
+      "side": "odd",
+      "hems": [
+        "46",
+        "66",
+        "74",
+        "76"
+      ]
+    },
+    {
+      "tu": "LôA",
+      "den": "LôD",
+      "khu_pho": "38",
+      "side": "both",
+      "hems": [
+        "149"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "12",
+      "khu_pho": "39",
+      "side": "even",
+      "hems": [
+        "75"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "37",
+      "khu_pho": "40",
+      "side": "odd",
+      "hems": [
+        "75"
+      ]
+    },
+    {
+      "tu": "33",
+      "den": "119",
+      "khu_pho": "44",
+      "side": "odd",
+      "hems": [
+        "75"
+      ]
+    },
+    {
+      "tu": "20",
+      "den": "130",
+      "khu_pho": "44",
+      "side": "even",
+      "hems": [
+        "75"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "39",
+      "side": "odd",
+      "hems": [
+        "111"
+      ]
+    }
+  ],
+  "179/33 hoa binh": [
+    {
+      "tu": "2",
+      "den": "8",
+      "khu_pho": "33",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "179/39 hoa binh": [
+    {
+      "tu": "1",
+      "den": "31",
+      "khu_pho": "33",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "32",
+      "khu_pho": "33",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "2/11 nguyen van vinh": [
+    {
+      "tu": "1",
+      "den": "33",
+      "khu_pho": "33",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "34",
+      "khu_pho": "33",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "26/15 nguyen van vinh": [
+    {
+      "tu": "1",
+      "den": "21",
+      "khu_pho": "33",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "22",
+      "khu_pho": "33",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "ly thai tong": [
+    {
+      "tu": "1",
+      "den": "51",
+      "khu_pho": "34",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "52",
+      "khu_pho": "34",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "hoang xuan hoanh": [
+    {
+      "tu": "1",
+      "den": "33",
+      "khu_pho": "34",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "4",
+      "den": "42",
+      "khu_pho": "34",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "34",
+      "side": "odd",
+      "hems": [
+        "8",
+        "18",
+        "26"
+      ]
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "35",
+      "side": "both",
+      "hems": [
+        "26"
+      ]
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "36",
+      "side": "both",
+      "hems": [
+        "26"
+      ]
+    },
+    {
+      "tu": "nan",
+      "den": "nan",
+      "khu_pho": "37",
+      "side": "both",
+      "hems": [
+        "26"
+      ]
+    }
+  ],
+  "phan anh": [
+    {
+      "tu": "194",
+      "den": "228",
+      "khu_pho": "38",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "96",
+      "den": "194",
+      "khu_pho": "42",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "51C",
+      "khu_pho": "42",
+      "side": "odd",
+      "hems": [
+        "158"
+      ]
+    },
+    {
+      "tu": "A38",
+      "den": "A65",
+      "khu_pho": "42",
+      "side": "both",
+      "hems": []
+    },
+    {
+      "tu": "B25",
+      "den": "B48",
+      "khu_pho": "42",
+      "side": "both",
+      "hems": []
+    },
+    {
+      "tu": "C1",
+      "den": "C52",
+      "khu_pho": "42",
+      "side": "both",
+      "hems": [
+        "158"
+      ]
+    },
+    {
+      "tu": "D21",
+      "den": "D38",
+      "khu_pho": "42",
+      "side": "both",
+      "hems": [
+        "158"
+      ]
+    },
+    {
+      "tu": "E1",
+      "den": "E10",
+      "khu_pho": "42",
+      "side": "both",
+      "hems": [
+        "158"
+      ]
+    },
+    {
+      "tu": "B25",
+      "den": "B48",
+      "khu_pho": "42",
+      "side": "even",
+      "hems": [
+        "158"
+      ]
+    },
+    {
+      "tu": "A38",
+      "den": "A65",
+      "khu_pho": "42",
+      "side": "even",
+      "hems": [
+        "158"
+      ]
+    }
+  ],
+  "nguyen van yen": [
+    {
+      "tu": "1",
+      "den": "67",
+      "khu_pho": "38",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "67",
+      "den": "107",
+      "khu_pho": "42",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "84",
+      "khu_pho": "42",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "11",
+      "khu_pho": "42",
+      "side": "odd",
+      "hems": [
+        "34"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "16",
+      "khu_pho": "42",
+      "side": "even",
+      "hems": [
+        "34"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "19",
+      "khu_pho": "42",
+      "side": "odd",
+      "hems": [
+        "54"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "20",
+      "khu_pho": "42",
+      "side": "even",
+      "hems": [
+        "54"
+      ]
+    }
+  ],
+  "151/53 luy ban bich": [
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "40",
+      "side": "odd",
+      "hems": []
+    }
+  ],
+  "151/31 luy ban bich": [
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "41",
+      "side": "odd",
+      "hems": []
+    }
+  ],
+  "151/31/10 luy ban bich": [
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "41",
+      "side": "odd",
+      "hems": []
+    }
+  ],
+  "151/31/26 luy ban bich": [
+    {
+      "tu": "2",
+      "den": "20",
+      "khu_pho": "41",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "67/8 nguyen van yen": [
+    {
+      "tu": "2",
+      "den": "24",
+      "khu_pho": "42",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "3",
+      "den": "3",
+      "khu_pho": "42",
+      "side": "odd",
+      "hems": []
+    }
+  ],
+  "67/16 nguyen van yen": [
+    {
+      "tu": "1",
+      "den": "21",
+      "khu_pho": "42",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "20",
+      "khu_pho": "42",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "158/49 phan anh": [
+    {
+      "tu": "1",
+      "den": "3",
+      "khu_pho": "42",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "10",
+      "khu_pho": "42",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "40/13 to hieu": [
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "43",
+      "side": "odd",
+      "hems": []
+    }
+  ],
+  "40/40 to hieu": [
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "43",
+      "side": "odd",
+      "hems": []
+    }
+  ],
+  "luong the vinh": [
+    {
+      "tu": "13",
+      "den": "29",
+      "khu_pho": "43",
+      "side": "odd",
+      "hems": [
+        "58"
+      ]
+    },
+    {
+      "tu": "24",
+      "den": "34",
+      "khu_pho": "43",
+      "side": "even",
+      "hems": [
+        "58"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "9",
+      "khu_pho": "44",
+      "side": "odd",
+      "hems": [
+        "58"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "28",
+      "khu_pho": "44",
+      "side": "even",
+      "hems": [
+        "58"
+      ]
+    },
+    {
+      "tu": "4",
+      "den": "10",
+      "khu_pho": "43",
+      "side": "even",
+      "hems": [
+        "90"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "2",
+      "khu_pho": "44",
+      "side": "even",
+      "hems": [
+        "90"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "19",
+      "khu_pho": "46",
+      "side": "odd",
+      "hems": [
+        "90"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "90",
+      "khu_pho": "44",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "125",
+      "khu_pho": "45",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "92",
+      "den": "nan",
+      "khu_pho": "46",
+      "side": "both",
+      "hems": []
+    },
+    {
+      "tu": "127",
+      "den": "147",
+      "khu_pho": "46",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "149",
+      "den": "153",
+      "khu_pho": "47",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "126",
+      "den": "134",
+      "khu_pho": "47",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "79",
+      "khu_pho": "44",
+      "side": "odd",
+      "hems": [
+        "28"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "36",
+      "khu_pho": "44",
+      "side": "even",
+      "hems": [
+        "28"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "5",
+      "khu_pho": "46",
+      "side": "odd",
+      "hems": [
+        "137"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "2",
+      "khu_pho": "46",
+      "side": "even",
+      "hems": [
+        "137"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "18",
+      "khu_pho": "46",
+      "side": "even",
+      "hems": [
+        "139"
+      ]
+    },
+    {
+      "tu": "134A",
+      "den": "134A3",
+      "khu_pho": "47",
+      "side": "even",
+      "hems": [
+        "134"
+      ]
+    }
+  ],
+  "58/26 luong the vinh": [
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "43",
+      "side": "odd",
+      "hems": []
+    }
+  ],
+  "58/30 luong the vinh": [
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "43",
+      "side": "odd",
+      "hems": []
+    }
+  ],
+  "28/36 luong the vinh": [
+    {
+      "tu": "1",
+      "den": "27",
+      "khu_pho": "44",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "4",
+      "den": "24",
+      "khu_pho": "44",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "58/9 luong the vinh": [
+    {
+      "tu": "1",
+      "den": "19",
+      "khu_pho": "44",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "20",
+      "khu_pho": "44",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "tran van can": [
+    {
+      "tu": "2",
+      "den": "112",
+      "khu_pho": "45",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "33",
+      "khu_pho": "47",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "47",
+      "side": "odd",
+      "hems": [
+        "9",
+        "23"
+      ]
+    }
+  ],
+  "tran van cam": [
+    {
+      "tu": "35",
+      "den": "87",
+      "khu_pho": "46",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "23",
+      "khu_pho": "46",
+      "side": "odd",
+      "hems": [
+        "47"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "30",
+      "khu_pho": "46",
+      "side": "even",
+      "hems": [
+        "47"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "5",
+      "khu_pho": "46",
+      "side": "odd",
+      "hems": [
+        "53"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "28",
+      "khu_pho": "46",
+      "side": "even",
+      "hems": [
+        "53"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "31",
+      "khu_pho": "46",
+      "side": "odd",
+      "hems": [
+        "67"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "34",
+      "khu_pho": "46",
+      "side": "even",
+      "hems": [
+        "67"
+      ]
+    }
+  ],
+  "77a tran van cam": [
+    {
+      "tu": "1",
+      "den": "11",
+      "khu_pho": "46",
+      "side": "odd",
+      "hems": []
+    }
+  ],
+  "90/3 luong the vinh": [
+    {
+      "tu": "1",
+      "den": "5A",
+      "khu_pho": "46",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "10",
+      "khu_pho": "46",
+      "side": "even",
+      "hems": []
+    }
+  ],
+  "luong minh nguyet": [
+    {
+      "tu": "42",
+      "den": "72",
+      "khu_pho": "46",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "57",
+      "khu_pho": "47",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "2",
+      "den": "40",
+      "khu_pho": "47",
+      "side": "even",
+      "hems": []
+    },
+    {
+      "tu": "33",
+      "den": "33",
+      "khu_pho": "48",
+      "side": "odd",
+      "hems": []
+    },
+    {
+      "tu": "1",
+      "den": "43",
+      "khu_pho": "46",
+      "side": "odd",
+      "hems": [
+        "40"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "36",
+      "khu_pho": "47",
+      "side": "even",
+      "hems": [
+        "40"
+      ]
+    },
+    {
+      "tu": "2",
+      "den": "8",
+      "khu_pho": "46",
+      "side": "even",
+      "hems": [
+        "72"
+      ]
+    },
+    {
+      "tu": "1",
+      "den": "999",
+      "khu_pho": "47",
+      "side": "odd",
+      "hems": [
+        "3",
+        "17",
+        "45"
+      ]
+    }
+  ]
+}
