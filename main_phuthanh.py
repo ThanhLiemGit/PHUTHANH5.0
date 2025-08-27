@@ -58,11 +58,10 @@ Nếu đây không phải địa chỉ hợp lệ trong dữ liệu thì trả l
 async def handle_message(user_input: str):
     addr_info = check_address(user_input)
 
-    if addr_info and addr_info.get("khu_pho"):
-        # ✅ Ưu tiên logic
-        return format_address_response(addr_info, user_input)
+    if addr_info:   # tức là trả về string khu phố
+        kp = str(addr_info).replace("KP", "")
+        return format_address_response({"khu_pho": kp}, user_input)
     else:
-        # ❌ Không tìm thấy → fallback GPT
         return await call_gpt_with_context(user_input)
 
 # ------------------------------------------------
