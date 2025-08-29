@@ -1,16 +1,21 @@
 import re
 import json
+import unicodedata
 
 # Load logic JSON (giữ đúng tên file bạn đang dùng)
 with open("phuthanh_logic_with_hem_fixed.json", "r", encoding="utf-8") as f:
     logic_data = json.load(f)
 
 def normalize(text: str) -> str:
-    """Chuẩn hóa tên đường và địa chỉ: hạ chữ thường, bỏ ký tự lạ (trừ '/')"""
+    """Chuẩn hóa tên đường và địa chỉ: bỏ dấu tiếng Việt, thường hóa"""
     text = text.lower().strip()
-    text = re.sub(r"[^\w\s/]", " ", text)   # giữ lại dấu '/'
+    # bỏ dấu tiếng Việt
+    text = unicodedata.normalize("NFD", text)
+    text = "".join(c for c in text if unicodedata.category(c) != "Mn")
+    # bỏ ký tự đặc biệt (trừ '/')
+    text = re.sub(r"[^\w\s/]", " ", text)
     text = re.sub(r"\s+", " ", text)
-    return text
+    return text.strip()
 
 def parse_address(addr: str):
     """Tách phần 'house' (có thể có chữ + '/') và 'street'."""
