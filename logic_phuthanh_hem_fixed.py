@@ -15,17 +15,22 @@ def normalize(text: str) -> str:
 def parse_address(addr: str):
     """Tách số nhà (có thể kèm hẻm) + tên đường"""
     addr = normalize(addr)
-    m = re.match(r"^([\d/]+)\s+(.*)$", addr)
+    m = re.match(r"^([\w/]+)\s+(.*)$", addr)  # ✅ cho phép cả chữ + số
     if not m:
         return None
     return {
-        "house": m.group(1),  # vd: 47/1/2/3
+        "house": m.group(1),  # vd: 47/1/2/3 hoặc A25
         "street": m.group(2)  # vd: tran quang co
     }
 
 def get_side(num: int) -> str:
     """Trả về 'odd' hoặc 'even'"""
     return "even" if num % 2 == 0 else "odd"
+
+def extract_number(text: str):
+    """Lấy số đầu tiên trong chuỗi (vd: 25A -> 25, A25 -> 25, B12C -> 12)"""
+    m = re.search(r"(\d+)", str(text))
+    return int(m.group(1)) if m else None
 
 def check_address(addr: str):
     parsed = parse_address(addr)
@@ -43,9 +48,10 @@ def check_address(addr: str):
     # Nếu địa chỉ có hẻm (có "/")
     if "/" in house:
         hem1 = house.split("/")[0]  # lấy hẻm gốc
+        hem1_num = extract_number(hem1)
         for rule in rules:
             hem_list = rule.get("hems", [])
-            if hem1 in hem_list:
+            if hem1 in hem_list or (hem1_num and str(hem1_num) in hem_list):
                 return {
                     "khu_pho": rule["khu_pho"],
                     "street": street,
@@ -53,20 +59,13 @@ def check_address(addr: str):
                 }
 
     # Nếu là mặt tiền
-    try:
-        num = int(re.match(r"^\d+", house).group())
-    except:
+    num = extract_number(house)
+    if num is None:
         return None
 
-    # ✅ safe_int đặt trong check_address
-    def safe_int(val):
-        """Lấy phần số đầu tiên từ chuỗi (vd: '25A' -> 25)"""
-        m = re.match(r"^(\d+)", str(val))
-        return int(m.group(1)) if m else None
-
     for rule in rules:
-        tu = safe_int(rule["tu"])
-        den = safe_int(rule["den"])
+        tu = extract_number(rule["tu"])
+        den = extract_number(rule["den"])
         if tu is None or den is None:
             continue  # bỏ qua rule không parse được
 
@@ -76,7 +75,7 @@ def check_address(addr: str):
                 return {
                     "khu_pho": rule["khu_pho"],
                     "street": street,
-                    "house": str(num)
+                    "house": house  # giữ nguyên cả hậu tố/tiền tố
                 }
 
     return None
