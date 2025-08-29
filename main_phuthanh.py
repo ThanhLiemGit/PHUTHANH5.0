@@ -27,10 +27,11 @@ def format_address_response(addr_info, user_input):
     return (
         f"📍 Địa chỉ **{user_input}** thuộc **Khu phố {kp}**, Phường Phú Thạnh.\n\n"
         f"👤 Bí thư chi bộ: {info.get('bi_thu', 'Chưa cập nhật')}\n"
-        f"👤 Khu phố trưởng: {info.get('truong', 'Chưa cập nhật')}\n"
-        f"📞 Liên hệ: {info.get('so_dien_thoai', 'Chưa có')}\n"
-        f"👮 CSKV: {info.get('canh_sat', 'Chưa cập nhật')}"
+        f"👤 Khu phố trưởng: {info.get('kp_truong', 'Chưa cập nhật')}\n"
+        f"👤 Mặt trận KP: {info.get('truong_ctmt', 'Chưa cập nhật')}\n"
+        f"👮 CSKV: {info.get('cskv', 'Chưa cập nhật')}"
     )
+
 
 async def call_gpt_with_context(user_input: str):
     prompt = f"""
