@@ -122,9 +122,9 @@ async def telegram_webhook(request: Request):
         cb_data = query["data"]
 
         if cb_data == "menu_address":
-            text = "📍 Chọn đường cần tra cứu:"
-            markup = address_menu()
-
+            text = "📍 Mời bạn nhập địa chỉ (số nhà + tên đường) để tra cứu:"
+            markup = None
+            
         elif cb_data.startswith("street_"):
             street = cb_data.replace("street_", "")
             text = f"Bạn chọn đường **{street.title()}**.\n➡️ Vui lòng nhập số nhà để kiểm tra."
