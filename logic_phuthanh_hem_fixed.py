@@ -7,7 +7,6 @@ with open("phuthanh_logic_with_hem_fixed.json", "r", encoding="utf-8") as f:
     logic_data = json.load(f)
 
 def normalize(text: str) -> str:
-    """Chuẩn hóa tên đường và địa chỉ: bỏ dấu tiếng Việt, thường hóa"""
     text = text.lower().strip()
     text = unicodedata.normalize("NFD", text)
     text = "".join(c for c in text if unicodedata.category(c) != "Mn")
@@ -16,7 +15,6 @@ def normalize(text: str) -> str:
     return text.strip()
 
 def parse_address(addr: str):
-    """Tách phần 'house' (có thể có chữ + '/') và 'street'."""
     addr = normalize(addr)
     m = re.match(r"^([\w/]+)\s+(.*)$", addr)
     if not m:
@@ -27,7 +25,6 @@ def get_side(num: int) -> str:
     return "even" if num % 2 == 0 else "odd"
 
 def extract_number(text: str):
-    """Lấy số đầu tiên trong chuỗi"""
     m = re.search(r"(\d+)", str(text))
     return int(m.group(1)) if m else None
 
@@ -36,17 +33,17 @@ def check_address(addr: str):
     if not parsed:
         return None
 
-    house = parsed["house"]          # ví dụ: "63/1", "A25", "25A", "11"
-    street = parsed["street"]        # ví dụ: "nguyen son"
+    house = parsed["house"]
+    street = parsed["street"]
     rules = logic_data.get(street, [])
     if not rules:
         return None
 
     # ===== CASE 1: HẺM =====
     if "/" in house:
-        hem1_raw = house.split("/")[0]     # số hẻm chính (vd: 63 trong 63/1)
+        hem1_raw = house.split("/")[0]
         hem1_num = extract_number(hem1_raw)
-        sub_num = extract_number(house.split("/")[1])  # số trong hẻm (vd: 1 trong 63/1)
+        sub_num = extract_number(house.split("/")[1])  # số trong hẻm
 
         for rule in rules:
             for h in rule.get("hems", []):
@@ -69,6 +66,8 @@ def check_address(addr: str):
     for rule in rules:
         tu = extract_number(rule.get("tu"))
         den = extract_number(rule.get("den"))
+
+        # Nếu rule không có tu/den → bỏ qua (rule này chỉ dành cho hems)
         if tu is None or den is None:
             continue
 
