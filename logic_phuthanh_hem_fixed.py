@@ -46,34 +46,36 @@ def check_address(addr: str):
         return None
 
     num = extract_number(house)  # nhận cả 25A / A25
-    hem1_raw = house.split("/")[0]   # phần trước dấu "/" (nếu có), ví dụ "11" trong "11/2"
-    hem1_num = extract_number(hem1_raw)
 
-    # ===== 1) ƯU TIÊN CHECK HẺM (kể cả khi input là số nhà gốc) =====
-    for rule in rules:
-        hem_list = rule.get("hems", []) or []
+    # ===== CASE 1: HẺM (có "/") =====
+    if "/" in house:
+        hem1_raw = house.split("/")[0]   # phần trước dấu "/"
+        hem1_num = extract_number(hem1_raw)
 
-        # Chuẩn hóa hem_list về chuỗi số
-        normalized_hems = set()
-        for h in hem_list:
-            hn = extract_number(h)
-            if hn is not None:
-                normalized_hems.add(str(hn))
-            else:
-                normalized_hems.add(str(h).strip())
+        for rule in rules:
+            hem_list = rule.get("hems", []) or []
 
-        # Nếu input match hẻm (dù có "/" hay chỉ là số gốc)
-        if (
-            (hem1_num is not None and str(hem1_num) in normalized_hems)
-            or (str(hem1_raw) in hem_list)
-        ):
-            return {
-                "khu_pho": rule["khu_pho"],
-                "street": street,
-                "hem": hem1_raw
-            }
+            normalized_hems = set()
+            for h in hem_list:
+                hn = extract_number(h)
+                if hn is not None:
+                    normalized_hems.add(str(hn))
+                else:
+                    normalized_hems.add(str(h).strip())
 
-    # ===== 2) NẾU KHÔNG PHẢI HẺM THÌ CHECK RANGE MẶT TIỀN =====
+            if (
+                (hem1_num is not None and str(hem1_num) in normalized_hems)
+                or (str(hem1_raw) in hem_list)
+            ):
+                return {
+                    "khu_pho": rule["khu_pho"],
+                    "street": street,
+                    "hem": hem1_raw
+                }
+
+        return None  # là hẻm nhưng không có trong dữ liệu → loại luôn
+
+    # ===== CASE 2: MẶT TIỀN (không có "/") =====
     if num is None:
         return None
 
