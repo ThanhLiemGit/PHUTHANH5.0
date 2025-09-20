@@ -45,7 +45,7 @@ def check_address(addr: str):
     if not rules:
         return None
 
-    num = extract_number(house)  # nhận cả 25A / A25
+    num = extract_number(house)
 
     # ===== CASE 1: HẺM (có "/") =====
     if "/" in house:
@@ -55,23 +55,26 @@ def check_address(addr: str):
         for rule in rules:
             hem_list = rule.get("hems", []) or []
 
-            normalized_hems = set()
             for h in hem_list:
-                hn = extract_number(h)
-                if hn is not None:
-                    normalized_hems.add(str(hn))
+                if isinstance(h, dict):
+                    # hẻm có range chi tiết
+                    if str(h.get("hem")) == str(hem1_raw):
+                        tu = extract_number(h.get("tu"))
+                        den = extract_number(h.get("den"))
+                        if tu and den and num and tu <= num <= den:
+                            return {
+                                "khu_pho": h["khu_pho"],
+                                "street": street,
+                                "hem": hem1_raw
+                            }
                 else:
-                    normalized_hems.add(str(h).strip())
-
-            if (
-                (hem1_num is not None and str(hem1_num) in normalized_hems)
-                or (str(hem1_raw) in hem_list)
-            ):
-                return {
-                    "khu_pho": rule["khu_pho"],
-                    "street": street,
-                    "hem": hem1_raw
-                }
+                    # hẻm kiểu list string → nguyên hẻm
+                    if str(hem1_raw) == str(h) or (hem1_num and str(hem1_num) == str(h)):
+                        return {
+                            "khu_pho": rule["khu_pho"],
+                            "street": street,
+                            "hem": hem1_raw
+                        }
 
         return None  # là hẻm nhưng không có trong dữ liệu → loại luôn
 
