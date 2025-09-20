@@ -3,21 +3,21 @@
     {
       "tu": "1",
       "den": "55",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "1",
       "hems": []
     },
     {
       "tu": "16",
       "den": "28",
-      "side": "all",
+      "side": "even",
       "khu_pho": "2",
       "hems": []
     },
     {
       "tu": "8A",
       "den": "12",
-      "side": "all",
+      "side": "even",
       "khu_pho": "9",
       "hems": []
     }
@@ -26,56 +26,56 @@
     {
       "tu": "343",
       "den": "387",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "1",
       "hems": []
     },
     {
       "tu": "275",
       "den": "341",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "2",
       "hems": []
     },
     {
       "tu": "111",
       "den": "271",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "3",
       "hems": []
     },
     {
       "tu": "73",
       "den": "107",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "4",
       "hems": []
     },
     {
       "tu": "1",
       "den": "71",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "5",
       "hems": [
         {
           "hem": "11",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "both",
           "khu_pho": "5"
         },
         {
           "hem": "59",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "both",
           "khu_pho": "5"
         },
         {
           "hem": "61",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "both",
           "khu_pho": "5"
         }
       ]
@@ -83,14 +83,14 @@
     {
       "tu": "53",
       "den": "53",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "6",
       "hems": []
     },
     {
       "tu": "111",
       "den": "273",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "8",
       "hems": []
     }
@@ -99,21 +99,21 @@
     {
       "tu": "220",
       "den": "290",
-      "side": "all",
+      "side": "even",
       "khu_pho": "1",
       "hems": []
     },
     {
       "tu": "148",
       "den": "218",
-      "side": "all",
+      "side": "even",
       "khu_pho": "12",
       "hems": []
     },
     {
       "tu": "104",
       "den": "182",
-      "side": "all",
+      "side": "even",
       "khu_pho": "14",
       "hems": []
     }
@@ -122,49 +122,49 @@
     {
       "tu": "168",
       "den": "328",
-      "side": "all",
+      "side": "even",
       "khu_pho": "2",
       "hems": []
     },
     {
       "tu": "25",
       "den": "41",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "4",
       "hems": []
     },
     {
       "tu": "28",
       "den": "56",
-      "side": "all",
+      "side": "even",
       "khu_pho": "4",
       "hems": []
     },
     {
       "tu": "1",
       "den": "26",
-      "side": "all",
+      "side": "both",
       "khu_pho": "5",
       "hems": [
         {
           "hem": "3",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "5"
         },
         {
           "hem": "11",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "5"
         },
         {
           "hem": "12",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "5"
         }
       ]
@@ -172,7 +172,7 @@
     {
       "tu": "173",
       "den": "297",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "9",
       "hems": []
     }
@@ -181,21 +181,21 @@
     {
       "tu": "3",
       "den": "13",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "2",
       "hems": []
     },
     {
       "tu": "1",
       "den": "3",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "12",
       "hems": []
     },
     {
       "tu": "2",
       "den": "6",
-      "side": "all",
+      "side": "even",
       "khu_pho": "12",
       "hems": []
     }
@@ -204,28 +204,28 @@
     {
       "tu": "1A",
       "den": "3C",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "2",
       "hems": []
     },
     {
       "tu": "4",
       "den": "10",
-      "side": "all",
+      "side": "even",
       "khu_pho": "3",
       "hems": []
     },
     {
       "tu": "5A",
       "den": "5A",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "9",
       "hems": []
     },
     {
       "tu": "",
       "den": "",
-      "side": "all",
+      "side": "both",
       "khu_pho": "11",
       "hems": []
     }
@@ -234,56 +234,56 @@
     {
       "tu": "193",
       "den": "327",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "2",
       "hems": []
     },
     {
       "tu": "162",
       "den": "234",
-      "side": "all",
+      "side": "even",
       "khu_pho": "2",
       "hems": []
     },
     {
       "tu": "53",
       "den": "189",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "3",
       "hems": []
     },
     {
       "tu": "26",
       "den": "156",
-      "side": "all",
+      "side": "even",
       "khu_pho": "3",
       "hems": []
     },
     {
       "tu": "1",
       "den": "47",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "4",
       "hems": []
     },
     {
       "tu": "2",
       "den": "22A",
-      "side": "all",
+      "side": "even",
       "khu_pho": "4",
       "hems": []
     },
     {
       "tu": "51",
       "den": "191",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "8",
       "hems": []
     },
     {
       "tu": "22",
       "den": "158",
-      "side": "all",
+      "side": "even",
       "khu_pho": "8",
       "hems": []
     }
@@ -292,56 +292,56 @@
     {
       "tu": "165",
       "den": "325",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "2",
       "hems": []
     },
     {
       "tu": "174",
       "den": "308",
-      "side": "all",
+      "side": "even",
       "khu_pho": "2",
       "hems": []
     },
     {
       "tu": "41",
       "den": "163",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "3",
       "hems": []
     },
     {
       "tu": "48",
       "den": "172",
-      "side": "all",
+      "side": "even",
       "khu_pho": "3",
       "hems": []
     },
     {
       "tu": "1",
       "den": "37",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "4",
       "hems": []
     },
     {
       "tu": "2",
       "den": "44",
-      "side": "all",
+      "side": "even",
       "khu_pho": "4",
       "hems": []
     },
     {
       "tu": "48",
       "den": "172",
-      "side": "all",
+      "side": "even",
       "khu_pho": "8",
       "hems": []
     },
     {
       "tu": "41",
       "den": "163",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "8",
       "hems": []
     }
@@ -350,42 +350,42 @@
     {
       "tu": "25A",
       "den": "35",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "2",
       "hems": []
     },
     {
       "tu": "20",
       "den": "32",
-      "side": "all",
+      "side": "even",
       "khu_pho": "2",
       "hems": []
     },
     {
       "tu": "7",
       "den": "25A",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "9",
       "hems": []
     },
     {
       "tu": "10",
       "den": "14",
-      "side": "all",
+      "side": "even",
       "khu_pho": "9",
       "hems": []
     },
     {
       "tu": "1",
       "den": "5",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "12",
       "hems": []
     },
     {
       "tu": "2",
       "den": "6",
-      "side": "all",
+      "side": "even",
       "khu_pho": "12",
       "hems": []
     }
@@ -394,35 +394,35 @@
     {
       "tu": "19",
       "den": "27",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "3",
       "hems": []
     },
     {
       "tu": "77",
       "den": "143",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "4",
       "hems": []
     },
     {
       "tu": "2",
       "den": "56",
-      "side": "all",
+      "side": "even",
       "khu_pho": "4",
       "hems": []
     },
     {
       "tu": "107",
       "den": "107",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "4",
       "hems": [
         {
           "hem": "107",
           "tu": "1",
           "den": "13A",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "4"
         }
       ]
@@ -430,14 +430,14 @@
     {
       "tu": "137",
       "den": "137",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "4",
       "hems": [
         {
           "hem": "137",
           "tu": "1",
           "den": "3",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "4"
         }
       ]
@@ -445,21 +445,21 @@
     {
       "tu": "19",
       "den": "29",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "8",
       "hems": []
     },
     {
       "tu": "",
       "den": "",
-      "side": "all",
+      "side": "both",
       "khu_pho": "11",
       "hems": []
     },
     {
       "tu": "1",
       "den": "7",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "13",
       "hems": []
     }
@@ -468,42 +468,42 @@
     {
       "tu": "15",
       "den": "15",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "3",
       "hems": []
     },
     {
       "tu": "26A",
       "den": "28",
-      "side": "all",
+      "side": "even",
       "khu_pho": "3",
       "hems": []
     },
     {
       "tu": "26",
       "den": "26",
-      "side": "all",
+      "side": "even",
       "khu_pho": "8",
       "hems": []
     },
     {
       "tu": "",
       "den": "",
-      "side": "all",
+      "side": "both",
       "khu_pho": "11",
       "hems": []
     },
     {
       "tu": "1",
       "den": "5",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "13",
       "hems": []
     },
     {
       "tu": "2",
       "den": "8",
-      "side": "all",
+      "side": "even",
       "khu_pho": "13",
       "hems": []
     }
@@ -512,35 +512,35 @@
     {
       "tu": "15",
       "den": "15",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "3",
       "hems": []
     },
     {
       "tu": "14",
       "den": "14",
-      "side": "all",
+      "side": "even",
       "khu_pho": "3",
       "hems": []
     },
     {
       "tu": "",
       "den": "",
-      "side": "all",
+      "side": "both",
       "khu_pho": "11",
       "hems": []
     },
     {
       "tu": "1",
       "den": "7",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "13",
       "hems": []
     },
     {
       "tu": "2",
       "den": "8",
-      "side": "all",
+      "side": "even",
       "khu_pho": "13",
       "hems": []
     }
@@ -549,42 +549,42 @@
     {
       "tu": "9",
       "den": "13",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "3",
       "hems": []
     },
     {
       "tu": "10",
       "den": "10",
-      "side": "all",
+      "side": "even",
       "khu_pho": "3",
       "hems": []
     },
     {
       "tu": "9",
       "den": "13",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "8",
       "hems": []
     },
     {
       "tu": "",
       "den": "",
-      "side": "all",
+      "side": "both",
       "khu_pho": "11",
       "hems": []
     },
     {
       "tu": "1",
       "den": "1D",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "13",
       "hems": []
     },
     {
       "tu": "2",
       "den": "2A",
-      "side": "all",
+      "side": "even",
       "khu_pho": "13",
       "hems": []
     }
@@ -593,70 +593,70 @@
     {
       "tu": "178",
       "den": "244",
-      "side": "all",
+      "side": "even",
       "khu_pho": "4",
       "hems": []
     },
     {
       "tu": "2",
       "den": "20",
-      "side": "all",
+      "side": "even",
       "khu_pho": "7",
       "hems": []
     },
     {
       "tu": "328",
       "den": "430",
-      "side": "all",
+      "side": "even",
       "khu_pho": "12",
       "hems": []
     },
     {
       "tu": "182",
       "den": "332",
-      "side": "all",
+      "side": "even",
       "khu_pho": "13",
       "hems": []
     },
     {
       "tu": "309",
       "den": "379",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "14",
       "hems": []
     },
     {
       "tu": "193",
       "den": "307",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "15",
       "hems": [
         {
           "hem": "209",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "15"
         },
         {
           "hem": "247",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "15"
         },
         {
           "hem": "263",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "15"
         },
         {
           "hem": "307",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "15"
         }
       ]
@@ -664,42 +664,42 @@
     {
       "tu": "163",
       "den": "193",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "17",
       "hems": []
     },
     {
       "tu": "22",
       "den": "140",
-      "side": "all",
+      "side": "even",
       "khu_pho": "18",
       "hems": [
         {
           "hem": "58",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "18"
         },
         {
           "hem": "58",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "18"
         },
         {
           "hem": "96",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "18"
         },
         {
           "hem": "96",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "18"
         }
       ]
@@ -707,42 +707,42 @@
     {
       "tu": "125",
       "den": "153",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "21",
       "hems": []
     },
     {
       "tu": "106",
       "den": "140",
-      "side": "all",
+      "side": "even",
       "khu_pho": "21",
       "hems": []
     },
     {
       "tu": "63",
       "den": "113",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "22",
       "hems": []
     },
     {
       "tu": "1",
       "den": "61",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "23",
       "hems": []
     },
     {
       "tu": "15",
       "den": "15",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "23",
       "hems": [
         {
           "hem": "15",
           "tu": "1",
           "den": "17",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "23"
         }
       ]
@@ -750,14 +750,14 @@
     {
       "tu": "15",
       "den": "15",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "23",
       "hems": [
         {
           "hem": "15",
           "tu": "2",
           "den": "26",
-          "side": "all",
+          "side": "even",
           "khu_pho": "23"
         }
       ]
@@ -767,28 +767,28 @@
     {
       "tu": "2",
       "den": "54",
-      "side": "all",
+      "side": "even",
       "khu_pho": "4",
       "hems": []
     },
     {
       "tu": "1",
       "den": "73",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "5",
       "hems": [
         {
           "hem": "19",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "5"
         },
         {
           "hem": "47",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "5"
         }
       ]
@@ -798,42 +798,42 @@
     {
       "tu": "1",
       "den": "21",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "4",
       "hems": []
     },
     {
       "tu": "2",
       "den": "34",
-      "side": "all",
+      "side": "even",
       "khu_pho": "4",
       "hems": []
     },
     {
       "tu": "",
       "den": "239",
-      "side": "all",
+      "side": "both",
       "khu_pho": "12",
       "hems": []
     },
     {
       "tu": "174A",
       "den": "248",
-      "side": "all",
+      "side": "even",
       "khu_pho": "12",
       "hems": []
     },
     {
       "tu": "23",
       "den": "163",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "13",
       "hems": []
     },
     {
       "tu": "38",
       "den": "174",
-      "side": "all",
+      "side": "even",
       "khu_pho": "13",
       "hems": []
     }
@@ -842,42 +842,42 @@
     {
       "tu": "1",
       "den": "41",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "4",
       "hems": []
     },
     {
       "tu": "2",
       "den": "20",
-      "side": "all",
+      "side": "even",
       "khu_pho": "4",
       "hems": []
     },
     {
       "tu": "148",
       "den": "254",
-      "side": "all",
+      "side": "even",
       "khu_pho": "9",
       "hems": []
     },
     {
       "tu": "43",
       "den": "177",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "11",
       "hems": []
     },
     {
       "tu": "22",
       "den": "146",
-      "side": "all",
+      "side": "even",
       "khu_pho": "11",
       "hems": []
     },
     {
       "tu": "117",
       "den": "269",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "12",
       "hems": []
     }
@@ -886,42 +886,42 @@
     {
       "tu": "1",
       "den": "19",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "4",
       "hems": []
     },
     {
       "tu": "2",
       "den": "40",
-      "side": "all",
+      "side": "even",
       "khu_pho": "4",
       "hems": []
     },
     {
       "tu": "143",
       "den": "233",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "9",
       "hems": []
     },
     {
       "tu": "166",
       "den": "246",
-      "side": "all",
+      "side": "even",
       "khu_pho": "9",
       "hems": []
     },
     {
       "tu": "23",
       "den": "141A",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "11",
       "hems": []
     },
     {
       "tu": "42",
       "den": "146B",
-      "side": "all",
+      "side": "even",
       "khu_pho": "11",
       "hems": []
     }
@@ -930,28 +930,28 @@
     {
       "tu": "3",
       "den": "21",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "4",
       "hems": []
     },
     {
       "tu": "2",
       "den": "36",
-      "side": "all",
+      "side": "even",
       "khu_pho": "4",
       "hems": []
     },
     {
       "tu": "157",
       "den": "251",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "9",
       "hems": []
     },
     {
       "tu": "154",
       "den": "280",
-      "side": "all",
+      "side": "even",
       "khu_pho": "9",
       "hems": []
     }
@@ -960,56 +960,56 @@
     {
       "tu": "126",
       "den": "244",
-      "side": "all",
+      "side": "even",
       "khu_pho": "5",
       "hems": [
         {
           "hem": "142",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "5"
         },
         {
           "hem": "182",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "5"
         },
         {
           "hem": "198",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "5"
         },
         {
           "hem": "212",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "5"
         },
         {
           "hem": "240",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "5"
         },
         {
           "hem": "242",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "5"
         },
         {
           "hem": "244",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "5"
         }
       ]
@@ -1017,49 +1017,49 @@
     {
       "tu": "175",
       "den": "177",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "7",
       "hems": []
     },
     {
       "tu": "256",
       "den": "342",
-      "side": "all",
+      "side": "even",
       "khu_pho": "17",
       "hems": [
         {
           "hem": "318",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "17"
         },
         {
           "hem": "326",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "17"
         },
         {
           "hem": "332",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "17"
         },
         {
           "hem": "338",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "17"
         },
         {
           "hem": "342",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "17"
         }
       ]
@@ -1067,21 +1067,21 @@
     {
       "tu": "229",
       "den": "303",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "18",
       "hems": []
     },
     {
       "tu": "257",
       "den": "257",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "18",
       "hems": [
         {
           "hem": "257",
           "tu": "1",
           "den": "19",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "18"
         }
       ]
@@ -1089,14 +1089,14 @@
     {
       "tu": "257",
       "den": "257",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "18",
       "hems": [
         {
           "hem": "257",
           "tu": "2",
           "den": "30",
-          "side": "all",
+          "side": "even",
           "khu_pho": "18"
         }
       ]
@@ -1104,28 +1104,28 @@
     {
       "tu": "179",
       "den": "227",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "19",
       "hems": [
         {
           "hem": "197",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "19"
         },
         {
           "hem": "205",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "19"
         },
         {
           "hem": "225",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "19"
         }
       ]
@@ -1133,7 +1133,7 @@
     {
       "tu": "297",
       "den": "307",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "21",
       "hems": []
     }
@@ -1142,21 +1142,21 @@
     {
       "tu": "483",
       "den": "621",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "7",
       "hems": []
     },
     {
       "tu": "621",
       "den": "621",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "7",
       "hems": [
         {
           "hem": "621",
           "tu": "1",
           "den": "11",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "7"
         }
       ]
@@ -1164,14 +1164,14 @@
     {
       "tu": "539",
       "den": "539",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "19",
       "hems": [
         {
           "hem": "539",
           "tu": "35",
           "den": "109",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "19"
         }
       ]
@@ -1179,28 +1179,28 @@
     {
       "tu": "391",
       "den": "481",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "23",
       "hems": []
     },
     {
       "tu": "2",
       "den": "4",
-      "side": "all",
+      "side": "even",
       "khu_pho": "28",
       "hems": []
     },
     {
       "tu": "159",
       "den": "239",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "34",
       "hems": [
         {
           "hem": "161",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "34"
         }
       ]
@@ -1208,14 +1208,14 @@
     {
       "tu": "151",
       "den": "151",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "40",
       "hems": [
         {
           "hem": "151",
           "tu": "53/1",
           "den": "53/999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "40"
         }
       ]
@@ -1223,14 +1223,14 @@
     {
       "tu": "149",
       "den": "149",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "40",
       "hems": [
         {
           "hem": "149",
           "tu": "29",
           "den": "73",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "40"
         }
       ]
@@ -1238,14 +1238,14 @@
     {
       "tu": "149",
       "den": "149",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "40",
       "hems": [
         {
           "hem": "149",
           "tu": "28",
           "den": "78",
-          "side": "all",
+          "side": "even",
           "khu_pho": "40"
         }
       ]
@@ -1253,14 +1253,14 @@
     {
       "tu": "127",
       "den": "157",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "41",
       "hems": [
         {
           "hem": "149",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "41"
         }
       ]
@@ -1268,14 +1268,14 @@
     {
       "tu": "151",
       "den": "151",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "41",
       "hems": [
         {
           "hem": "151",
           "tu": "1",
           "den": "51",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "41"
         }
       ]
@@ -1283,14 +1283,14 @@
     {
       "tu": "151",
       "den": "151",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "41",
       "hems": [
         {
           "hem": "151",
           "tu": "2",
           "den": "60",
-          "side": "all",
+          "side": "even",
           "khu_pho": "41"
         }
       ]
@@ -1298,42 +1298,42 @@
     {
       "tu": "95",
       "den": "125",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "45",
       "hems": []
     },
     {
       "tu": "1",
       "den": "93",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "47",
       "hems": [
         {
           "hem": "17",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "47"
         },
         {
           "hem": "37",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "47"
         },
         {
           "hem": "67",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "47"
         },
         {
           "hem": "77",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "47"
         }
       ]
@@ -1343,7 +1343,7 @@
     {
       "tu": "",
       "den": "",
-      "side": "all",
+      "side": "both",
       "khu_pho": "7",
       "hems": []
     }
@@ -1352,14 +1352,14 @@
     {
       "tu": "",
       "den": "",
-      "side": "all",
+      "side": "both",
       "khu_pho": "7",
       "hems": []
     },
     {
       "tu": "2",
       "den": "74",
-      "side": "all",
+      "side": "even",
       "khu_pho": "19",
       "hems": []
     }
@@ -1368,28 +1368,28 @@
     {
       "tu": "129",
       "den": "199",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "12",
       "hems": []
     },
     {
       "tu": "162",
       "den": "218A",
-      "side": "all",
+      "side": "even",
       "khu_pho": "12",
       "hems": []
     },
     {
       "tu": "1",
       "den": "121",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "13",
       "hems": []
     },
     {
       "tu": "2",
       "den": "158",
-      "side": "all",
+      "side": "even",
       "khu_pho": "13",
       "hems": []
     }
@@ -1398,42 +1398,42 @@
     {
       "tu": "121",
       "den": "187",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "14",
       "hems": []
     },
     {
       "tu": "4",
       "den": "138",
-      "side": "all",
+      "side": "even",
       "khu_pho": "15",
       "hems": [
         {
           "hem": "16",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "15"
         },
         {
           "hem": "82",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "15"
         },
         {
           "hem": "98",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "15"
         },
         {
           "hem": "122",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "15"
         }
       ]
@@ -1441,49 +1441,49 @@
     {
       "tu": "1",
       "den": "119",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "17",
       "hems": [
         {
           "hem": "9",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "17"
         },
         {
           "hem": "17",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "17"
         },
         {
           "hem": "33",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "17"
         },
         {
           "hem": "57",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "17"
         },
         {
           "hem": "87",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "17"
         },
         {
           "hem": "119",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "17"
         }
       ]
@@ -1493,14 +1493,14 @@
     {
       "tu": "13",
       "den": "43",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "17",
       "hems": [
         {
           "hem": "23",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "17"
         }
       ]
@@ -1508,21 +1508,21 @@
     {
       "tu": "32",
       "den": "52",
-      "side": "all",
+      "side": "even",
       "khu_pho": "17",
       "hems": []
     },
     {
       "tu": "1",
       "den": "25",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "21",
       "hems": []
     },
     {
       "tu": "2",
       "den": "26",
-      "side": "all",
+      "side": "even",
       "khu_pho": "21",
       "hems": []
     }
@@ -1531,49 +1531,49 @@
     {
       "tu": "45",
       "den": "99",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "21",
       "hems": []
     },
     {
       "tu": "46",
       "den": "100",
-      "side": "all",
+      "side": "even",
       "khu_pho": "21",
       "hems": []
     },
     {
       "tu": "24B",
       "den": "28",
-      "side": "all",
+      "side": "even",
       "khu_pho": "22",
       "hems": []
     },
     {
       "tu": "25",
       "den": "55",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "24",
       "hems": []
     },
     {
       "tu": "20",
       "den": "24A",
-      "side": "all",
+      "side": "even",
       "khu_pho": "24",
       "hems": []
     },
     {
       "tu": "2",
       "den": "8",
-      "side": "all",
+      "side": "even",
       "khu_pho": "28",
       "hems": []
     },
     {
       "tu": "1",
       "den": "15",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "28",
       "hems": []
     }
@@ -1582,35 +1582,35 @@
     {
       "tu": "57B",
       "den": "73B",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "21",
       "hems": []
     },
     {
       "tu": "102",
       "den": "128",
-      "side": "all",
+      "side": "even",
       "khu_pho": "21",
       "hems": []
     },
     {
       "tu": "60",
       "den": "98",
-      "side": "all",
+      "side": "even",
       "khu_pho": "22",
       "hems": []
     },
     {
       "tu": "2B",
       "den": "4",
-      "side": "all",
+      "side": "even",
       "khu_pho": "23",
       "hems": []
     },
     {
       "tu": "43",
       "den": "73",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "24",
       "hems": []
     }
@@ -1619,28 +1619,28 @@
     {
       "tu": "244",
       "den": "264",
-      "side": "all",
+      "side": "even",
       "khu_pho": "21",
       "hems": []
     },
     {
       "tu": "202",
       "den": "244",
-      "side": "all",
+      "side": "even",
       "khu_pho": "24",
       "hems": []
     },
     {
       "tu": "202",
       "den": "202",
-      "side": "all",
+      "side": "even",
       "khu_pho": "24",
       "hems": [
         {
           "hem": "202",
           "tu": "1",
           "den": "59",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "24"
         }
       ]
@@ -1648,14 +1648,14 @@
     {
       "tu": "232",
       "den": "232",
-      "side": "all",
+      "side": "even",
       "khu_pho": "24",
       "hems": [
         {
           "hem": "232",
           "tu": "1",
           "den": "43",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "24"
         }
       ]
@@ -1663,14 +1663,14 @@
     {
       "tu": "232",
       "den": "232",
-      "side": "all",
+      "side": "even",
       "khu_pho": "24",
       "hems": [
         {
           "hem": "232",
           "tu": "2",
           "den": "46",
-          "side": "all",
+          "side": "even",
           "khu_pho": "24"
         }
       ]
@@ -1678,14 +1678,14 @@
     {
       "tu": "84",
       "den": "202",
-      "side": "all",
+      "side": "even",
       "khu_pho": "25",
       "hems": [
         {
           "hem": "202",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "25"
         }
       ]
@@ -1693,21 +1693,21 @@
     {
       "tu": "172",
       "den": "182",
-      "side": "all",
+      "side": "even",
       "khu_pho": "28",
       "hems": []
     },
     {
       "tu": "178",
       "den": "178",
-      "side": "all",
+      "side": "even",
       "khu_pho": "28",
       "hems": [
         {
           "hem": "178",
           "tu": "1",
           "den": "75",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "28"
         }
       ]
@@ -1715,14 +1715,14 @@
     {
       "tu": "178",
       "den": "178",
-      "side": "all",
+      "side": "even",
       "khu_pho": "28",
       "hems": [
         {
           "hem": "178",
           "tu": "2",
           "den": "88",
-          "side": "all",
+          "side": "even",
           "khu_pho": "28"
         }
       ]
@@ -1730,35 +1730,35 @@
     {
       "tu": "31",
       "den": "99",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "31",
       "hems": [
         {
           "hem": "47",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "31"
         },
         {
           "hem": "57",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "31"
         },
         {
           "hem": "87",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "31"
         },
         {
           "hem": "99",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "31"
         }
       ]
@@ -1766,28 +1766,28 @@
     {
       "tu": "108D",
       "den": "166",
-      "side": "all",
+      "side": "even",
       "khu_pho": "32",
       "hems": [
         {
           "hem": "108",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "32"
         },
         {
           "hem": "136",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "32"
         },
         {
           "hem": "164",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "32"
         }
       ]
@@ -1795,14 +1795,14 @@
     {
       "tu": "110",
       "den": "110",
-      "side": "all",
+      "side": "even",
       "khu_pho": "32",
       "hems": [
         {
           "hem": "110",
           "tu": "22",
           "den": "62",
-          "side": "all",
+          "side": "even",
           "khu_pho": "32"
         }
       ]
@@ -1810,14 +1810,14 @@
     {
       "tu": "110",
       "den": "110",
-      "side": "all",
+      "side": "even",
       "khu_pho": "33",
       "hems": [
         {
           "hem": "110",
           "tu": "45",
           "den": "73",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "33"
         }
       ]
@@ -1825,28 +1825,28 @@
     {
       "tu": "5",
       "den": "17",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "38",
       "hems": []
     },
     {
       "tu": "56",
       "den": "108",
-      "side": "all",
+      "side": "even",
       "khu_pho": "39",
       "hems": []
     },
     {
       "tu": "56",
       "den": "56",
-      "side": "all",
+      "side": "even",
       "khu_pho": "39",
       "hems": [
         {
           "hem": "56",
           "tu": "1",
           "den": "37A",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "39"
         }
       ]
@@ -1854,14 +1854,14 @@
     {
       "tu": "1A",
       "den": "9",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "42",
       "hems": [
         {
           "hem": "9",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "42"
         }
       ]
@@ -1869,28 +1869,28 @@
     {
       "tu": "2",
       "den": "56",
-      "side": "all",
+      "side": "even",
       "khu_pho": "43",
       "hems": [
         {
           "hem": "40",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "43"
         },
         {
           "hem": "50",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "43"
         },
         {
           "hem": "56",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "43"
         }
       ]
@@ -1898,14 +1898,14 @@
     {
       "tu": "40",
       "den": "40",
-      "side": "all",
+      "side": "even",
       "khu_pho": "43",
       "hems": [
         {
           "hem": "40",
           "tu": "13/1",
           "den": "13/999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "43"
         }
       ]
@@ -1913,14 +1913,14 @@
     {
       "tu": "40",
       "den": "40",
-      "side": "all",
+      "side": "even",
       "khu_pho": "43",
       "hems": [
         {
           "hem": "40",
           "tu": "40/1",
           "den": "40/999",
-          "side": "all",
+          "side": "even",
           "khu_pho": "43"
         }
       ]
@@ -1928,14 +1928,14 @@
     {
       "tu": "40",
       "den": "40",
-      "side": "all",
+      "side": "even",
       "khu_pho": "46",
       "hems": [
         {
           "hem": "40",
           "tu": "59",
           "den": "75",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "46"
         }
       ]
@@ -1945,42 +1945,42 @@
     {
       "tu": "93",
       "den": "123",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "21",
       "hems": []
     },
     {
       "tu": "84",
       "den": "108",
-      "side": "all",
+      "side": "even",
       "khu_pho": "21",
       "hems": []
     },
     {
       "tu": "19",
       "den": "91A",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "22",
       "hems": []
     },
     {
       "tu": "52",
       "den": "82",
-      "side": "all",
+      "side": "even",
       "khu_pho": "22",
       "hems": []
     },
     {
       "tu": "1",
       "den": "17A",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "23",
       "hems": []
     },
     {
       "tu": "2",
       "den": "50A",
-      "side": "all",
+      "side": "even",
       "khu_pho": "23",
       "hems": []
     }
@@ -1989,42 +1989,42 @@
     {
       "tu": "93",
       "den": "131",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "21",
       "hems": []
     },
     {
       "tu": "108",
       "den": "142",
-      "side": "all",
+      "side": "even",
       "khu_pho": "21",
       "hems": []
     },
     {
       "tu": "19",
       "den": "91",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "22",
       "hems": []
     },
     {
       "tu": "14",
       "den": "106",
-      "side": "all",
+      "side": "even",
       "khu_pho": "22",
       "hems": []
     },
     {
       "tu": "1",
       "den": "17",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "23",
       "hems": []
     },
     {
       "tu": "2",
       "den": "12",
-      "side": "all",
+      "side": "even",
       "khu_pho": "23",
       "hems": []
     }
@@ -2033,42 +2033,42 @@
     {
       "tu": "107",
       "den": "147",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "21",
       "hems": []
     },
     {
       "tu": "100",
       "den": "120",
-      "side": "all",
+      "side": "even",
       "khu_pho": "21",
       "hems": []
     },
     {
       "tu": "69",
       "den": "105",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "22",
       "hems": []
     },
     {
       "tu": "56",
       "den": "98",
-      "side": "all",
+      "side": "even",
       "khu_pho": "22",
       "hems": []
     },
     {
       "tu": "1",
       "den": "67A",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "23",
       "hems": []
     },
     {
       "tu": "2",
       "den": "54",
-      "side": "all",
+      "side": "even",
       "khu_pho": "23",
       "hems": []
     }
@@ -2077,42 +2077,42 @@
     {
       "tu": "83",
       "den": "105A",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "21",
       "hems": []
     },
     {
       "tu": "70",
       "den": "84",
-      "side": "all",
+      "side": "even",
       "khu_pho": "21",
       "hems": []
     },
     {
       "tu": "37",
       "den": "81",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "22",
       "hems": []
     },
     {
       "tu": "34",
       "den": "66",
-      "side": "all",
+      "side": "even",
       "khu_pho": "22",
       "hems": []
     },
     {
       "tu": "1",
       "den": "35A",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "23",
       "hems": []
     },
     {
       "tu": "2",
       "den": "32",
-      "side": "all",
+      "side": "even",
       "khu_pho": "23",
       "hems": []
     }
@@ -2121,14 +2121,14 @@
     {
       "tu": "1",
       "den": "47",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "21",
       "hems": []
     },
     {
       "tu": "2",
       "den": "24",
-      "side": "all",
+      "side": "even",
       "khu_pho": "21",
       "hems": []
     }
@@ -2137,14 +2137,14 @@
     {
       "tu": "2",
       "den": "80",
-      "side": "all",
+      "side": "even",
       "khu_pho": "22",
       "hems": []
     },
     {
       "tu": "1",
       "den": "11",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "23",
       "hems": []
     }
@@ -2153,7 +2153,7 @@
     {
       "tu": "8",
       "den": "8",
-      "side": "all",
+      "side": "even",
       "khu_pho": "22",
       "hems": []
     }
@@ -2162,14 +2162,14 @@
     {
       "tu": "1",
       "den": "61",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "23",
       "hems": []
     },
     {
       "tu": "2",
       "den": "6",
-      "side": "all",
+      "side": "even",
       "khu_pho": "23",
       "hems": []
     }
@@ -2178,28 +2178,28 @@
     {
       "tu": "7",
       "den": "19",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "24",
       "hems": []
     },
     {
       "tu": "22",
       "den": "24",
-      "side": "all",
+      "side": "even",
       "khu_pho": "24",
       "hems": []
     },
     {
       "tu": "22",
       "den": "22",
-      "side": "all",
+      "side": "even",
       "khu_pho": "24",
       "hems": [
         {
           "hem": "22",
           "tu": "1",
           "den": "45",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "24"
         }
       ]
@@ -2207,28 +2207,28 @@
     {
       "tu": "1",
       "den": "5",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "25",
       "hems": []
     },
     {
       "tu": "2",
       "den": "22",
-      "side": "all",
+      "side": "even",
       "khu_pho": "25",
       "hems": []
     },
     {
       "tu": "18",
       "den": "18",
-      "side": "all",
+      "side": "even",
       "khu_pho": "25",
       "hems": [
         {
           "hem": "18",
           "tu": "1",
           "den": "43",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "25"
         }
       ]
@@ -2236,14 +2236,14 @@
     {
       "tu": "18",
       "den": "18",
-      "side": "all",
+      "side": "even",
       "khu_pho": "25",
       "hems": [
         {
           "hem": "18",
           "tu": "2",
           "den": "44",
-          "side": "all",
+          "side": "even",
           "khu_pho": "25"
         }
       ]
@@ -2251,14 +2251,14 @@
     {
       "tu": "22",
       "den": "22",
-      "side": "all",
+      "side": "even",
       "khu_pho": "25",
       "hems": [
         {
           "hem": "22",
           "tu": "2",
           "den": "44",
-          "side": "all",
+          "side": "even",
           "khu_pho": "25"
         }
       ]
@@ -2268,14 +2268,14 @@
     {
       "tu": "1",
       "den": "43",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "24",
       "hems": []
     },
     {
       "tu": "2",
       "den": "112",
-      "side": "all",
+      "side": "even",
       "khu_pho": "24",
       "hems": []
     }
@@ -2284,14 +2284,14 @@
     {
       "tu": "1",
       "den": "105",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "25",
       "hems": [
         {
           "hem": "85",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "25"
         }
       ]
@@ -2299,7 +2299,7 @@
     {
       "tu": "2",
       "den": "92",
-      "side": "all",
+      "side": "even",
       "khu_pho": "28",
       "hems": []
     }
@@ -2308,14 +2308,14 @@
     {
       "tu": "1",
       "den": "59",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "25",
       "hems": []
     },
     {
       "tu": "2",
       "den": "66",
-      "side": "all",
+      "side": "even",
       "khu_pho": "25",
       "hems": []
     }
@@ -2324,42 +2324,42 @@
     {
       "tu": "178",
       "den": "278",
-      "side": "all",
+      "side": "even",
       "khu_pho": "28",
       "hems": []
     },
     {
       "tu": "239",
       "den": "341",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "30",
       "hems": []
     },
     {
       "tu": "233",
       "den": "237",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "31",
       "hems": []
     },
     {
       "tu": "179",
       "den": "231",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "32",
       "hems": [
         {
           "hem": "179",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "32"
         },
         {
           "hem": "187",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "32"
         }
       ]
@@ -2367,14 +2367,14 @@
     {
       "tu": "135",
       "den": "179",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "33",
       "hems": [
         {
           "hem": "179",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "33"
         }
       ]
@@ -2382,7 +2382,7 @@
     {
       "tu": "93",
       "den": "133",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "34",
       "hems": []
     }
@@ -2391,14 +2391,14 @@
     {
       "tu": "1",
       "den": "155",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "28",
       "hems": []
     },
     {
       "tu": "34",
       "den": "162",
-      "side": "all",
+      "side": "even",
       "khu_pho": "28",
       "hems": []
     }
@@ -2407,7 +2407,7 @@
     {
       "tu": "1",
       "den": "5",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "28",
       "hems": []
     }
@@ -2416,42 +2416,42 @@
     {
       "tu": "46",
       "den": "68",
-      "side": "all",
+      "side": "even",
       "khu_pho": "32",
       "hems": []
     },
     {
       "tu": "2",
       "den": "66",
-      "side": "all",
+      "side": "even",
       "khu_pho": "33",
       "hems": [
         {
           "hem": "2",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "33"
         },
         {
           "hem": "6",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "33"
         },
         {
           "hem": "26",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "33"
         },
         {
           "hem": "38",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "33"
         }
       ]
@@ -2459,7 +2459,7 @@
     {
       "tu": "1",
       "den": "35",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "34",
       "hems": []
     }
@@ -2468,35 +2468,35 @@
     {
       "tu": "48",
       "den": "120",
-      "side": "all",
+      "side": "even",
       "khu_pho": "32",
       "hems": [
         {
           "hem": "46",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "32"
         },
         {
           "hem": "66",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "32"
         },
         {
           "hem": "74",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "32"
         },
         {
           "hem": "76",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "32"
         }
       ]
@@ -2504,21 +2504,21 @@
     {
       "tu": "2",
       "den": "44",
-      "side": "all",
+      "side": "even",
       "khu_pho": "34",
       "hems": []
     },
     {
       "tu": "139",
       "den": "239",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "38",
       "hems": [
         {
           "hem": "149",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "38"
         }
       ]
@@ -2526,21 +2526,21 @@
     {
       "tu": "75",
       "den": "137",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "39",
       "hems": [
         {
           "hem": "75",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "39"
         },
         {
           "hem": "111",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "39"
         }
       ]
@@ -2548,28 +2548,28 @@
     {
       "tu": "111B",
       "den": "111B",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "39",
       "hems": []
     },
     {
       "tu": "45",
       "den": "75",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "40",
       "hems": []
     },
     {
       "tu": "75",
       "den": "75",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "40",
       "hems": [
         {
           "hem": "75",
           "tu": "1",
           "den": "37",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "40"
         }
       ]
@@ -2577,21 +2577,21 @@
     {
       "tu": "1",
       "den": "43",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "41",
       "hems": []
     },
     {
       "tu": "75",
       "den": "75",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "44",
       "hems": [
         {
           "hem": "75",
           "tu": "33",
           "den": "119",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "44"
         }
       ]
@@ -2599,14 +2599,14 @@
     {
       "tu": "75",
       "den": "75",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "44",
       "hems": [
         {
           "hem": "75",
           "tu": "20",
           "den": "130",
-          "side": "all",
+          "side": "even",
           "khu_pho": "44"
         }
       ]
@@ -2616,14 +2616,14 @@
     {
       "tu": "1",
       "den": "51",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "34",
       "hems": []
     },
     {
       "tu": "2",
       "den": "52",
-      "side": "all",
+      "side": "even",
       "khu_pho": "34",
       "hems": []
     }
@@ -2632,28 +2632,28 @@
     {
       "tu": "1",
       "den": "33",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "34",
       "hems": [
         {
           "hem": "8",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "34"
         },
         {
           "hem": "18",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "34"
         },
         {
           "hem": "26",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "34"
         }
       ]
@@ -2661,7 +2661,7 @@
     {
       "tu": "4",
       "den": "42",
-      "side": "all",
+      "side": "even",
       "khu_pho": "34",
       "hems": []
     }
@@ -2670,21 +2670,21 @@
     {
       "tu": "194",
       "den": "228",
-      "side": "all",
+      "side": "even",
       "khu_pho": "38",
       "hems": []
     },
     {
       "tu": "96",
       "den": "194",
-      "side": "all",
+      "side": "even",
       "khu_pho": "42",
       "hems": [
         {
           "hem": "158",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "42"
         }
       ]
@@ -2694,28 +2694,28 @@
     {
       "tu": "1",
       "den": "67",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "38",
       "hems": []
     },
     {
       "tu": "69",
       "den": "107",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "42",
       "hems": [
         {
           "hem": "34",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "42"
         },
         {
           "hem": "54",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "42"
         }
       ]
@@ -2723,21 +2723,21 @@
     {
       "tu": "2",
       "den": "84",
-      "side": "all",
+      "side": "even",
       "khu_pho": "42",
       "hems": []
     },
     {
       "tu": "67",
       "den": "67",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "42",
       "hems": [
         {
           "hem": "67",
           "tu": "8/2",
           "den": "8/24",
-          "side": "all",
+          "side": "even",
           "khu_pho": "42"
         }
       ]
@@ -2745,14 +2745,14 @@
     {
       "tu": "67",
       "den": "67",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "42",
       "hems": [
         {
           "hem": "67",
           "tu": "8/3",
           "den": "8/3",
-          "side": "all",
+          "side": "even",
           "khu_pho": "42"
         }
       ]
@@ -2760,14 +2760,14 @@
     {
       "tu": "67",
       "den": "67",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "42",
       "hems": [
         {
           "hem": "67",
           "tu": "16/1",
           "den": "16/21",
-          "side": "all",
+          "side": "even",
           "khu_pho": "42"
         }
       ]
@@ -2775,14 +2775,14 @@
     {
       "tu": "67",
       "den": "67",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "42",
       "hems": [
         {
           "hem": "67",
           "tu": "16/2",
           "den": "16/20",
-          "side": "all",
+          "side": "even",
           "khu_pho": "42"
         }
       ]
@@ -2792,14 +2792,14 @@
     {
       "tu": "58",
       "den": "58",
-      "side": "all",
+      "side": "even",
       "khu_pho": "43",
       "hems": [
         {
           "hem": "58",
           "tu": "13",
           "den": "29",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "43"
         }
       ]
@@ -2807,14 +2807,14 @@
     {
       "tu": "58",
       "den": "58",
-      "side": "all",
+      "side": "even",
       "khu_pho": "43",
       "hems": [
         {
           "hem": "58",
           "tu": "24",
           "den": "34",
-          "side": "all",
+          "side": "even",
           "khu_pho": "43"
         }
       ]
@@ -2822,14 +2822,14 @@
     {
       "tu": "58",
       "den": "58",
-      "side": "all",
+      "side": "even",
       "khu_pho": "43",
       "hems": [
         {
           "hem": "58",
           "tu": "26/1",
           "den": "26/999",
-          "side": "all",
+          "side": "even",
           "khu_pho": "43"
         }
       ]
@@ -2837,14 +2837,14 @@
     {
       "tu": "58",
       "den": "58",
-      "side": "all",
+      "side": "even",
       "khu_pho": "43",
       "hems": [
         {
           "hem": "58",
           "tu": "30/1",
           "den": "30/999",
-          "side": "all",
+          "side": "even",
           "khu_pho": "43"
         }
       ]
@@ -2852,14 +2852,14 @@
     {
       "tu": "90",
       "den": "90",
-      "side": "all",
+      "side": "even",
       "khu_pho": "43",
       "hems": [
         {
           "hem": "90",
           "tu": "4",
           "den": "10",
-          "side": "all",
+          "side": "even",
           "khu_pho": "43"
         }
       ]
@@ -2867,14 +2867,14 @@
     {
       "tu": "2",
       "den": "90",
-      "side": "all",
+      "side": "even",
       "khu_pho": "44",
       "hems": [
         {
           "hem": "28",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "44"
         }
       ]
@@ -2882,14 +2882,14 @@
     {
       "tu": "90",
       "den": "90",
-      "side": "all",
+      "side": "even",
       "khu_pho": "44",
       "hems": [
         {
           "hem": "90",
           "tu": "2",
           "den": "2",
-          "side": "all",
+          "side": "even",
           "khu_pho": "44"
         }
       ]
@@ -2897,35 +2897,35 @@
     {
       "tu": "1",
       "den": "125",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "45",
       "hems": []
     },
     {
       "tu": "92",
       "den": "124",
-      "side": "all",
+      "side": "even",
       "khu_pho": "46",
       "hems": []
     },
     {
       "tu": "127",
       "den": "147",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "46",
       "hems": []
     },
     {
       "tu": "90",
       "den": "90",
-      "side": "all",
+      "side": "even",
       "khu_pho": "46",
       "hems": [
         {
           "hem": "90",
           "tu": "1",
           "den": "19",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "46"
         }
       ]
@@ -2933,14 +2933,14 @@
     {
       "tu": "90",
       "den": "90",
-      "side": "all",
+      "side": "even",
       "khu_pho": "46",
       "hems": [
         {
           "hem": "90",
           "tu": "3/11",
           "den": "3/5A",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "46"
         }
       ]
@@ -2948,14 +2948,14 @@
     {
       "tu": "90",
       "den": "90",
-      "side": "all",
+      "side": "even",
       "khu_pho": "46",
       "hems": [
         {
           "hem": "90",
           "tu": "3/2",
           "den": "3/10",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "46"
         }
       ]
@@ -2963,14 +2963,14 @@
     {
       "tu": "137",
       "den": "137",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "46",
       "hems": [
         {
           "hem": "137",
           "tu": "1",
           "den": "5",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "46"
         }
       ]
@@ -2978,14 +2978,14 @@
     {
       "tu": "137",
       "den": "137",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "46",
       "hems": [
         {
           "hem": "137",
           "tu": "2",
           "den": "2",
-          "side": "all",
+          "side": "even",
           "khu_pho": "46"
         }
       ]
@@ -2993,14 +2993,14 @@
     {
       "tu": "139",
       "den": "139",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "46",
       "hems": [
         {
           "hem": "139",
           "tu": "2",
           "den": "18",
-          "side": "all",
+          "side": "even",
           "khu_pho": "46"
         }
       ]
@@ -3008,14 +3008,14 @@
     {
       "tu": "149",
       "den": "153",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "47",
       "hems": [
         {
           "hem": "134",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "47"
         }
       ]
@@ -3023,7 +3023,7 @@
     {
       "tu": "126",
       "den": "134",
-      "side": "all",
+      "side": "even",
       "khu_pho": "47",
       "hems": []
     }
@@ -3032,35 +3032,35 @@
     {
       "tu": "2",
       "den": "112",
-      "side": "all",
+      "side": "even",
       "khu_pho": "45",
       "hems": []
     },
     {
       "tu": "35",
       "den": "87",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "46",
       "hems": [
         {
           "hem": "47",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "46"
         },
         {
           "hem": "53",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "46"
         },
         {
           "hem": "67",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "46"
         }
       ]
@@ -3068,21 +3068,21 @@
     {
       "tu": "1",
       "den": "33",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "47",
       "hems": [
         {
           "hem": "9",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "47"
         },
         {
           "hem": "23",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "47"
         }
       ]
@@ -3092,7 +3092,7 @@
     {
       "tu": "",
       "den": "",
-      "side": "all",
+      "side": "both",
       "khu_pho": "46",
       "hems": []
     }
@@ -3101,21 +3101,21 @@
     {
       "tu": "42",
       "den": "72",
-      "side": "all",
+      "side": "even",
       "khu_pho": "46",
       "hems": []
     },
     {
       "tu": "40",
       "den": "40",
-      "side": "all",
+      "side": "even",
       "khu_pho": "46",
       "hems": [
         {
           "hem": "40",
           "tu": "1",
           "den": "43",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "46"
         }
       ]
@@ -3123,14 +3123,14 @@
     {
       "tu": "72",
       "den": "72",
-      "side": "all",
+      "side": "even",
       "khu_pho": "46",
       "hems": [
         {
           "hem": "72",
           "tu": "2",
           "den": "88",
-          "side": "all",
+          "side": "even",
           "khu_pho": "46"
         }
       ]
@@ -3138,28 +3138,28 @@
     {
       "tu": "1",
       "den": "57",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "47",
       "hems": [
         {
           "hem": "3",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "47"
         },
         {
           "hem": "17",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "47"
         },
         {
           "hem": "45",
           "tu": "1",
           "den": "9999",
-          "side": "all",
+          "side": "odd",
           "khu_pho": "47"
         }
       ]
@@ -3167,21 +3167,21 @@
     {
       "tu": "2",
       "den": "40",
-      "side": "all",
+      "side": "even",
       "khu_pho": "47",
       "hems": []
     },
     {
       "tu": "40",
       "den": "40",
-      "side": "all",
+      "side": "even",
       "khu_pho": "47",
       "hems": [
         {
           "hem": "40",
           "tu": "2",
           "den": "36",
-          "side": "all",
+          "side": "even",
           "khu_pho": "47"
         }
       ]
@@ -3189,7 +3189,7 @@
     {
       "tu": "33",
       "den": "33",
-      "side": "all",
+      "side": "odd",
       "khu_pho": "48",
       "hems": []
     }
