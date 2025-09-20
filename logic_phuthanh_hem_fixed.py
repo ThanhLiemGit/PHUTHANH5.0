@@ -2,17 +2,15 @@ import re
 import json
 import unicodedata
 
-# Load logic JSON (giữ đúng tên file bạn đang dùng)
+# Load logic JSON
 with open("phuthanh_logic_with_hem_fixed.json", "r", encoding="utf-8") as f:
     logic_data = json.load(f)
 
 def normalize(text: str) -> str:
     """Chuẩn hóa tên đường và địa chỉ: bỏ dấu tiếng Việt, thường hóa"""
     text = text.lower().strip()
-    # bỏ dấu tiếng Việt
     text = unicodedata.normalize("NFD", text)
     text = "".join(c for c in text if unicodedata.category(c) != "Mn")
-    # bỏ ký tự đặc biệt (trừ '/')
     text = re.sub(r"[^\w\s/]", " ", text)
     text = re.sub(r"\s+", " ", text)
     return text.strip()
@@ -20,7 +18,6 @@ def normalize(text: str) -> str:
 def parse_address(addr: str):
     """Tách phần 'house' (có thể có chữ + '/') và 'street'."""
     addr = normalize(addr)
-    # Cho phép house bắt đầu bằng chữ hoặc số, có thể có nhiều '/'
     m = re.match(r"^([\w/]+)\s+(.*)$", addr)
     if not m:
         return None
@@ -30,7 +27,7 @@ def get_side(num: int) -> str:
     return "even" if num % 2 == 0 else "odd"
 
 def extract_number(text: str):
-    """Lấy số đầu tiên trong chuỗi: 25A -> 25, A25 -> 25, B12C -> 12; không có số -> None."""
+    """Lấy số đầu tiên trong chuỗi"""
     m = re.search(r"(\d+)", str(text))
     return int(m.group(1)) if m else None
 
@@ -45,40 +42,27 @@ def check_address(addr: str):
     if not rules:
         return None
 
-    num = extract_number(house)
-
-    # ===== CASE 1: HẺM (có "/") =====
+    # ===== CASE 1: HẺM =====
     if "/" in house:
-        hem1_raw = house.split("/")[0]   # phần trước dấu "/"
+        hem1_raw = house.split("/")[0]     # số hẻm chính (vd: 63 trong 63/1)
         hem1_num = extract_number(hem1_raw)
+        sub_num = extract_number(house.split("/")[1])  # số trong hẻm (vd: 1 trong 63/1)
 
         for rule in rules:
-            hem_list = rule.get("hems", []) or []
-
-            for h in hem_list:
-                if isinstance(h, dict):
-                    # hẻm có range chi tiết
-                    if str(h.get("hem")) == str(hem1_raw):
-                        tu = extract_number(h.get("tu"))
-                        den = extract_number(h.get("den"))
-                        if tu and den and num and tu <= num <= den:
-                            return {
-                                "khu_pho": h["khu_pho"],
-                                "street": street,
-                                "hem": hem1_raw
-                            }
-                else:
-                    # hẻm kiểu list string → nguyên hẻm
-                    if str(hem1_raw) == str(h) or (hem1_num and str(hem1_num) == str(h)):
+            for h in rule.get("hems", []):
+                if str(h.get("hem")) == str(hem1_raw):
+                    tu = extract_number(h.get("tu"))
+                    den = extract_number(h.get("den"))
+                    if tu and den and sub_num and tu <= sub_num <= den:
                         return {
-                            "khu_pho": rule["khu_pho"],
+                            "khu_pho": h["khu_pho"],
                             "street": street,
                             "hem": hem1_raw
                         }
+        return None
 
-        return None  # là hẻm nhưng không có trong dữ liệu → loại luôn
-
-    # ===== CASE 2: MẶT TIỀN (không có "/") =====
+    # ===== CASE 2: MẶT TIỀN =====
+    num = extract_number(house)
     if num is None:
         return None
 
