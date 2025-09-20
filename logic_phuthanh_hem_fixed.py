@@ -33,32 +33,47 @@ def check_address(addr: str):
     if not parsed:
         return None
 
-    house = parsed["house"]
-    street = parsed["street"]
+    house = parsed["house"]          # ví dụ: "63/1", "25A", "11"
+    street = parsed["street"]        # ví dụ: "nguyen son"
     rules = logic_data.get(street, [])
     if not rules:
         return None
 
-    # ===== CASE 1: HẺM =====
+    # ======================
+    # CASE 1: HẺM (có "/")
+    # ======================
     if "/" in house:
-        hem1_raw = house.split("/")[0]
-        hem1_num = extract_number(hem1_raw)
-        sub_num = extract_number(house.split("/")[1])  # số trong hẻm
+        hem1_raw = house.split("/")[0]   # số hẻm chính (vd: "63" trong "63/1")
+        sub_part = house.split("/")[1] if len(house.split("/")) > 1 else None
+        sub_num = extract_number(sub_part) if sub_part else None
 
         for rule in rules:
             for h in rule.get("hems", []):
                 if str(h.get("hem")) == str(hem1_raw):
                     tu = extract_number(h.get("tu"))
                     den = extract_number(h.get("den"))
+                    # Nếu trong JSON hẻm được định nghĩa có khoảng số
                     if tu and den and sub_num and tu <= sub_num <= den:
                         return {
                             "khu_pho": h["khu_pho"],
                             "street": street,
-                            "hem": hem1_raw
+                            "hem": hem1_raw,
+                            "house": house
                         }
+                    # Nếu hẻm kiểu include all (1 → 9999)
+                    if tu == 1 and den == 9999:
+                        return {
+                            "khu_pho": h["khu_pho"],
+                            "street": street,
+                            "hem": hem1_raw,
+                            "house": house
+                        }
+
         return None
 
-    # ===== CASE 2: MẶT TIỀN =====
+    # ======================
+    # CASE 2: MẶT TIỀN (không có "/")
+    # ======================
     num = extract_number(house)
     if num is None:
         return None
@@ -66,8 +81,6 @@ def check_address(addr: str):
     for rule in rules:
         tu = extract_number(rule.get("tu"))
         den = extract_number(rule.get("den"))
-
-        # Nếu rule không có tu/den → bỏ qua (rule này chỉ dành cho hems)
         if tu is None or den is None:
             continue
 
@@ -81,3 +94,4 @@ def check_address(addr: str):
                 }
 
     return None
+
