@@ -200,7 +200,7 @@
       "hems": []
     }
   ],
-  "đinh liet": [
+  "dinh liet": [
     {
       "tu": "1A",
       "den": "3C",
@@ -230,7 +230,7 @@
       "hems": []
     }
   ],
-  "tran thu đo": [
+  "tran thu do": [
     {
       "tu": "193",
       "den": "327",
@@ -508,7 +508,7 @@
       "hems": []
     }
   ],
-  "đo đuc duc": [
+  "do duc duc": [
     {
       "tu": "15",
       "den": "15",
@@ -926,7 +926,7 @@
       "hems": []
     }
   ],
-  "quach đinh bao": [
+  "quach dinh bao": [
     {
       "tu": "3",
       "den": "21",
@@ -1339,7 +1339,7 @@
       ]
     }
   ],
-  "đuong a khu adc": [
+  "duong a khu adc": [
     {
       "tu": "",
       "den": "",
@@ -1364,7 +1364,7 @@
       "hems": []
     }
   ],
-  "đo bi": [
+  "do bi": [
     {
       "tu": "129",
       "den": "199",
@@ -1578,7 +1578,7 @@
       "hems": []
     }
   ],
-  "luong truc đam": [
+  "luong truc dam": [
     {
       "tu": "57B",
       "den": "73B",
@@ -2158,7 +2158,7 @@
       "hems": []
     }
   ],
-  "nguy nhu kom tum": [
+  "nguy nhu kon tum": [
     {
       "tu": "1",
       "den": "61",
@@ -3194,4 +3194,5 @@
       "hems": []
     }
   ]
+
 }
