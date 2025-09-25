@@ -47,10 +47,10 @@ def get_kp_contact(kp_id):
         return "❌ Không tìm thấy thông tin."
     return (
         f"📍 **Khu phố {kp_id}**\n"
-        f"- Bí thư chi bộ: {info.get('bi_thu', 'Chưa cập nhật')}\n"
-        f"- Khu phố trưởng: {info.get('kp_truong', 'Chưa cập nhật')}\n"
-        f"- Trưởng CTMT: {info.get('truong_ctmt', 'Chưa cập nhật')}\n"
-        f"- CSKV: {info.get('cskv', 'Chưa cập nhật')}"
+        f"🧑‍💼 Bí thư chi bộ: {info.get('bi_thu', 'Chưa cập nhật')}\n"
+        f"🧑‍🤝‍🧑 Khu phố trưởng: {info.get('kp_truong', 'Chưa cập nhật')}\n"
+        f"🙋‍♂️ Trưởng CTMT: {info.get('truong_ctmt', 'Chưa cập nhật')}\n"
+        f"👮 CSKV: {info.get('cskv', 'Chưa cập nhật')}"
     )
 
 def get_department_info(dept_key: str) -> str:
