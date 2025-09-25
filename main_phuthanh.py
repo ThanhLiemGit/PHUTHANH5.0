@@ -81,9 +81,9 @@ def format_address_response(addr_info, user_input):
     info = khu_pho_data.get(str(kp), {})
     return (
         f"📍 Địa chỉ **{user_input}** thuộc **Khu phố {kp}**, Phường Phú Thạnh.\n\n"
-        f"👤 Bí thư chi bộ: {info.get('bi_thu', 'Chưa cập nhật')}\n"
-        f"👤 Khu phố trưởng: {info.get('kp_truong', 'Chưa cập nhật')}\n"
-        f"👤 Mặt trận KP: {info.get('truong_ctmt', 'Chưa cập nhật')}\n"
+        f"🧑‍💼 Bí thư chi bộ: {info.get('bi_thu', 'Chưa cập nhật')}\n"
+        f"🧑‍🤝‍🧑 Khu phố trưởng: {info.get('kp_truong', 'Chưa cập nhật')}\n"
+        f"🙋‍♂️ Mặt trận KP: {info.get('truong_ctmt', 'Chưa cập nhật')}\n"
         f"👮 CSKV: {info.get('cskv', 'Chưa cập nhật')}"
     )
 
