@@ -1,7 +1,7 @@
 {
   "nhan_vien": [
-    {"chuc_vu": "Trưởng Phòng", "ho_ten": "Lê Ngọc Lễ", "so_dien_thoai": "932181237"},
-    {"chuc_vu": "Phó Trưởng Phòng", "ho_ten": "Lâm Văn Tư", "so_dien_thoai": "903773929"},
+    {"chuc_vu": "🏅 Trưởng Phòng", "ho_ten": "Lê Ngọc Lễ", "so_dien_thoai": "932181237"},
+    {"chuc_vu": "🎗️ Phó Trưởng Phòng", "ho_ten": "Lâm Văn Tư", "so_dien_thoai": "903773929"},
     {"chuc_vu": "Chuyên viên", "ho_ten": "Nguyễn Hữu Phúc", "so_dien_thoai": "903352717"},
     {"chuc_vu": "Chuyên viên", "ho_ten": "Chung Chí Hiếu", "so_dien_thoai": "983456375"},
     {"chuc_vu": "Chuyên viên", "ho_ten": "Nguyễn Thị Thúy", "so_dien_thoai": "989044176"},
@@ -21,3 +21,4 @@
     {"chuc_vu": "Nhân viên", "ho_ten": "Lê Gia Bảo", "so_dien_thoai": "903787539"}
   ]
 }
+
