@@ -14,22 +14,25 @@ with open("khu_pho_info.json", "r", encoding="utf-8") as f:
 with open("phuthanh_logic_with_hem_fixed.json", "r", encoding="utf-8") as f:
     street_data = json.load(f)
 
+with open("departments_info.json", "r", encoding="utf-8") as f:
+    departments_data = json.load(f)
+
 # Together API
-client = AsyncOpenAI(api_key=os.getenv("TOGETHER_API_KEY"), base_url="https://api.together.xyz/v1")
+client = AsyncOpenAI(
+    api_key=os.getenv("TOGETHER_API_KEY"),
+    base_url="https://api.together.xyz/v1"
+)
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}"
 
 # ------------------------------------------------
+# Menu functions
 def main_menu():
     keyboard = [
         [{"text": "🏠 Tra cứu địa chỉ", "callback_data": "menu_address"}],
         [{"text": "📋 Contact Khu phố", "callback_data": "menu_contact"}],
-        [{"text": "🏢 Phòng Kinh tế - Hạ tầng & Đô thị", "callback_data": "menu_kinh_te"}],
-        [{"text": "📑 Văn phòng HĐND & UBND", "callback_data": "menu_hdnd"}],
-        [{"text": "🛠 Trung tâm Hành chính công", "callback_data": "menu_hcc"}],
-        [{"text": "🎭 Phòng Văn hóa - Xã hội", "callback_data": "menu_vhxh"}],
-        [{"text": "🤝 Ủy ban MTTQ Phường", "callback_data": "menu_mttq"}],
+        [{"text": "🏢 Phòng ban UBND", "callback_data": "menu_department"}],
     ]
     return {"inline_keyboard": keyboard}
 
@@ -45,6 +48,15 @@ def contact_menu():
         keyboard.append([{"text": f"Khu phố {kp}", "callback_data": f"kp_{kp}"}])
     return {"inline_keyboard": keyboard}
 
+def department_menu():
+    keyboard = []
+    for dept in sorted(departments_data.keys()):
+        label = dept.replace("_", " ").title()
+        keyboard.append([{"text": label, "callback_data": f"dept_{dept}"}])
+    return {"inline_keyboard": keyboard}
+
+# ------------------------------------------------
+# Get info functions
 def get_kp_contact(kp_id):
     info = khu_pho_data.get(str(kp_id))
     if not info:
@@ -57,18 +69,25 @@ def get_kp_contact(kp_id):
         f"- CSKV: {info.get('cskv', 'Chưa cập nhật')}"
     )
 
-# Placeholder cho các phòng ban mới
 def get_department_info(dept_id):
-    dept_map = {
-        "kinh_te": "🏢 Thông tin Phòng Kinh tế - Hạ tầng & Đô thị.",
-        "hdnd": "📑 Thông tin Văn phòng HĐND & UBND.",
-        "hcc": "🛠 Thông tin Trung tâm Hành chính công.",
-        "vhxh": "🎭 Thông tin Phòng Văn hóa - Xã hội.",
-        "mttq": "🤝 Thông tin Ủy ban MTTQ Phường.",
-    }
-    return dept_map.get(dept_id, "❌ Không tìm thấy thông tin.")
+    dept = departments_data.get(dept_id)
+    if not dept:
+        return "❌ Không tìm thấy thông tin phòng ban."
+    
+    text = f"🏢 **{dept_id.replace('_',' ').title()}**\n"
+    if "truong_phong" in dept:
+        text += f"- Trưởng phòng: {dept['truong_phong']}\n"
+    if "pho_phong" in dept:
+        for p in dept["pho_phong"]:
+            text += f"- Phó phòng: {p}\n"
+    if "chuyen_vien" in dept:
+        for c in dept["chuyen_vien"]:
+            text += f"- Chuyên viên: {c}\n"
+    if "nhan_vien" in dept:
+        for n in dept["nhan_vien"]:
+            text += f"- Nhân viên: {n}\n"
+    return text.strip()
 
-# ------------------------------------------------
 def format_address_response(addr_info, user_input):
     kp = addr_info.get("khu_pho")
     if not kp:
@@ -83,6 +102,8 @@ def format_address_response(addr_info, user_input):
         f"👮 CSKV: {info.get('cskv', 'Chưa cập nhật')}"
     )
 
+# ------------------------------------------------
+# GPT fallback
 async def call_gpt_with_context(user_input: str):
     prompt = f"""
 Bạn là cán bộ phường Phú Thạnh. Người dân nhắn: "{user_input}".
@@ -95,6 +116,8 @@ Nếu đây không phải địa chỉ hợp lệ trong dữ liệu thì trả l
     )
     return response.choices[0].message.content.strip()
 
+# ------------------------------------------------
+# Handle message
 async def handle_message(user_input: str):
     addr_info = check_address(user_input)
 
@@ -104,6 +127,7 @@ async def handle_message(user_input: str):
         return await call_gpt_with_context(user_input)
 
 # ------------------------------------------------
+# Webhook
 @app.post("/webhook")
 async def telegram_webhook(request: Request):
     data = await request.json()
@@ -140,7 +164,7 @@ async def telegram_webhook(request: Request):
         if cb_data == "menu_address":
             text = "📍 Mời bạn nhập địa chỉ (số nhà + tên đường) để tra cứu:"
             markup = None
-            
+
         elif cb_data.startswith("street_"):
             street = cb_data.replace("street_", "")
             text = f"Bạn chọn đường **{street.title()}**.\n➡️ Vui lòng nhập số nhà để kiểm tra."
@@ -155,25 +179,13 @@ async def telegram_webhook(request: Request):
             text = get_kp_contact(kp_id)
             markup = None
 
-        # ==== Các phòng ban mới ====
-        elif cb_data == "menu_kinh_te":
-            text = get_department_info("kinh_te")
-            markup = None
+        elif cb_data == "menu_department":
+            text = "🏢 Chọn phòng ban cần xem:"
+            markup = department_menu()
 
-        elif cb_data == "menu_hdnd":
-            text = get_department_info("hdnd")
-            markup = None
-
-        elif cb_data == "menu_hcc":
-            text = get_department_info("hcc")
-            markup = None
-
-        elif cb_data == "menu_vhxh":
-            text = get_department_info("vhxh")
-            markup = None
-
-        elif cb_data == "menu_mttq":
-            text = get_department_info("mttq")
+        elif cb_data.startswith("dept_"):
+            dept_id = cb_data.replace("dept_", "")
+            text = get_department_info(dept_id)
             markup = None
 
         else:
