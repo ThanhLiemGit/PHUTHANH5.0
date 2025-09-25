@@ -27,11 +27,11 @@ def main_menu():
     keyboard = [
         [{"text": "🏠 Tra cứu địa chỉ", "callback_data": "menu_address"}],
         [{"text": "📋 Contact Khu phố", "callback_data": "menu_contact"}],
-        [{"text": "Phòng Văn Hóa - Xã Hội", "callback_data": "phong_van_hoa_xa_hoi"}],
-        [{"text": "Trung tâm Hành chính Công", "callback_data": "trung_tam_hanh_chinh_cong"}],
-        [{"text": "Văn phòng HĐND & UBND", "callback_data": "van_phong_hdnd_ubnd"}],
-        [{"text": "Phòng Kinh tế, Hạ Tầng & Đô Thị", "callback_data": "phong_kinh_te_ha_tang_do_thi"}],
-        [{"text": "Ủy ban MTTQ Phường", "callback_data": "uy_ban_mttq"}],
+        [{"text": "🎭 Phòng Văn Hóa - Xã Hội", "callback_data": "phong_van_hoa_xa_hoi"}],
+        [{"text": "🛎️ Trung tâm Hành chính Công", "callback_data": "trung_tam_hanh_chinh_cong"}],
+        [{"text": "🏢 Văn phòng HĐND & UBND", "callback_data": "van_phong_hdnd_ubnd"}],
+        [{"text": "🏗️Phòng Kinh tế, Hạ Tầng & Đô Thị", "callback_data": "phong_kinh_te_ha_tang_do_thi"}],
+        [{"text": "🤝 Ủy ban MTTQ Phường", "callback_data": "uy_ban_mttq"}],
     ]
     return {"inline_keyboard": keyboard}
 
