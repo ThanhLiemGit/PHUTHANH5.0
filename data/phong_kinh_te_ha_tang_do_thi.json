@@ -1,0 +1,28 @@
+{
+  "nhan_vien": [
+    {"chuc_vu": "Trưởng Phòng", "ho_ten": "Nguyễn Thị Mỹ Thanh", "so_dien_thoai": "0913747062"},
+    {"chuc_vu": "Phó Trưởng Phòng", "ho_ten": "Trần Thị Thanh Thảo", "so_dien_thoai": "0909792789"},
+    {"chuc_vu": "Công chức", "ho_ten": "Võ Anh Tuấn", "so_dien_thoai": "0977444185"},
+    {"chuc_vu": "Công chức", "ho_ten": "Đoàn Thị Ngọc Thạch", "so_dien_thoai": "0973975415"},
+    {"chuc_vu": "Công chức", "ho_ten": "Nguyễn Quốc Thắng", "so_dien_thoai": "0903906893"},
+    {"chuc_vu": "Công chức", "ho_ten": "Phạm Thị Di Linh Lệ", "so_dien_thoai": "0909332999"},
+    {"chuc_vu": "Công chức", "ho_ten": "Nguyễn Văn Chánh", "so_dien_thoai": "0906095025"},
+    {"chuc_vu": "Công chức", "ho_ten": "Nguyễn Hồ Trường Giang", "so_dien_thoai": "0909261680"},
+    {"chuc_vu": "Công chức", "ho_ten": "Bùi Thị Kim Châu", "so_dien_thoai": "0943255553"},
+    {"chuc_vu": "Công chức", "ho_ten": "Nguyễn Thụy Trang Đài", "so_dien_thoai": "0902587092"},
+    {"chuc_vu": "Công chức", "ho_ten": "Ngô Thanh Hoa", "so_dien_thoai": "0976515180"},
+    {"chuc_vu": "Công chức", "ho_ten": "Nguyễn Khôi Nguyên", "so_dien_thoai": "0903846970"},
+    {"chuc_vu": "Công chức", "ho_ten": "Nguyễn Phi Đạt Văn", "so_dien_thoai": "0934048004"},
+    {"chuc_vu": "Công chức", "ho_ten": "Hồ Ngọc Anh", "so_dien_thoai": "0906156781"},
+    {"chuc_vu": "Công chức", "ho_ten": "Võ Hoàng Đông", "so_dien_thoai": "0908161969"},
+    {"chuc_vu": "Công chức", "ho_ten": "Hoàng Tuấn Tiên", "so_dien_thoai": "0964547567"},
+    {"chuc_vu": "KCT", "ho_ten": "Bùi Kiến Quốc", "so_dien_thoai": "0338656408"},
+    {"chuc_vu": "KCT", "ho_ten": "Đỗ Thị Bé Thơ", "so_dien_thoai": "0901335133"},
+    {"chuc_vu": "Công chức", "ho_ten": "Nguyễn Đình Hưng", "so_dien_thoai": "0935200911"},
+    {"chuc_vu": "Công chức", "ho_ten": "Trần Đình Huy", "so_dien_thoai": "0907818998"},
+    {"chuc_vu": "Công chức", "ho_ten": "Bùi Thị Hồng Liễu", "so_dien_thoai": "0933111870"},
+    {"chuc_vu": "Công chức", "ho_ten": "Trương Du Hành", "so_dien_thoai": "0969683768"},
+    {"chuc_vu": "KCT", "ho_ten": "Nguyễn Quốc Tiến", "so_dien_thoai": "0931328289"},
+    {"chuc_vu": "KCT", "ho_ten": "Bùi Ngọc Vân", "so_dien_thoai": "0899601050"}
+  ]
+}
