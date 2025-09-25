@@ -60,11 +60,11 @@ def get_kp_contact(kp_id):
 # Placeholder cho các phòng ban mới
 def get_department_info(dept_id):
     dept_map = {
-        "kinh_te": "🏢 Thông tin Phòng Kinh tế - Hạ tầng & Đô thị (sẽ cập nhật).",
-        "hdnd": "📑 Thông tin Văn phòng HĐND & UBND (sẽ cập nhật).",
-        "hcc": "🛠 Thông tin Trung tâm Hành chính công (sẽ cập nhật).",
-        "vhxh": "🎭 Thông tin Phòng Văn hóa - Xã hội (sẽ cập nhật).",
-        "mttq": "🤝 Thông tin Ủy ban MTTQ Phường (sẽ cập nhật).",
+        "kinh_te": "🏢 Thông tin Phòng Kinh tế - Hạ tầng & Đô thị.",
+        "hdnd": "📑 Thông tin Văn phòng HĐND & UBND.",
+        "hcc": "🛠 Thông tin Trung tâm Hành chính công.",
+        "vhxh": "🎭 Thông tin Phòng Văn hóa - Xã hội.",
+        "mttq": "🤝 Thông tin Ủy ban MTTQ Phường.",
     }
     return dept_map.get(dept_id, "❌ Không tìm thấy thông tin.")
 
