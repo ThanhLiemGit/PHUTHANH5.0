@@ -1,0 +1,23 @@
+{
+  "nhan_vien": [
+    {"chuc_vu": "Trưởng Phòng", "ho_ten": "Lê Ngọc Lễ", "so_dien_thoai": "932181237"},
+    {"chuc_vu": "Phó Trưởng Phòng", "ho_ten": "Lâm Văn Tư", "so_dien_thoai": "903773929"},
+    {"chuc_vu": "Chuyên viên", "ho_ten": "Nguyễn Hữu Phúc", "so_dien_thoai": "903352717"},
+    {"chuc_vu": "Chuyên viên", "ho_ten": "Chung Chí Hiếu", "so_dien_thoai": "983456375"},
+    {"chuc_vu": "Chuyên viên", "ho_ten": "Nguyễn Thị Thúy", "so_dien_thoai": "989044176"},
+    {"chuc_vu": "Chuyên viên", "ho_ten": "Đinh Nguyễn Thanh Thúy", "so_dien_thoai": "906104766"},
+    {"chuc_vu": "Chuyên viên", "ho_ten": "Nguyễn Ngọc Tú", "so_dien_thoai": "905297639"},
+    {"chuc_vu": "Chuyên viên", "ho_ten": "Nguyễn Trùng Dương", "so_dien_thoai": "918388599"},
+    {"chuc_vu": "Chuyên viên", "ho_ten": "Nguyễn Thị Mỹ Hạnh", "so_dien_thoai": "901362189"},
+    {"chuc_vu": "Chuyên viên", "ho_ten": "Nguyễn Thanh Hoàng", "so_dien_thoai": "938199543"},
+    {"chuc_vu": "Nhân viên", "ho_ten": "Phan Tiến Trường", "so_dien_thoai": "776965569"},
+    {"chuc_vu": "Nhân viên", "ho_ten": "Vòng Lầy Phấn", "so_dien_thoai": "908165288"},
+    {"chuc_vu": "Nhân viên", "ho_ten": "Nguyễn Thị Ngọc Yến", "so_dien_thoai": "909783536"},
+    {"chuc_vu": "Nhân viên", "ho_ten": "Châu Nguyễn Thanh Thủy", "so_dien_thoai": "767979397"},
+    {"chuc_vu": "Nhân viên", "ho_ten": "Mai Thị Kim Huyền", "so_dien_thoai": "903627602"},
+    {"chuc_vu": "Nhân viên", "ho_ten": "Võ Thị Hoàn Ngân", "so_dien_thoai": "901999553"},
+    {"chuc_vu": "Nhân viên", "ho_ten": "Huỳnh Kiết Dung", "so_dien_thoai": "934177598"},
+    {"chuc_vu": "Nhân viên", "ho_ten": "Trần Anh Quốc", "so_dien_thoai": "931951012"},
+    {"chuc_vu": "Nhân viên", "ho_ten": "Lê Gia Bảo", "so_dien_thoai": "903787539"}
+  ]
+}
