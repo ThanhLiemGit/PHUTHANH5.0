@@ -7,7 +7,7 @@ from openai import AsyncOpenAI
 
 app = FastAPI()
 
-# Load dữ liệu
+# Load dữ liệu khu phố & tuyến đường
 with open("khu_pho_info.json", "r", encoding="utf-8") as f:
     khu_pho_data = json.load(f)
 
@@ -20,18 +20,19 @@ client = AsyncOpenAI(api_key=os.getenv("TOGETHER_API_KEY"), base_url="https://ap
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}"
 
+DATA_DIR = "data"  # folder chứa json các phòng ban
+
 # ------------------------------------------------
 def main_menu():
     keyboard = [
         [{"text": "🏠 Tra cứu địa chỉ", "callback_data": "menu_address"}],
         [{"text": "📋 Contact Khu phố", "callback_data": "menu_contact"}],
+        [{"text": "Phòng Văn Hóa - Xã Hội", "callback_data": "phong_van_hoa_xa_hoi"}],
+        [{"text": "Trung tâm Hành chính Công", "callback_data": "trung_tam_hanh_chinh_cong"}],
+        [{"text": "Văn phòng HĐND & UBND", "callback_data": "van_phong_hdnd_ubnd"}],
+        [{"text": "Phòng Kinh tế, Hạ Tầng & Đô Thị", "callback_data": "phong_kinh_te_ha_tang_do_thi"}],
+        [{"text": "Ủy ban MTTQ Phường", "callback_data": "uy_ban_mttq"}],
     ]
-    return {"inline_keyboard": keyboard}
-
-def address_menu():
-    keyboard = []
-    for street in sorted(street_data.keys()):
-        keyboard.append([{"text": street.title(), "callback_data": f"street_{street}"}])
     return {"inline_keyboard": keyboard}
 
 def contact_menu():
@@ -51,6 +52,25 @@ def get_kp_contact(kp_id):
         f"- Trưởng CTMT: {info.get('truong_ctmt', 'Chưa cập nhật')}\n"
         f"- CSKV: {info.get('cskv', 'Chưa cập nhật')}"
     )
+
+def get_department_info(dept_key: str) -> str:
+    file_path = os.path.join(DATA_DIR, f"{dept_key}.json")
+    if not os.path.exists(file_path):
+        return "❌ Chưa có dữ liệu cho phòng ban này."
+
+    with open(file_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    nhan_vien = data.get("nhan_vien", [])
+    if not nhan_vien:
+        return "❌ Chưa cập nhật nhân sự."
+
+    lines = [f"🏢 **Thông tin {dept_key.replace('_', ' ').title()}**\n"]
+    for nv in nhan_vien:
+        lines.append(
+            f"- {nv.get('chuc_vu', 'Chức vụ')}: {nv.get('ho_ten', 'Chưa rõ')} 📞 {nv.get('so_dien_thoai', 'N/A')}"
+        )
+    return "\n".join(lines)
 
 # ------------------------------------------------
 def format_address_response(addr_info, user_input):
@@ -92,7 +112,7 @@ async def handle_message(user_input: str):
 async def telegram_webhook(request: Request):
     data = await request.json()
 
-    # Xử lý message text
+    # Message text
     if "message" in data and "text" in data["message"]:
         chat_id = data["message"]["chat"]["id"]
         text = data["message"]["text"].strip()
@@ -114,7 +134,7 @@ async def telegram_webhook(request: Request):
                     "parse_mode": "Markdown"
                 })
 
-    # Xử lý callback query
+    # Callback query
     if "callback_query" in data:
         query = data["callback_query"]
         chat_id = query["message"]["chat"]["id"]
@@ -124,11 +144,6 @@ async def telegram_webhook(request: Request):
         if cb_data == "menu_address":
             text = "📍 Mời bạn nhập địa chỉ (số nhà + tên đường) để tra cứu:"
             markup = None
-            
-        elif cb_data.startswith("street_"):
-            street = cb_data.replace("street_", "")
-            text = f"Bạn chọn đường **{street.title()}**.\n➡️ Vui lòng nhập số nhà để kiểm tra."
-            markup = None
 
         elif cb_data == "menu_contact":
             text = "📋 Chọn khu phố:"
@@ -137,6 +152,16 @@ async def telegram_webhook(request: Request):
         elif cb_data.startswith("kp_"):
             kp_id = cb_data.replace("kp_", "")
             text = get_kp_contact(kp_id)
+            markup = None
+
+        elif cb_data in [
+            "phong_van_hoa_xa_hoi",
+            "trung_tam_hanh_chinh_cong",
+            "van_phong_hdnd_ubnd",
+            "phong_kinh_te_ha_tang_do_thi",
+            "uy_ban_mttq"
+        ]:
+            text = get_department_info(cb_data)
             markup = None
 
         else:
