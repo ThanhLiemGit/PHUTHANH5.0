@@ -25,6 +25,11 @@ def main_menu():
     keyboard = [
         [{"text": "🏠 Tra cứu địa chỉ", "callback_data": "menu_address"}],
         [{"text": "📋 Contact Khu phố", "callback_data": "menu_contact"}],
+        [{"text": "🏢 Phòng Kinh tế - Hạ tầng & Đô thị", "callback_data": "menu_kinh_te"}],
+        [{"text": "📑 Văn phòng HĐND & UBND", "callback_data": "menu_hdnd"}],
+        [{"text": "🛠 Trung tâm Hành chính công", "callback_data": "menu_hcc"}],
+        [{"text": "🎭 Phòng Văn hóa - Xã hội", "callback_data": "menu_vhxh"}],
+        [{"text": "🤝 Ủy ban MTTQ Phường", "callback_data": "menu_mttq"}],
     ]
     return {"inline_keyboard": keyboard}
 
@@ -51,6 +56,17 @@ def get_kp_contact(kp_id):
         f"- Trưởng CTMT: {info.get('truong_ctmt', 'Chưa cập nhật')}\n"
         f"- CSKV: {info.get('cskv', 'Chưa cập nhật')}"
     )
+
+# Placeholder cho các phòng ban mới
+def get_department_info(dept_id):
+    dept_map = {
+        "kinh_te": "🏢 Thông tin Phòng Kinh tế - Hạ tầng & Đô thị (sẽ cập nhật).",
+        "hdnd": "📑 Thông tin Văn phòng HĐND & UBND (sẽ cập nhật).",
+        "hcc": "🛠 Thông tin Trung tâm Hành chính công (sẽ cập nhật).",
+        "vhxh": "🎭 Thông tin Phòng Văn hóa - Xã hội (sẽ cập nhật).",
+        "mttq": "🤝 Thông tin Ủy ban MTTQ Phường (sẽ cập nhật).",
+    }
+    return dept_map.get(dept_id, "❌ Không tìm thấy thông tin.")
 
 # ------------------------------------------------
 def format_address_response(addr_info, user_input):
@@ -137,6 +153,27 @@ async def telegram_webhook(request: Request):
         elif cb_data.startswith("kp_"):
             kp_id = cb_data.replace("kp_", "")
             text = get_kp_contact(kp_id)
+            markup = None
+
+        # ==== Các phòng ban mới ====
+        elif cb_data == "menu_kinh_te":
+            text = get_department_info("kinh_te")
+            markup = None
+
+        elif cb_data == "menu_hdnd":
+            text = get_department_info("hdnd")
+            markup = None
+
+        elif cb_data == "menu_hcc":
+            text = get_department_info("hcc")
+            markup = None
+
+        elif cb_data == "menu_vhxh":
+            text = get_department_info("vhxh")
+            markup = None
+
+        elif cb_data == "menu_mttq":
+            text = get_department_info("mttq")
             markup = None
 
         else:
