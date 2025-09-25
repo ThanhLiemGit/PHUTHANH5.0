@@ -7,7 +7,7 @@ from openai import AsyncOpenAI
 
 app = FastAPI()
 
-# Load dữ liệu khu phố & tuyến đường
+# ------------------ Load dữ liệu khu phố & tuyến đường ------------------
 with open("khu_pho_info.json", "r", encoding="utf-8") as f:
     khu_pho_data = json.load(f)
 
@@ -15,14 +15,17 @@ with open("phuthanh_logic_with_hem_fixed.json", "r", encoding="utf-8") as f:
     street_data = json.load(f)
 
 # Together API
-client = AsyncOpenAI(api_key=os.getenv("TOGETHER_API_KEY"), base_url="https://api.together.xyz/v1")
+client = AsyncOpenAI(
+    api_key=os.getenv("TOGETHER_API_KEY"),
+    base_url="https://api.together.xyz/v1"
+)
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}"
 
 DATA_DIR = "data"  # folder chứa json các phòng ban
 
-# ------------------------------------------------
+# ------------------ MENU ------------------
 def main_menu():
     keyboard = [
         [{"text": "🏠 Tra cứu địa chỉ", "callback_data": "menu_address"}],
@@ -41,6 +44,7 @@ def contact_menu():
         keyboard.append([{"text": f"Khu phố {kp}", "callback_data": f"kp_{kp}"}])
     return {"inline_keyboard": keyboard}
 
+# ------------------ Xử lý Khu phố ------------------
 def get_kp_contact(kp_id):
     info = khu_pho_data.get(str(kp_id))
     if not info:
@@ -53,6 +57,7 @@ def get_kp_contact(kp_id):
         f"- CSKV: {info.get('cskv', 'Chưa cập nhật')}"
     )
 
+# ------------------ Xử lý Phòng ban ------------------
 def get_department_info(dept_key: str) -> str:
     file_path = os.path.join(DATA_DIR, f"{dept_key}.json")
     if not os.path.exists(file_path):
@@ -67,12 +72,13 @@ def get_department_info(dept_key: str) -> str:
 
     lines = [f"🏢 **Thông tin {dept_key.replace('_', ' ').title()}**\n"]
     for nv in nhan_vien:
-        lines.append(
-            f"- {nv.get('chuc_vu', 'Chức vụ')}: {nv.get('ho_ten', 'Chưa rõ')} 📞 {nv.get('so_dien_thoai', 'N/A')}"
-        )
+        ho_ten = nv.get("ho_ten", "Chưa rõ")
+        sdt = nv.get("so_dien_thoai", "N/A")
+        chuc_danh = nv.get("chuc_danh", "Chưa rõ")
+        lines.append(f"- {chuc_danh}: {ho_ten} 📞 {sdt}")
     return "\n".join(lines)
 
-# ------------------------------------------------
+# ------------------ Địa chỉ ------------------
 def format_address_response(addr_info, user_input):
     kp = addr_info.get("khu_pho")
     if not kp:
@@ -107,7 +113,7 @@ async def handle_message(user_input: str):
     else:
         return await call_gpt_with_context(user_input)
 
-# ------------------------------------------------
+# ------------------ Webhook ------------------
 @app.post("/webhook")
 async def telegram_webhook(request: Request):
     data = await request.json()
