@@ -39,7 +39,7 @@
     },
     {
       "tu": "111",
-      "den": "271",
+      "den": "273",
       "side": "odd",
       "khu_pho": "3",
       "hems": []
@@ -94,13 +94,6 @@
           "khu_pho": "5"
         }
       ]
-    },
-    {
-      "tu": "111",
-      "den": "273",
-      "side": "odd",
-      "khu_pho": "8",
-      "hems": []
     }
   ],
   "binh long": [
@@ -254,14 +247,14 @@
       "hems": []
     },
     {
-      "tu": "53",
-      "den": "189",
+      "tu": "51",
+      "den": "191",
       "side": "odd",
       "khu_pho": "3",
       "hems": []
     },
     {
-      "tu": "26",
+      "tu": "22",
       "den": "156",
       "side": "even",
       "khu_pho": "3",
@@ -282,17 +275,10 @@
       "hems": []
     },
     {
-      "tu": "51",
-      "den": "191",
-      "side": "odd",
-      "khu_pho": "8",
-      "hems": []
-    },
-    {
       "tu": "22",
       "den": "158",
       "side": "even",
-      "khu_pho": "8",
+      "khu_pho": "3",
       "hems": []
     }
   ],
@@ -337,20 +323,6 @@
       "den": "44",
       "side": "even",
       "khu_pho": "4",
-      "hems": []
-    },
-    {
-      "tu": "48",
-      "den": "172",
-      "side": "even",
-      "khu_pho": "8",
-      "hems": []
-    },
-    {
-      "tu": "41",
-      "den": "163",
-      "side": "odd",
-      "khu_pho": "8",
       "hems": []
     }
   ],
@@ -454,7 +426,7 @@
       "tu": "19",
       "den": "29",
       "side": "odd",
-      "khu_pho": "8",
+      "khu_pho": "3",
       "hems": []
     },
     {
@@ -491,7 +463,7 @@
       "tu": "26",
       "den": "26",
       "side": "even",
-      "khu_pho": "8",
+      "khu_pho": "3",
       "hems": []
     },
     {
@@ -572,7 +544,7 @@
       "tu": "9",
       "den": "13",
       "side": "odd",
-      "khu_pho": "8",
+      "khu_pho": "3",
       "hems": []
     },
     {
@@ -3204,5 +3176,6 @@
   ]
 
 }
+
 
 
