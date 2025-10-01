@@ -2,6 +2,7 @@ import json
 from fastapi import FastAPI, Request
 import httpx
 import os
+import unicodedata
 from logic_phuthanh_hem_fixed import check_address
 from openai import AsyncOpenAI
 
@@ -23,6 +24,16 @@ TELEGRAM_API_URL = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}"
 DATA_DIR = "data"  # folder chứa json các phòng ban
 
 # ------------------------------------------------
+# Hàm normalize để xử lý chữ có dấu và Đ/đ
+def normalize_text(text: str) -> str:
+    if not text:
+        return ""
+    text = unicodedata.normalize("NFD", text)
+    text = "".join(c for c in text if unicodedata.category(c) != "Mn")
+    text = text.replace("Đ", "D").replace("đ", "d")
+    return text.lower().strip()
+
+# ------------------------------------------------
 def main_menu():
     keyboard = [
         [{"text": "🏠 Tra cứu địa chỉ", "callback_data": "menu_address"}],
@@ -30,7 +41,7 @@ def main_menu():
         [{"text": "🎭 Phòng Văn Hóa - Xã Hội", "callback_data": "phong_van_hoa_xa_hoi"}],
         [{"text": "🛎️ Trung tâm Phục vụ Hành chính Công", "callback_data": "trung_tam_hanh_chinh_cong"}],
         [{"text": "🏢 Văn phòng HĐND & UBND", "callback_data": "van_phong_hdnd_ubnd"}],
-        [{"text": "🏗️Phòng Kinh tế, Hạ Tầng & Đô Thị", "callback_data": "phong_kinh_te_ha_tang_do_thi"}],
+        [{"text": "🏗️ Phòng Kinh tế, Hạ Tầng & Đô Thị", "callback_data": "phong_kinh_te_ha_tang_do_thi"}],
         [{"text": "🤝 Ủy ban MTTQ Phường", "callback_data": "uy_ban_mttq"}],
     ]
     return {"inline_keyboard": keyboard}
@@ -67,9 +78,13 @@ def get_department_info(dept_key: str) -> str:
 
     lines = [f"🏢 **Thông tin {dept_key.replace('_', ' ').title()}**\n"]
     for nv in nhan_vien:
-        lines.append(
-            f"- {nv.get('chuc_vu', 'Chức vụ')}: {nv.get('ho_ten', 'Chưa rõ')} 📞 {nv.get('so_dien_thoai', 'N/A')}"
-        )
+        if isinstance(nv, dict):
+            lines.append(
+                f"- {nv.get('chuc_vu', 'Chức vụ')}: {nv.get('ho_ten', 'Chưa rõ')} 📞 {nv.get('so_dien_thoai', 'N/A')}"
+            )
+        else:
+            # fallback nếu vẫn còn format A (string)
+            lines.append(f"- {nv}")
     return "\n".join(lines)
 
 # ------------------------------------------------
@@ -100,7 +115,9 @@ Nếu đây không phải địa chỉ hợp lệ trong dữ liệu thì trả l
     return response.choices[0].message.content.strip()
 
 async def handle_message(user_input: str):
-    addr_info = check_address(user_input)
+    # normalize input trước khi đưa vào check_address
+    normalized_input = normalize_text(user_input)
+    addr_info = check_address(normalized_input)
 
     if addr_info and addr_info.get("khu_pho"):
         return format_address_response(addr_info, user_input)
